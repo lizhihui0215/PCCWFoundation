@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <PCCWFoundation/PCCWModel.h>
 
 //! Project version number for PCCWFoundation.
 FOUNDATION_EXPORT double PCCWFoundationVersionNumber;
