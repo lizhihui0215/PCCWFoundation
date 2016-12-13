@@ -1,0 +1,112 @@
+PODS:
+  - AFNetworkActivityLogger (3.0.0):
+    - AFNetworking/NSURLSession (~> 3.0)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CocoaSecurity (1.2.4)
+  - IQKeyboardManager (3.3.7)
+  - JSONModel (1.7.0)
+  - libextobjc (0.4.1):
+    - libextobjc/EXTADT (= 0.4.1)
+    - libextobjc/EXTConcreteProtocol (= 0.4.1)
+    - libextobjc/EXTKeyPathCoding (= 0.4.1)
+    - libextobjc/EXTNil (= 0.4.1)
+    - libextobjc/EXTSafeCategory (= 0.4.1)
+    - libextobjc/EXTScope (= 0.4.1)
+    - libextobjc/EXTSelectorChecking (= 0.4.1)
+    - libextobjc/EXTSynthesize (= 0.4.1)
+    - libextobjc/NSInvocation+EXT (= 0.4.1)
+    - libextobjc/NSMethodSignature+EXT (= 0.4.1)
+    - libextobjc/RuntimeExtensions (= 0.4.1)
+    - libextobjc/UmbrellaHeader (= 0.4.1)
+  - libextobjc/EXTADT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSInvocation+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSMethodSignature+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1)
+  - libextobjc/UmbrellaHeader (0.4.1)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - UICKeyChainStore (2.1.0)
+  - UIColor-Utilities (1.0.1)
+  - UITableView+FDTemplateLayoutCell (1.4)
+
+DEPENDENCIES:
+  - AFNetworkActivityLogger (from `https://github.com/AFNetworking/AFNetworkActivityLogger.git`, branch `3_0_0`)
+  - AFNetworking
+  - CocoaSecurity
+  - IQKeyboardManager
+  - JSONModel
+  - libextobjc
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - SDCycleScrollView
+  - UICKeyChainStore
+  - UIColor-Utilities
+  - UITableView+FDTemplateLayoutCell
+
+EXTERNAL SOURCES:
+  AFNetworkActivityLogger:
+    :branch: '3_0_0'
+    :git: https://github.com/AFNetworking/AFNetworkActivityLogger.git
+
+CHECKOUT OPTIONS:
+  AFNetworkActivityLogger:
+    :commit: abc565fe804f210dfda3b028c9a64e7c32e44600
+    :git: https://github.com/AFNetworking/AFNetworkActivityLogger.git
+
+SPEC CHECKSUMS:
+  AFNetworkActivityLogger: e77f68d014becb33c4306a23f56a64906ff72670
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CocoaSecurity: d288a6f87e0f363823d2cb83e753814a6944f71a
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  UICKeyChainStore: f1cbd42216a113f0165de1e733e62905b8823432
+  UIColor-Utilities: 6746a54dcdb3bc012dd7aeaeea5588ae2100beb2
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
+
+PODFILE CHECKSUM: 484a84b342b18d8f7468fd4a51804fe3eb3d263a
+
+COCOAPODS: 1.0.0
