@@ -1,0 +1,3 @@
+github "AFNetworking/AFNetworking"
+github "AFNetworking/AFNetworkActivityLogger"
+github "jsonmodel/jsonmodel"

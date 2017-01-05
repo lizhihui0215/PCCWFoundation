@@ -1,0 +1,4 @@
+github "AFNetworking/AFNetworkActivityLogger" "2.0.4"
+github "AFNetworking/AFNetworking" "3.1.0"
+github "mattt/Ono" "1.2.2"
+github "jsonmodel/jsonmodel" "1.7.0"

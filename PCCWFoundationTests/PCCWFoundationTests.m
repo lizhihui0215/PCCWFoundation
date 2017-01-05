@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "PCCWWSDLParsers.h"
 
 @interface PCCWFoundationTests : XCTestCase
 
@@ -27,6 +28,15 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    NSString *path = [[NSBundle bundleForClass:[PCCWFoundationTests class]] pathForResource:@"User" ofType:@"xml"];
+    
+    PCCWWSDLParsers *pars = [PCCWWSDLParsers WSDLParserWithPath:path];
+    
+    NSString *xml = [pars SOAPContentWithMethodName:@"getUserList"
+                                         parameters:@{@"arg0" : @"xxxxxxxx"}];
+    
+    NSLog(@"xml %@",xml);
 }
 
 - (void)testPerformanceExample {

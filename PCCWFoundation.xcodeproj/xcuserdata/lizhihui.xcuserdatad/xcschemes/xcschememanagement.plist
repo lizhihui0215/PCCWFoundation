@@ -7,7 +7,7 @@
 		<key>Build.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>17</integer>
+			<integer>1</integer>
 		</dict>
 		<key>PCCWFoundation.xcscheme</key>
 		<dict>
@@ -17,6 +17,21 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>269BBFEB1E1DF7EB0094218D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>269BC0031E1DF7EB0094218D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>269BC00E1E1DF7EC0094218D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>26C5B3801DFFE3050088BFF8</key>
 		<dict>
 			<key>primary</key>
