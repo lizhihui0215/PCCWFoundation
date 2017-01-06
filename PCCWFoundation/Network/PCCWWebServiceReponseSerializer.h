@@ -11,4 +11,8 @@
 
 @interface PCCWWebServiceReponseSerializer : AFHTTPResponseSerializer
 
+@property (nonatomic, copy) NSString *methodName;
+
++ (instancetype)serializerWithMethodName:(NSString *)methodName;
+
 @end

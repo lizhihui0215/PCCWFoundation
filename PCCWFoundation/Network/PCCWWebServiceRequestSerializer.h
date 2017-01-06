@@ -11,4 +11,10 @@
 
 @interface PCCWWebServiceRequestSerializer : AFHTTPRequestSerializer
 
+@property (nonatomic, copy) NSString *path;
+
+@property (nonatomic, copy) NSString *methodName;
+
++ (instancetype)serializerWithPath:(NSString *)path methodName:(NSString *)methodName;
+
 @end

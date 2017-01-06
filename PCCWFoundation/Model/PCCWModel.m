@@ -9,5 +9,7 @@
 #import "PCCWModel.h"
 
 @implementation PCCWModel
-
++ (BOOL)propertyIsOptional:(NSString*)propertyName {
+    return YES;
+}
 @end

@@ -17,4 +17,7 @@
 - (NSString *)SOAPContentWithMethodName:(NSString *)methodName
                              parameters:(NSDictionary *)parameters;
 
++ (NSString *)SOAPResultWithMethodName:(NSString *)methodName
+                                  data:(NSString *)data;
+
 @end

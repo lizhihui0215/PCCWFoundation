@@ -1,4 +1,6 @@
-github "AFNetworking/AFNetworkActivityLogger" "2.0.4"
 github "AFNetworking/AFNetworking" "3.1.0"
-github "mattt/Ono" "1.2.2"
+github "jdg/MBProgressHUD" "1.0.0"
+github "lizhihui0215/MJRefresh" "3.1.13"
+github "forkingdog/UITableView-FDTemplateLayoutCell" "1.4"
 github "jsonmodel/jsonmodel" "1.7.0"
+github "lizhihui0215/AFNetworkActivityLogger" "09bffbd5a2a677dd7ca4b1723d8db0cf39929dce"

@@ -1,0 +1,13 @@
+//
+//  PCCWFoundation-prefix.pch
+//  PCCWFoundation
+//
+//  Created by 李智慧 on 05/01/2017.
+//  Copyright © 2017 PCCW. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import "PCCWException.h"
+
+#endif

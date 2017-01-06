@@ -40,8 +40,9 @@ DDXMLElement *types_schema(DDXMLElement *definitions) {
 
 DDXMLElement *messageOfMessages(NSArray<DDXMLElement *> *messages, NSString *methodName) {
     for (DDXMLElement *message in messages) {
+        NSString * messageName = [NSString stringWithFormat:@"%@%@",methodName,@"SoapIn"];
         NSString *attributeName = [[message attributeForName:@"name"] stringValue];
-        if ([attributeName isEqualToString:methodName]) return message;
+        if ([attributeName isEqualToString:messageName]) return message;
     }
     return nil;
 }
@@ -181,6 +182,21 @@ NSArray <DDXMLElement *> * messages(DDXMLElement *definitions){
     [root addChild:body];
     
     return [root XMLString];
+}
+
++ (NSString *)SOAPResultWithMethodName:(NSString *)methodName
+                                  data:(NSString *)data{
+    DDXMLElement *root = [[DDXMLElement alloc] initWithXMLString:data error:nil];
+    
+    DDXMLElement *body = [root elementForName:@"Body"];
+    
+    DDXMLElement *responseMessage = [body elementForName:methodName];
+    
+    DDXMLElement *content = [responseMessage elementForName:@"return"];
+    
+    NSString *contentString = [content stringValue];
+
+    return contentString;
 }
 
 

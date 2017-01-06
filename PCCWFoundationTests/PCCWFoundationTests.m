@@ -8,6 +8,8 @@
 
 #import <XCTest/XCTest.h>
 #import "PCCWWSDLParsers.h"
+#import "PCCWNetworkServices.h"
+#import <AFNetworkActivityLogger/AFNetworkActivityLogger.h>
 
 @interface PCCWFoundationTests : XCTestCase
 
@@ -37,6 +39,46 @@
                                          parameters:@{@"arg0" : @"xxxxxxxx"}];
     
     NSLog(@"xml %@",xml);
+    
+    
+}
+
+- (void)testNetworkServices{
+    NSString *path = [[NSBundle bundleForClass:[PCCWFoundationTests class]] pathForResource:@"Weather" ofType:@"xml"];
+
+    PCCWSOAPMethod *method = [[PCCWSOAPMethod alloc] init];
+    
+    method.SOAPFilePath = path;
+    
+    method.requestMethodName = @"getSupportCity";
+    
+    PCCWNetworkServicesBaseURL = @"http://www.webxml.com.cn";
+    
+    XCTestExpectation *ex = [self expectationWithDescription:@"document open"];
+    
+    [[AFNetworkActivityLogger sharedLogger] startLogging];
+    
+    id<AFNetworkActivityLoggerProtocol> log = [[AFNetworkActivityLogger sharedLogger].loggers anyObject] ;
+    
+    [log setLevel:AFLoggerLevelDebug];
+    
+    [[PCCWNetworkServices defaultServices] POST:@"/WebServices/WeatherWebService.asmx"
+                                     SOAPMethod:method
+                                     identifier:@""
+                                     parameters:@{@"byProvinceName" : @""}
+                                       progress:nil
+                                        success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+                                            NSLog(@"responseObject %@",responseObject);
+                                            [ex fulfill];
+                                        } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+                                            NSLog(@"error %@",error);
+                                            [ex fulfill];
+                                        }];
+    
+    [self waitForExpectationsWithTimeout:60 handler:^(NSError *error) {
+        NSLog(@"test case over");
+    }];
+
 }
 
 - (void)testPerformanceExample {
