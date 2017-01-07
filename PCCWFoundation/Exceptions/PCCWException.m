@@ -26,9 +26,7 @@ NSError * errorWithCode(NSInteger code, NSString *message){
 }
 
 @interface PCCWException ()
-{
-    NSError *_error;
-}
+
 @property (nonatomic, weak) UIViewController *handler;
 @end
 
@@ -53,10 +51,8 @@ NSError * errorWithCode(NSInteger code, NSString *message){
 
 - (BOOL)handleExceptionWithError:(NSError *)error
                  completeHandler:(void (^)(BOOL isShowError, NSError *error)) handler{
-    _error = error;
-    
+
     if (IsShowing || !error) {
-        _error = nil;
         if(handler) handler(NO, error);
         return NO;
     }
@@ -77,7 +73,6 @@ NSError * errorWithCode(NSInteger code, NSString *message){
                                         tapBlock:^(UIAlertController * _Nonnull controller, UIAlertAction * _Nonnull action, NSInteger buttonIndex) {
                                             IsShowing = NO;
                                             if(handler) handler(YES,error);
-                                            _error = nil;
                                         }];
     return YES;
 }

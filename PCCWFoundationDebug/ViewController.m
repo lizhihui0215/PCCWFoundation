@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 
+
+
+
 @interface ViewController ()
 
 @end
@@ -17,6 +20,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSString *path = [[NSBundle bundleForClass:[PCCWFoundationTests class]] pathForResource:@"Weather" ofType:@"xml"];
+    
+    PCCWWSDLParsers *pars = [PCCWWSDLParsers WSDLParserWithPath:path];
+    
+    NSString *xml = [pars SOAPContentWithMethodName:@"getWeatherbyCityName"
+                                         parameters:@{}];
+    
+    NSLog(@"xml %@",xml);
+
 }
 
 

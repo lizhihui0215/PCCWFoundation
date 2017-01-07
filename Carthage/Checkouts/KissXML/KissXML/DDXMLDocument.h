@@ -28,15 +28,14 @@ enum {
 };
 typedef NSUInteger DDXMLDocumentContentKind;
 
-NS_ASSUME_NONNULL_BEGIN
 @interface DDXMLDocument : DDXMLNode
 {
 }
 
-- (nullable instancetype)initWithXMLString:(NSString *)string options:(NSUInteger)mask error:(NSError **)error;
-//- (instancetype)initWithContentsOfURL:(NSURL *)url options:(NSUInteger)mask error:(NSError **)error;
-- (nullable instancetype)initWithData:(NSData *)data options:(NSUInteger)mask error:(NSError **)error;
-//- (instancetype)initWithRootElement:(DDXMLElement *)element;
+- (id)initWithXMLString:(NSString *)string options:(NSUInteger)mask error:(NSError **)error;
+//- (id)initWithContentsOfURL:(NSURL *)url options:(NSUInteger)mask error:(NSError **)error;
+- (id)initWithData:(NSData *)data options:(NSUInteger)mask error:(NSError **)error;
+//- (id)initWithRootElement:(DDXMLElement *)element;
 
 //+ (Class)replacementClassForClass:(Class)cls;
 
@@ -59,7 +58,7 @@ NS_ASSUME_NONNULL_BEGIN
 //- (DDXMLDTD *)DTD;
 
 //- (void)setRootElement:(DDXMLNode *)root;
-- (nullable DDXMLElement *)rootElement;
+- (DDXMLElement *)rootElement;
 
 //- (void)insertChild:(DDXMLNode *)child atIndex:(NSUInteger)index;
 
@@ -73,14 +72,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 //- (void)replaceChildAtIndex:(NSUInteger)index withNode:(DDXMLNode *)node;
 
-@property (readonly, copy) NSData *XMLData;
+- (NSData *)XMLData;
 - (NSData *)XMLDataWithOptions:(NSUInteger)options;
 
-//- (instancetype)objectByApplyingXSLT:(NSData *)xslt arguments:(NSDictionary *)arguments error:(NSError **)error;
-//- (instancetype)objectByApplyingXSLTString:(NSString *)xslt arguments:(NSDictionary *)arguments error:(NSError **)error;
-//- (instancetype)objectByApplyingXSLTAtURL:(NSURL *)xsltURL arguments:(NSDictionary *)argument error:(NSError **)error;
+//- (id)objectByApplyingXSLT:(NSData *)xslt arguments:(NSDictionary *)arguments error:(NSError **)error;
+//- (id)objectByApplyingXSLTString:(NSString *)xslt arguments:(NSDictionary *)arguments error:(NSError **)error;
+//- (id)objectByApplyingXSLTAtURL:(NSURL *)xsltURL arguments:(NSDictionary *)argument error:(NSError **)error;
 
 //- (BOOL)validateAndReturnError:(NSError **)error;
 
 @end
-NS_ASSUME_NONNULL_END

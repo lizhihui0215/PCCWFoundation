@@ -7,12 +7,11 @@
 //
 
 #import "NMViewController.h"
-#import "NMException.h"
 #import "NMHUDHandler.h"
 
 @interface NMViewController ()
 
-@property (nonatomic, strong) NMException *exception;
+@property (nonatomic, strong) PCCWException *exception;
 
 @property (nonatomic, strong) NMHUDHandler *HUDHandler;
 
@@ -23,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.exception = [NMException exceptionWithHandler:self];
+    self.exception = [PCCWException exceptionWithHandler:self];
     
     self.HUDHandler = [NMHUDHandler handlerWithLoadingHandler:self];
 }

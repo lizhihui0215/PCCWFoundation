@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <PCCWFoundation/PCCWWSDLParsers.h>
 
 @interface ViewController : UIViewController
 
