@@ -15,6 +15,22 @@
 		266AD5D71E20F9A800866DBE /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CF1E20F9A800866DBE /* JSONModel.framework */; };
 		266AD5D81E20F9A800866DBE /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5D01E20F9A800866DBE /* KissXML.framework */; };
 		266AD5D91E20F9A800866DBE /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5D11E20F9A800866DBE /* MJRefresh.framework */; };
+		266AD5DA1E20FA2D00866DBE /* PCCWFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CA1E20F9A800866DBE /* PCCWFoundation.framework */; };
+		266AD5DB1E20FA2D00866DBE /* PCCWFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CA1E20F9A800866DBE /* PCCWFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		266AD5DC1E20FA2D00866DBE /* AFNetworkActivityLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CB1E20F9A800866DBE /* AFNetworkActivityLogger.framework */; };
+		266AD5DD1E20FA2D00866DBE /* AFNetworkActivityLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CB1E20F9A800866DBE /* AFNetworkActivityLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		266AD5DE1E20FA2D00866DBE /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CC1E20F9A800866DBE /* AFNetworking.framework */; };
+		266AD5DF1E20FA2D00866DBE /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CC1E20F9A800866DBE /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		266AD5E01E20FA2D00866DBE /* FDTemplateLayoutCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CD1E20F9A800866DBE /* FDTemplateLayoutCell.framework */; };
+		266AD5E11E20FA2D00866DBE /* FDTemplateLayoutCell.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CD1E20F9A800866DBE /* FDTemplateLayoutCell.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		266AD5E21E20FA2D00866DBE /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CE1E20F9A800866DBE /* FMDB.framework */; };
+		266AD5E31E20FA2D00866DBE /* FMDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CE1E20F9A800866DBE /* FMDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		266AD5E41E20FA2D00866DBE /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CF1E20F9A800866DBE /* JSONModel.framework */; };
+		266AD5E51E20FA2D00866DBE /* JSONModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CF1E20F9A800866DBE /* JSONModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		266AD5E61E20FA2D00866DBE /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5D01E20F9A800866DBE /* KissXML.framework */; };
+		266AD5E71E20FA2D00866DBE /* KissXML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5D01E20F9A800866DBE /* KissXML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		266AD5E81E20FA2D00866DBE /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5D11E20F9A800866DBE /* MJRefresh.framework */; };
+		266AD5E91E20FA2D00866DBE /* MJRefresh.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5D11E20F9A800866DBE /* MJRefresh.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2685F9CA1E2092E5001D53B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2685F9C91E2092E5001D53B8 /* main.m */; };
 		2685F9CD1E2092E5001D53B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2685F9CC1E2092E5001D53B8 /* AppDelegate.m */; };
 		2685F9D01E2092E5001D53B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2685F9CF1E2092E5001D53B8 /* ViewController.m */; };
@@ -42,6 +58,27 @@
 			remoteInfo = "PCCWFoundation Example";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		266AD5EA1E20FA2E00866DBE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				266AD5E51E20FA2D00866DBE /* JSONModel.framework in Embed Frameworks */,
+				266AD5DB1E20FA2D00866DBE /* PCCWFoundation.framework in Embed Frameworks */,
+				266AD5E71E20FA2D00866DBE /* KissXML.framework in Embed Frameworks */,
+				266AD5DF1E20FA2D00866DBE /* AFNetworking.framework in Embed Frameworks */,
+				266AD5E11E20FA2D00866DBE /* FDTemplateLayoutCell.framework in Embed Frameworks */,
+				266AD5E91E20FA2D00866DBE /* MJRefresh.framework in Embed Frameworks */,
+				266AD5E31E20FA2D00866DBE /* FMDB.framework in Embed Frameworks */,
+				266AD5DD1E20FA2D00866DBE /* AFNetworkActivityLogger.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		266AD5CA1E20F9A800866DBE /* PCCWFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PCCWFoundation.framework; sourceTree = "<group>"; };
@@ -85,13 +122,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				266AD5D71E20F9A800866DBE /* JSONModel.framework in Frameworks */,
+				266AD5E61E20FA2D00866DBE /* KissXML.framework in Frameworks */,
+				266AD5DC1E20FA2D00866DBE /* AFNetworkActivityLogger.framework in Frameworks */,
 				266AD5D21E20F9A800866DBE /* PCCWFoundation.framework in Frameworks */,
 				266AD5D81E20F9A800866DBE /* KissXML.framework in Frameworks */,
+				266AD5E81E20FA2D00866DBE /* MJRefresh.framework in Frameworks */,
 				266AD5D41E20F9A800866DBE /* AFNetworking.framework in Frameworks */,
+				266AD5E21E20FA2D00866DBE /* FMDB.framework in Frameworks */,
 				266AD5D51E20F9A800866DBE /* FDTemplateLayoutCell.framework in Frameworks */,
+				266AD5E01E20FA2D00866DBE /* FDTemplateLayoutCell.framework in Frameworks */,
+				266AD5DA1E20FA2D00866DBE /* PCCWFoundation.framework in Frameworks */,
 				266AD5D91E20F9A800866DBE /* MJRefresh.framework in Frameworks */,
+				266AD5E41E20FA2D00866DBE /* JSONModel.framework in Frameworks */,
 				266AD5D61E20F9A800866DBE /* FMDB.framework in Frameworks */,
 				266AD5D31E20F9A800866DBE /* AFNetworkActivityLogger.framework in Frameworks */,
+				266AD5DE1E20FA2D00866DBE /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +263,7 @@
 				2685F9C11E2092E5001D53B8 /* Sources */,
 				2685F9C21E2092E5001D53B8 /* Frameworks */,
 				2685F9C31E2092E5001D53B8 /* Resources */,
+				266AD5EA1E20FA2E00866DBE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -502,6 +548,14 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PCCWFoundation\\ Example",
+					"$(PROJECT_DIR)/PCCWFoundation\\ Example",
+					"$(PROJECT_DIR)/PCCWFoundation\\ Example",
+					"$(PROJECT_DIR)/PCCWFoundation\\ Example",
+					"$(PROJECT_DIR)/PCCWFoundation\\ Example",
+					"$(PROJECT_DIR)/PCCWFoundation\\ Example",
+					"$(PROJECT_DIR)/PCCWFoundation\\ Example",
+					"$(PROJECT_DIR)/PCCWFoundation\\ Example",
+					"$(PROJECT_DIR)/PCCWFoundation\\ Example",
 				);
 				INFOPLIST_FILE = "PCCWFoundation Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -519,6 +573,14 @@
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/PCCWFoundation\\ Example",
+					"$(PROJECT_DIR)/PCCWFoundation\\ Example",
+					"$(PROJECT_DIR)/PCCWFoundation\\ Example",
+					"$(PROJECT_DIR)/PCCWFoundation\\ Example",
+					"$(PROJECT_DIR)/PCCWFoundation\\ Example",
+					"$(PROJECT_DIR)/PCCWFoundation\\ Example",
+					"$(PROJECT_DIR)/PCCWFoundation\\ Example",
+					"$(PROJECT_DIR)/PCCWFoundation\\ Example",
 					"$(PROJECT_DIR)/PCCWFoundation\\ Example",
 				);
 				INFOPLIST_FILE = "PCCWFoundation Example/Info.plist";
