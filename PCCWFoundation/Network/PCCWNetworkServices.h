@@ -6,7 +6,7 @@
 //  Copyright © 2016 PCCW. All rights reserved.
 //
 
-#import <AFNetworking/AFNetworking.h>
+@import AFNetworking;
 #import "PCCWWebServiceReponseSerializer.h"
 #import "PCCWWebServiceRequestSerializer.h"
 

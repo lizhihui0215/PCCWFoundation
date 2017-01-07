@@ -1,6 +1,0 @@
-framework module FDTemplateLayoutCell {
-  umbrella header "FDTemplateLayoutCell.h"
-
-  export *
-  module * { export * }
-}

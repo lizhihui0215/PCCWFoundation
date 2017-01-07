@@ -42,7 +42,6 @@
 		266F6A591E1E1F14006E210E /* UIAlertController+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 266F6A571E1E1F14006E210E /* UIAlertController+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266F6A5A1E1E1F14006E210E /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 266F6A581E1E1F14006E210E /* UIAlertController+Blocks.m */; };
 		266F6A5C1E1E201D006E210E /* PCCWFoundation-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 266F6A5B1E1E201D006E210E /* PCCWFoundation-prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
-		2685FA471E20C921001D53B8 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2650E8311E07936B00C03058 /* libxml2.2.tbd */; };
 		268DB3E21E1FA40A001085B2 /* NMHUDHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 268DB3E01E1FA40A001085B2 /* NMHUDHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		268DB3E31E1FA40A001085B2 /* NMHUDHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 268DB3E11E1FA40A001085B2 /* NMHUDHandler.m */; };
 		26994D621E20F3B200AB1514 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26994D611E20F3B200AB1514 /* README.md */; };
@@ -101,9 +100,6 @@
 		2636B8751E1E42D200A67C84 /* NMSearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMSearchTableViewCell.m; sourceTree = "<group>"; };
 		2636B8781E1E42D200A67C84 /* NMTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMTabBarViewController.h; sourceTree = "<group>"; };
 		2636B8791E1E42D200A67C84 /* NMTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMTabBarViewController.m; sourceTree = "<group>"; };
-		2650E8021E0785F400C03058 /* AFNetworkActivityLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworkActivityLogger.framework; path = "../../Library/Developer/Xcode/DerivedData/AFNetworkActivityLogger-ggidisnayfprzedgumpirqxiaxzz/Build/Products/Debug-iphoneos/AFNetworkActivityLogger.framework"; sourceTree = "<group>"; };
-		2650E8311E07936B00C03058 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
-		2650E8571E07A8E100C03058 /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
 		266F6A531E1E1E0A006E210E /* PCCWException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWException.h; sourceTree = "<group>"; };
 		266F6A541E1E1E0A006E210E /* PCCWException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWException.m; sourceTree = "<group>"; };
 		266F6A571E1E1F14006E210E /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
@@ -131,7 +127,6 @@
 		26D4E86C1E01220600D82973 /* PCCWNetworkServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWNetworkServices.m; sourceTree = "<group>"; };
 		26D4E86F1E0131FA00D82973 /* PCCWWSDLParsers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWWSDLParsers.h; sourceTree = "<group>"; };
 		26D4E8701E0131FA00D82973 /* PCCWWSDLParsers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWWSDLParsers.m; sourceTree = "<group>"; };
-		26DD78031E1DDDC600212EDD /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +134,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2685FA471E20C921001D53B8 /* libxml2.2.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,17 +147,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2650E8011E0785F400C03058 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				26DD78031E1DDDC600212EDD /* libresolv.tbd */,
-				2650E8571E07A8E100C03058 /* libz.1.2.8.tbd */,
-				2650E8311E07936B00C03058 /* libxml2.2.tbd */,
-				2650E8021E0785F400C03058 /* AFNetworkActivityLogger.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		26C5B3771DFFE3050088BFF8 = {
 			isa = PBXGroup;
 			children = (
@@ -171,7 +154,6 @@
 				26C5B3831DFFE3050088BFF8 /* PCCWFoundation */,
 				26C5B38E1DFFE3060088BFF8 /* PCCWFoundationTests */,
 				26C5B3821DFFE3050088BFF8 /* Products */,
-				2650E8011E0785F400C03058 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -457,7 +439,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#/usr/local/bin/carthage copy-frameworks";
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
 		26C5B3A71DFFF4490088BFF8 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -633,6 +615,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/PCCWFoundation",
 					"$(SRCROOT)/Carthage/Build/iOS/",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				GCC_PREFIX_HEADER = "${SRCROOT}/PCCWFoundation/PCCWFoundation-prefix.pch";
 				INFOPLIST_FILE = PCCWFoundation/Info.plist;
@@ -661,6 +644,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/PCCWFoundation",
 					"$(SRCROOT)/Carthage/Build/iOS/",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				GCC_PREFIX_HEADER = "${SRCROOT}/PCCWFoundation/PCCWFoundation-prefix.pch";
 				INFOPLIST_FILE = PCCWFoundation/Info.plist;

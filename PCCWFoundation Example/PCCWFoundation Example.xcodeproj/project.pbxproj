@@ -7,24 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		266AD5EB1E20FA6200866DBE /* PCCWFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CA1E20F9A800866DBE /* PCCWFoundation.framework */; };
-		266AD5EC1E20FA6200866DBE /* PCCWFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CA1E20F9A800866DBE /* PCCWFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		266AD5ED1E20FA6200866DBE /* AFNetworkActivityLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CB1E20F9A800866DBE /* AFNetworkActivityLogger.framework */; };
-		266AD5EE1E20FA6200866DBE /* AFNetworkActivityLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CB1E20F9A800866DBE /* AFNetworkActivityLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		266AD5EF1E20FA6200866DBE /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CC1E20F9A800866DBE /* AFNetworking.framework */; };
-		266AD5F01E20FA6200866DBE /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CC1E20F9A800866DBE /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		266AD5F11E20FA6200866DBE /* FDTemplateLayoutCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CD1E20F9A800866DBE /* FDTemplateLayoutCell.framework */; };
-		266AD5F21E20FA6200866DBE /* FDTemplateLayoutCell.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CD1E20F9A800866DBE /* FDTemplateLayoutCell.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		266AD5F31E20FA6200866DBE /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CE1E20F9A800866DBE /* FMDB.framework */; };
-		266AD5F41E20FA6200866DBE /* FMDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CE1E20F9A800866DBE /* FMDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		266AD5F51E20FA6200866DBE /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CF1E20F9A800866DBE /* JSONModel.framework */; };
-		266AD5F61E20FA6200866DBE /* JSONModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5CF1E20F9A800866DBE /* JSONModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		266AD5F71E20FA6300866DBE /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5D01E20F9A800866DBE /* KissXML.framework */; };
-		266AD5F81E20FA6300866DBE /* KissXML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5D01E20F9A800866DBE /* KissXML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		266AD5F91E20FA6300866DBE /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5D11E20F9A800866DBE /* MJRefresh.framework */; };
-		266AD5FA1E20FA6300866DBE /* MJRefresh.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5D11E20F9A800866DBE /* MJRefresh.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		266AD6001E20FB4700866DBE /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5FF1E20FB4700866DBE /* MBProgressHUD.framework */; };
-		266AD6011E20FB4700866DBE /* MBProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5FF1E20FB4700866DBE /* MBProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2685F9CA1E2092E5001D53B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2685F9C91E2092E5001D53B8 /* main.m */; };
 		2685F9CD1E2092E5001D53B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2685F9CC1E2092E5001D53B8 /* AppDelegate.m */; };
 		2685F9D01E2092E5001D53B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2685F9CF1E2092E5001D53B8 /* ViewController.m */; };
@@ -54,21 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		266AD5FB1E20FA6300866DBE /* Embed Frameworks */ = {
+		26A25C681E21238E00693AF2 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				266AD5F61E20FA6200866DBE /* JSONModel.framework in Embed Frameworks */,
-				266AD5EC1E20FA6200866DBE /* PCCWFoundation.framework in Embed Frameworks */,
-				266AD6011E20FB4700866DBE /* MBProgressHUD.framework in Embed Frameworks */,
-				266AD5F81E20FA6300866DBE /* KissXML.framework in Embed Frameworks */,
-				266AD5F01E20FA6200866DBE /* AFNetworking.framework in Embed Frameworks */,
-				266AD5F21E20FA6200866DBE /* FDTemplateLayoutCell.framework in Embed Frameworks */,
-				266AD5FA1E20FA6300866DBE /* MJRefresh.framework in Embed Frameworks */,
-				266AD5F41E20FA6200866DBE /* FMDB.framework in Embed Frameworks */,
-				266AD5EE1E20FA6200866DBE /* AFNetworkActivityLogger.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,15 +49,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		266AD5CA1E20F9A800866DBE /* PCCWFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PCCWFoundation.framework; sourceTree = "<group>"; };
-		266AD5CB1E20F9A800866DBE /* AFNetworkActivityLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworkActivityLogger.framework; sourceTree = "<group>"; };
-		266AD5CC1E20F9A800866DBE /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
-		266AD5CD1E20F9A800866DBE /* FDTemplateLayoutCell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FDTemplateLayoutCell.framework; sourceTree = "<group>"; };
-		266AD5CE1E20F9A800866DBE /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FMDB.framework; sourceTree = "<group>"; };
-		266AD5CF1E20F9A800866DBE /* JSONModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSONModel.framework; sourceTree = "<group>"; };
-		266AD5D01E20F9A800866DBE /* KissXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KissXML.framework; sourceTree = "<group>"; };
-		266AD5D11E20F9A800866DBE /* MJRefresh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MJRefresh.framework; sourceTree = "<group>"; };
-		266AD5FF1E20FB4700866DBE /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MBProgressHUD.framework; sourceTree = "<group>"; };
 		2685F9C51E2092E5001D53B8 /* PCCWFoundation Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PCCWFoundation Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2685F9C91E2092E5001D53B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2685F9CB1E2092E5001D53B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -102,14 +66,14 @@
 		2685F9ED1E2092E5001D53B8 /* PCCWFoundation_ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCCWFoundation_ExampleUITests.m; sourceTree = "<group>"; };
 		2685F9EF1E2092E5001D53B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2685FAED1E20DFD9001D53B8 /* Weather.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Weather.xml; sourceTree = "<group>"; };
-		2685FAF11E20E112001D53B8 /* AFNetworkActivityLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworkActivityLogger.framework; sourceTree = "<group>"; };
-		2685FAF21E20E112001D53B8 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
-		2685FAF31E20E112001D53B8 /* FDTemplateLayoutCell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FDTemplateLayoutCell.framework; sourceTree = "<group>"; };
-		2685FAF41E20E112001D53B8 /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FMDB.framework; sourceTree = "<group>"; };
-		2685FAF51E20E112001D53B8 /* JSONModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSONModel.framework; sourceTree = "<group>"; };
-		2685FAF61E20E112001D53B8 /* KissXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KissXML.framework; sourceTree = "<group>"; };
-		2685FAF71E20E112001D53B8 /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MBProgressHUD.framework; sourceTree = "<group>"; };
-		2685FAF81E20E112001D53B8 /* MJRefresh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MJRefresh.framework; sourceTree = "<group>"; };
+		26A25C831E21262200693AF2 /* AFNetworkActivityLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworkActivityLogger.framework; sourceTree = "<group>"; };
+		26A25C841E21262200693AF2 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
+		26A25C851E21262200693AF2 /* FDTemplateLayoutCell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FDTemplateLayoutCell.framework; sourceTree = "<group>"; };
+		26A25C861E21262200693AF2 /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FMDB.framework; sourceTree = "<group>"; };
+		26A25C871E21262200693AF2 /* JSONModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSONModel.framework; sourceTree = "<group>"; };
+		26A25C881E21262200693AF2 /* KissXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KissXML.framework; sourceTree = "<group>"; };
+		26A25C891E21262200693AF2 /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MBProgressHUD.framework; sourceTree = "<group>"; };
+		26A25C8A1E21262200693AF2 /* MJRefresh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MJRefresh.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,15 +81,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				266AD5F51E20FA6200866DBE /* JSONModel.framework in Frameworks */,
-				266AD5EB1E20FA6200866DBE /* PCCWFoundation.framework in Frameworks */,
-				266AD6001E20FB4700866DBE /* MBProgressHUD.framework in Frameworks */,
-				266AD5F71E20FA6300866DBE /* KissXML.framework in Frameworks */,
-				266AD5EF1E20FA6200866DBE /* AFNetworking.framework in Frameworks */,
-				266AD5F11E20FA6200866DBE /* FDTemplateLayoutCell.framework in Frameworks */,
-				266AD5F91E20FA6300866DBE /* MJRefresh.framework in Frameworks */,
-				266AD5F31E20FA6200866DBE /* FMDB.framework in Frameworks */,
-				266AD5ED1E20FA6200866DBE /* AFNetworkActivityLogger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,11 +104,11 @@
 		2685F9BC1E2092E5001D53B8 = {
 			isa = PBXGroup;
 			children = (
+				26A25C821E21262200693AF2 /* Frameworks */,
 				2685F9C71E2092E5001D53B8 /* PCCWFoundation Example */,
 				2685F9E11E2092E5001D53B8 /* PCCWFoundation ExampleTests */,
 				2685F9EC1E2092E5001D53B8 /* PCCWFoundation ExampleUITests */,
 				2685F9C61E2092E5001D53B8 /* Products */,
-				2685FAEF1E20E111001D53B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -171,15 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				2685F9CB1E2092E5001D53B8 /* AppDelegate.h */,
-				266AD5FF1E20FB4700866DBE /* MBProgressHUD.framework */,
-				266AD5CA1E20F9A800866DBE /* PCCWFoundation.framework */,
-				266AD5CB1E20F9A800866DBE /* AFNetworkActivityLogger.framework */,
-				266AD5CC1E20F9A800866DBE /* AFNetworking.framework */,
-				266AD5CD1E20F9A800866DBE /* FDTemplateLayoutCell.framework */,
-				266AD5CE1E20F9A800866DBE /* FMDB.framework */,
-				266AD5CF1E20F9A800866DBE /* JSONModel.framework */,
-				266AD5D01E20F9A800866DBE /* KissXML.framework */,
-				266AD5D11E20F9A800866DBE /* MJRefresh.framework */,
 				2685F9CC1E2092E5001D53B8 /* AppDelegate.m */,
 				2685FAED1E20DFD9001D53B8 /* Weather.xml */,
 				2685F9CE1E2092E5001D53B8 /* ViewController.h */,
@@ -219,28 +165,20 @@
 			path = "PCCWFoundation ExampleUITests";
 			sourceTree = "<group>";
 		};
-		2685FAEF1E20E111001D53B8 /* Frameworks */ = {
+		26A25C821E21262200693AF2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2685FAF01E20E112001D53B8 /* Frameworks */,
+				26A25C831E21262200693AF2 /* AFNetworkActivityLogger.framework */,
+				26A25C841E21262200693AF2 /* AFNetworking.framework */,
+				26A25C851E21262200693AF2 /* FDTemplateLayoutCell.framework */,
+				26A25C861E21262200693AF2 /* FMDB.framework */,
+				26A25C871E21262200693AF2 /* JSONModel.framework */,
+				26A25C881E21262200693AF2 /* KissXML.framework */,
+				26A25C891E21262200693AF2 /* MBProgressHUD.framework */,
+				26A25C8A1E21262200693AF2 /* MJRefresh.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2685FAF01E20E112001D53B8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2685FAF11E20E112001D53B8 /* AFNetworkActivityLogger.framework */,
-				2685FAF21E20E112001D53B8 /* AFNetworking.framework */,
-				2685FAF31E20E112001D53B8 /* FDTemplateLayoutCell.framework */,
-				2685FAF41E20E112001D53B8 /* FMDB.framework */,
-				2685FAF51E20E112001D53B8 /* JSONModel.framework */,
-				2685FAF61E20E112001D53B8 /* KissXML.framework */,
-				2685FAF71E20E112001D53B8 /* MBProgressHUD.framework */,
-				2685FAF81E20E112001D53B8 /* MJRefresh.framework */,
-			);
-			name = Frameworks;
-			path = "PCCWFoundation Example/PCCWFoundation.framework/Frameworks";
+			path = "../../../Library/Developer/Xcode/DerivedData/PCCWFoundation-himzavvlgarsleaxvtfyzoqrsyre/Build/Products/Debug-iphonesimulator/PCCWFoundation.framework/Frameworks";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,7 +191,7 @@
 				2685F9C11E2092E5001D53B8 /* Sources */,
 				2685F9C21E2092E5001D53B8 /* Frameworks */,
 				2685F9C31E2092E5001D53B8 /* Resources */,
-				266AD5FB1E20FA6300866DBE /* Embed Frameworks */,
+				26A25C681E21238E00693AF2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -531,12 +469,13 @@
 		2685F9F31E2092E5001D53B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5F56XN57QC;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/PCCWFoundation\\ Example",
+					"$(PROJECT_DIR)/../Carthage/Build/iOS/",
 				);
 				INFOPLIST_FILE = "PCCWFoundation Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -548,12 +487,13 @@
 		2685F9F41E2092E5001D53B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5F56XN57QC;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/PCCWFoundation\\ Example",
+					"$(PROJECT_DIR)/../Carthage/Build/iOS/",
 				);
 				INFOPLIST_FILE = "PCCWFoundation Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

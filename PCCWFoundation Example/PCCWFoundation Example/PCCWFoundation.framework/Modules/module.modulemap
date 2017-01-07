@@ -1,6 +1,0 @@
-framework module PCCWFoundation {
-  umbrella header "PCCWFoundation.h"
-
-  export *
-  module * { export * }
-}

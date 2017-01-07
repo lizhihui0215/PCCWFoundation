@@ -6,9 +6,9 @@
 //  Copyright © 2016 PCCW. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import KissXML;
 
-#import <KissXML/KissXML.h>
+#import <Foundation/Foundation.h>
 
 @interface PCCWWSDLParsers : NSObject
 

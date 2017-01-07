@@ -6,7 +6,7 @@
 //  Copyright © 2016 PCCW. All rights reserved.
 //
 
-#import <JSONModel/JSONModel.h>
+@import JSONModel;
 
 @interface PCCWModel : JSONModel
 
