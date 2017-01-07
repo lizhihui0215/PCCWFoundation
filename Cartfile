@@ -4,7 +4,7 @@ github "jsonmodel/jsonmodel"
 github "forkingdog/UITableView-FDTemplateLayoutCell"
 github "lizhihui0215/MJRefresh"
 github "jdg/MBProgressHUD"
-github "robbiehanson/SwiftNSXML"
+github "lizhihui0215/KissXML"
 github "ccgus/fmdb"
 #https://github.com/steipete/Aspects
 #https://github.com/zwaldowski/BlocksKit

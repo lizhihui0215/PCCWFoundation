@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    NSString *path = [[NSBundle bundleForClass:[PCCWFoundationTests class]] pathForResource:@"Weather" ofType:@"xml"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"Weather" ofType:@"xml"];
     
     PCCWWSDLParsers *pars = [PCCWWSDLParsers WSDLParserWithPath:path];
     

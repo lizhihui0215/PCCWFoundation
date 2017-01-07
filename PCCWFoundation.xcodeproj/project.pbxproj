@@ -36,26 +36,16 @@
 		2636B8871E1E42D200A67C84 /* NMSearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2636B8751E1E42D200A67C84 /* NMSearchTableViewCell.m */; };
 		2636B88A1E1E42D200A67C84 /* NMTabBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2636B8781E1E42D200A67C84 /* NMTabBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2636B88B1E1E42D200A67C84 /* NMTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2636B8791E1E42D200A67C84 /* NMTabBarViewController.m */; };
-		2636B88F1E1E4D5C00A67C84 /* AFNetworkActivityLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2636B88E1E1E4D5C00A67C84 /* AFNetworkActivityLogger.framework */; };
-		2636B8901E1E4DB300A67C84 /* AFNetworkActivityLogger.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2636B88E1E1E4D5C00A67C84 /* AFNetworkActivityLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2650E8081E078B9B00C03058 /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2650E8071E078B9A00C03058 /* JSONModel.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		2650E80A1E078BD500C03058 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2650E8091E078BD500C03058 /* AFNetworking.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		266F6A4E1E1E1018006E210E /* AFNetworking.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2650E8091E078BD500C03058 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		266F6A4F1E1E1018006E210E /* JSONModel.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2650E8071E078B9A00C03058 /* JSONModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		266F6A521E1E11AA006E210E /* User.xml in Resources */ = {isa = PBXBuildFile; fileRef = 26A4C86A1E03D2BB005BE5FC /* User.xml */; };
 		266F6A551E1E1E0A006E210E /* PCCWException.h in Headers */ = {isa = PBXBuildFile; fileRef = 266F6A531E1E1E0A006E210E /* PCCWException.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266F6A561E1E1E0A006E210E /* PCCWException.m in Sources */ = {isa = PBXBuildFile; fileRef = 266F6A541E1E1E0A006E210E /* PCCWException.m */; };
 		266F6A591E1E1F14006E210E /* UIAlertController+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 266F6A571E1E1F14006E210E /* UIAlertController+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266F6A5A1E1E1F14006E210E /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 266F6A581E1E1F14006E210E /* UIAlertController+Blocks.m */; };
 		266F6A5C1E1E201D006E210E /* PCCWFoundation-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 266F6A5B1E1E201D006E210E /* PCCWFoundation-prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
-		2685F9FC1E20B00F001D53B8 /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2685F9FB1E20B00F001D53B8 /* MJRefresh.framework */; };
-		2685FA401E20BBD8001D53B8 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2685FA3F1E20BBD8001D53B8 /* FMDB.framework */; };
 		2685FA471E20C921001D53B8 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2650E8311E07936B00C03058 /* libxml2.2.tbd */; };
-		2685FAEA1E20DCEE001D53B8 /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2685FAE91E20DCEE001D53B8 /* KissXML.framework */; };
 		268DB3E21E1FA40A001085B2 /* NMHUDHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 268DB3E01E1FA40A001085B2 /* NMHUDHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		268DB3E31E1FA40A001085B2 /* NMHUDHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 268DB3E11E1FA40A001085B2 /* NMHUDHandler.m */; };
-		268DB3E51E1FA5FC001085B2 /* FDTemplateLayoutCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268DB3E41E1FA5FC001085B2 /* FDTemplateLayoutCell.framework */; };
-		268DB3E71E1FA604001085B2 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268DB3E61E1FA604001085B2 /* MBProgressHUD.framework */; };
+		26994D621E20F3B200AB1514 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26994D611E20F3B200AB1514 /* README.md */; };
 		26A4C86B1E03D2BB005BE5FC /* User.xml in Resources */ = {isa = PBXBuildFile; fileRef = 26A4C86A1E03D2BB005BE5FC /* User.xml */; };
 		26C5B3901DFFE3060088BFF8 /* PCCWFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C5B38F1DFFE3060088BFF8 /* PCCWFoundationTests.m */; };
 		26C5B3921DFFE3060088BFF8 /* PCCWFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 26C5B3841DFFE3050088BFF8 /* PCCWFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -90,9 +80,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2636B8901E1E4DB300A67C84 /* AFNetworkActivityLogger.framework in CopyFiles */,
-				266F6A4E1E1E1018006E210E /* AFNetworking.framework in CopyFiles */,
-				266F6A4F1E1E1018006E210E /* JSONModel.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,10 +101,7 @@
 		2636B8751E1E42D200A67C84 /* NMSearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMSearchTableViewCell.m; sourceTree = "<group>"; };
 		2636B8781E1E42D200A67C84 /* NMTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMTabBarViewController.h; sourceTree = "<group>"; };
 		2636B8791E1E42D200A67C84 /* NMTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMTabBarViewController.m; sourceTree = "<group>"; };
-		2636B88E1E1E4D5C00A67C84 /* AFNetworkActivityLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworkActivityLogger.framework; sourceTree = "<group>"; };
 		2650E8021E0785F400C03058 /* AFNetworkActivityLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworkActivityLogger.framework; path = "../../Library/Developer/Xcode/DerivedData/AFNetworkActivityLogger-ggidisnayfprzedgumpirqxiaxzz/Build/Products/Debug-iphoneos/AFNetworkActivityLogger.framework"; sourceTree = "<group>"; };
-		2650E8071E078B9A00C03058 /* JSONModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSONModel.framework; sourceTree = "<group>"; };
-		2650E8091E078BD500C03058 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
 		2650E8311E07936B00C03058 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
 		2650E8571E07A8E100C03058 /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
 		266F6A531E1E1E0A006E210E /* PCCWException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWException.h; sourceTree = "<group>"; };
@@ -125,13 +109,9 @@
 		266F6A571E1E1F14006E210E /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
 		266F6A581E1E1F14006E210E /* UIAlertController+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Blocks.m"; sourceTree = "<group>"; };
 		266F6A5B1E1E201D006E210E /* PCCWFoundation-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PCCWFoundation-prefix.pch"; sourceTree = "<group>"; };
-		2685F9FB1E20B00F001D53B8 /* MJRefresh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MJRefresh.framework; sourceTree = "<group>"; };
-		2685FA3F1E20BBD8001D53B8 /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FMDB.framework; sourceTree = "<group>"; };
-		2685FAE91E20DCEE001D53B8 /* KissXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KissXML.framework; sourceTree = "<group>"; };
 		268DB3E01E1FA40A001085B2 /* NMHUDHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMHUDHandler.h; sourceTree = "<group>"; };
 		268DB3E11E1FA40A001085B2 /* NMHUDHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMHUDHandler.m; sourceTree = "<group>"; };
-		268DB3E41E1FA5FC001085B2 /* FDTemplateLayoutCell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FDTemplateLayoutCell.framework; sourceTree = "<group>"; };
-		268DB3E61E1FA604001085B2 /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MBProgressHUD.framework; sourceTree = "<group>"; };
+		26994D611E20F3B200AB1514 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26A4C86A1E03D2BB005BE5FC /* User.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = User.xml; sourceTree = "<group>"; };
 		26C5B3811DFFE3050088BFF8 /* PCCWFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PCCWFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C5B3841DFFE3050088BFF8 /* PCCWFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCCWFoundation.h; sourceTree = "<group>"; };
@@ -160,14 +140,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2685FA471E20C921001D53B8 /* libxml2.2.tbd in Frameworks */,
-				2685F9FC1E20B00F001D53B8 /* MJRefresh.framework in Frameworks */,
-				268DB3E51E1FA5FC001085B2 /* FDTemplateLayoutCell.framework in Frameworks */,
-				268DB3E71E1FA604001085B2 /* MBProgressHUD.framework in Frameworks */,
-				2685FAEA1E20DCEE001D53B8 /* KissXML.framework in Frameworks */,
-				2636B88F1E1E4D5C00A67C84 /* AFNetworkActivityLogger.framework in Frameworks */,
-				2650E8081E078B9B00C03058 /* JSONModel.framework in Frameworks */,
-				2685FA401E20BBD8001D53B8 /* FMDB.framework in Frameworks */,
-				2650E80A1E078BD500C03058 /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +167,7 @@
 		26C5B3771DFFE3050088BFF8 = {
 			isa = PBXGroup;
 			children = (
+				26994D611E20F3B200AB1514 /* README.md */,
 				26C5B3831DFFE3050088BFF8 /* PCCWFoundation */,
 				26C5B38E1DFFE3060088BFF8 /* PCCWFoundationTests */,
 				26C5B3821DFFE3050088BFF8 /* Products */,
@@ -214,14 +187,6 @@
 		26C5B3831DFFE3050088BFF8 /* PCCWFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				2685FAE91E20DCEE001D53B8 /* KissXML.framework */,
-				2685FA3F1E20BBD8001D53B8 /* FMDB.framework */,
-				2685F9FB1E20B00F001D53B8 /* MJRefresh.framework */,
-				268DB3E61E1FA604001085B2 /* MBProgressHUD.framework */,
-				268DB3E41E1FA5FC001085B2 /* FDTemplateLayoutCell.framework */,
-				2636B88E1E1E4D5C00A67C84 /* AFNetworkActivityLogger.framework */,
-				2650E8091E078BD500C03058 /* AFNetworking.framework */,
-				2650E8071E078B9A00C03058 /* JSONModel.framework */,
 				26C5B3841DFFE3050088BFF8 /* PCCWFoundation.h */,
 				266F6A5B1E1E201D006E210E /* PCCWFoundation-prefix.pch */,
 				26C5B3851DFFE3050088BFF8 /* Info.plist */,
@@ -525,6 +490,7 @@
 				266F6A5A1E1E1F14006E210E /* UIAlertController+Blocks.m in Sources */,
 				268DB3E31E1FA40A001085B2 /* NMHUDHandler.m in Sources */,
 				26D4E8661E00FB4B00D82973 /* PCCWWebServiceReponseSerializer.m in Sources */,
+				26994D621E20F3B200AB1514 /* README.md in Sources */,
 				2636B87B1E1E42D200A67C84 /* NMTableViewCell.m in Sources */,
 				26D4E86A1E0120EF00D82973 /* PCCWNotificationManager.m in Sources */,
 				26D4E8721E0131FA00D82973 /* PCCWWSDLParsers.m in Sources */,
@@ -666,12 +632,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PCCWFoundation",
+					"$(SRCROOT)/Carthage/Build/iOS/",
 				);
 				GCC_PREFIX_HEADER = "${SRCROOT}/PCCWFoundation/PCCWFoundation-prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SDKROOT)/usr/include/libxml2",
-				);
 				INFOPLIST_FILE = PCCWFoundation/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -697,12 +660,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PCCWFoundation",
+					"$(SRCROOT)/Carthage/Build/iOS/",
 				);
 				GCC_PREFIX_HEADER = "${SRCROOT}/PCCWFoundation/PCCWFoundation-prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SDKROOT)/usr/include/libxml2",
-				);
 				INFOPLIST_FILE = PCCWFoundation/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
