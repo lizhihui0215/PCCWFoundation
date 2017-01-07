@@ -23,6 +23,8 @@
 		266AD5F81E20FA6300866DBE /* KissXML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5D01E20F9A800866DBE /* KissXML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		266AD5F91E20FA6300866DBE /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5D11E20F9A800866DBE /* MJRefresh.framework */; };
 		266AD5FA1E20FA6300866DBE /* MJRefresh.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5D11E20F9A800866DBE /* MJRefresh.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		266AD6001E20FB4700866DBE /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5FF1E20FB4700866DBE /* MBProgressHUD.framework */; };
+		266AD6011E20FB4700866DBE /* MBProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 266AD5FF1E20FB4700866DBE /* MBProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2685F9CA1E2092E5001D53B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2685F9C91E2092E5001D53B8 /* main.m */; };
 		2685F9CD1E2092E5001D53B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2685F9CC1E2092E5001D53B8 /* AppDelegate.m */; };
 		2685F9D01E2092E5001D53B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2685F9CF1E2092E5001D53B8 /* ViewController.m */; };
@@ -60,6 +62,7 @@
 			files = (
 				266AD5F61E20FA6200866DBE /* JSONModel.framework in Embed Frameworks */,
 				266AD5EC1E20FA6200866DBE /* PCCWFoundation.framework in Embed Frameworks */,
+				266AD6011E20FB4700866DBE /* MBProgressHUD.framework in Embed Frameworks */,
 				266AD5F81E20FA6300866DBE /* KissXML.framework in Embed Frameworks */,
 				266AD5F01E20FA6200866DBE /* AFNetworking.framework in Embed Frameworks */,
 				266AD5F21E20FA6200866DBE /* FDTemplateLayoutCell.framework in Embed Frameworks */,
@@ -81,6 +84,7 @@
 		266AD5CF1E20F9A800866DBE /* JSONModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSONModel.framework; sourceTree = "<group>"; };
 		266AD5D01E20F9A800866DBE /* KissXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KissXML.framework; sourceTree = "<group>"; };
 		266AD5D11E20F9A800866DBE /* MJRefresh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MJRefresh.framework; sourceTree = "<group>"; };
+		266AD5FF1E20FB4700866DBE /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MBProgressHUD.framework; sourceTree = "<group>"; };
 		2685F9C51E2092E5001D53B8 /* PCCWFoundation Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PCCWFoundation Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2685F9C91E2092E5001D53B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2685F9CB1E2092E5001D53B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,6 +119,7 @@
 			files = (
 				266AD5F51E20FA6200866DBE /* JSONModel.framework in Frameworks */,
 				266AD5EB1E20FA6200866DBE /* PCCWFoundation.framework in Frameworks */,
+				266AD6001E20FB4700866DBE /* MBProgressHUD.framework in Frameworks */,
 				266AD5F71E20FA6300866DBE /* KissXML.framework in Frameworks */,
 				266AD5EF1E20FA6200866DBE /* AFNetworking.framework in Frameworks */,
 				266AD5F11E20FA6200866DBE /* FDTemplateLayoutCell.framework in Frameworks */,
@@ -166,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				2685F9CB1E2092E5001D53B8 /* AppDelegate.h */,
+				266AD5FF1E20FB4700866DBE /* MBProgressHUD.framework */,
 				266AD5CA1E20F9A800866DBE /* PCCWFoundation.framework */,
 				266AD5CB1E20F9A800866DBE /* AFNetworkActivityLogger.framework */,
 				266AD5CC1E20F9A800866DBE /* AFNetworking.framework */,
