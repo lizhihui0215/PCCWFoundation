@@ -19,5 +19,10 @@ FOUNDATION_EXPORT const unsigned char PCCWFoundationVersionString[];
 
 #import <PCCWFoundation/PCCWModel.h>
 #import <PCCWFoundation/PCCWNetworkServices.h>
+#import <PCCWFoundation/PCCWNotificationManager.h>
+#import <PCCWFoundation/PCCWException.h>
+#import <PCCWFoundation/PCCWWebServiceReponseSerializer.h>
+#import <PCCWFoundation/PCCWWebServiceRequestSerializer.h>
+#import <PCCWFoundation/PCCWWSDLParsers.h>
 
 
