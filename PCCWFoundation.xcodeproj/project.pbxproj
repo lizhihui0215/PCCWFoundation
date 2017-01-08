@@ -36,7 +36,6 @@
 		2636B8871E1E42D200A67C84 /* NMSearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2636B8751E1E42D200A67C84 /* NMSearchTableViewCell.m */; };
 		2636B88A1E1E42D200A67C84 /* NMTabBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2636B8781E1E42D200A67C84 /* NMTabBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2636B88B1E1E42D200A67C84 /* NMTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2636B8791E1E42D200A67C84 /* NMTabBarViewController.m */; };
-		266F6A521E1E11AA006E210E /* User.xml in Resources */ = {isa = PBXBuildFile; fileRef = 26A4C86A1E03D2BB005BE5FC /* User.xml */; };
 		266F6A551E1E1E0A006E210E /* PCCWException.h in Headers */ = {isa = PBXBuildFile; fileRef = 266F6A531E1E1E0A006E210E /* PCCWException.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266F6A561E1E1E0A006E210E /* PCCWException.m in Sources */ = {isa = PBXBuildFile; fileRef = 266F6A541E1E1E0A006E210E /* PCCWException.m */; };
 		266F6A591E1E1F14006E210E /* UIAlertController+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 266F6A571E1E1F14006E210E /* UIAlertController+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -444,7 +443,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				266F6A521E1E11AA006E210E /* User.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
