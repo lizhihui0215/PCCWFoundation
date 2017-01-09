@@ -455,20 +455,12 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/AFNetworking.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/AFNetworkActivityLogger.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/JSONModel.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/MJRefresh.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/FDTemplateLayoutCell.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/MBProgressHUD.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/FMDB.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/KissXML.framework",
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "";
 		};
 		26C5B3A71DFFF4490088BFF8 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
