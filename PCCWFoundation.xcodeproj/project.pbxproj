@@ -64,6 +64,9 @@
 		26D4E86E1E01220600D82973 /* PCCWNetworkServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D4E86C1E01220600D82973 /* PCCWNetworkServices.m */; };
 		26D4E8711E0131FA00D82973 /* PCCWWSDLParsers.h in Headers */ = {isa = PBXBuildFile; fileRef = 26D4E86F1E0131FA00D82973 /* PCCWWSDLParsers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26D4E8721E0131FA00D82973 /* PCCWWSDLParsers.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D4E8701E0131FA00D82973 /* PCCWWSDLParsers.m */; };
+		26DA09861E2365D40027FAA7 /* PCCWWebViewJavascriptBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DA09851E2365D40027FAA7 /* PCCWWebViewJavascriptBridge.framework */; };
+		26DA09891E2366730027FAA7 /* PCCWMKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DA09871E2366730027FAA7 /* PCCWMKWebView.h */; };
+		26DA098A1E2366730027FAA7 /* PCCWMKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA09881E2366730027FAA7 /* PCCWMKWebView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +140,9 @@
 		26D4E86C1E01220600D82973 /* PCCWNetworkServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWNetworkServices.m; sourceTree = "<group>"; };
 		26D4E86F1E0131FA00D82973 /* PCCWWSDLParsers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWWSDLParsers.h; sourceTree = "<group>"; };
 		26D4E8701E0131FA00D82973 /* PCCWWSDLParsers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWWSDLParsers.m; sourceTree = "<group>"; };
+		26DA09851E2365D40027FAA7 /* PCCWWebViewJavascriptBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PCCWWebViewJavascriptBridge.framework; path = Carthage/Build/iOS/PCCWWebViewJavascriptBridge.framework; sourceTree = "<group>"; };
+		26DA09871E2366730027FAA7 /* PCCWMKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWMKWebView.h; sourceTree = "<group>"; };
+		26DA09881E2366730027FAA7 /* PCCWMKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWMKWebView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +155,7 @@
 				26A25CD61E228EC700693AF2 /* FDTemplateLayoutCell.framework in Frameworks */,
 				26A25CD41E228EC700693AF2 /* AFNetworkActivityLogger.framework in Frameworks */,
 				26A25CD51E228EC700693AF2 /* AFNetworking.framework in Frameworks */,
+				26DA09861E2365D40027FAA7 /* PCCWWebViewJavascriptBridge.framework in Frameworks */,
 				26A25CDB1E228EC700693AF2 /* MJRefresh.framework in Frameworks */,
 				26A25CD91E228EC700693AF2 /* KissXML.framework in Frameworks */,
 				26A25CD71E228EC700693AF2 /* FMDB.framework in Frameworks */,
@@ -168,6 +175,7 @@
 		26A25CCB1E228E8E00693AF2 /* Dependency */ = {
 			isa = PBXGroup;
 			children = (
+				26DA09851E2365D40027FAA7 /* PCCWWebViewJavascriptBridge.framework */,
 				26A25CCC1E228EC700693AF2 /* AFNetworkActivityLogger.framework */,
 				26A25CCD1E228EC700693AF2 /* AFNetworking.framework */,
 				26A25CCE1E228EC700693AF2 /* FDTemplateLayoutCell.framework */,
@@ -277,6 +285,8 @@
 			isa = PBXGroup;
 			children = (
 				5B87582ABDB0F6964CA4BF31 /* Base */,
+				26DA09871E2366730027FAA7 /* PCCWMKWebView.h */,
+				26DA09881E2366730027FAA7 /* PCCWMKWebView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -329,6 +339,7 @@
 				2636B87A1E1E42D200A67C84 /* PCCWTableViewCell.h in Headers */,
 				2636B87E1E1E42D200A67C84 /* PCCWViewController.h in Headers */,
 				2636B8821E1E42D200A67C84 /* PCCWStaticTableViewController.h in Headers */,
+				26DA09891E2366730027FAA7 /* PCCWMKWebView.h in Headers */,
 				2636B8841E1E42D200A67C84 /* PCCWTableViewHeaderFooterView.h in Headers */,
 				268DB3E21E1FA40A001085B2 /* PCCWHUDHandler.h in Headers */,
 				2636B8801E1E42D200A67C84 /* PCCWTableViewController.h in Headers */,
@@ -490,6 +501,7 @@
 				266F6A561E1E1E0A006E210E /* PCCWException.m in Sources */,
 				26D4E86E1E01220600D82973 /* PCCWNetworkServices.m in Sources */,
 				2636B8831E1E42D200A67C84 /* PCCWStaticTableViewController.m in Sources */,
+				26DA098A1E2366730027FAA7 /* PCCWMKWebView.m in Sources */,
 				266F6A5A1E1E1F14006E210E /* UIAlertController+Blocks.m in Sources */,
 				268DB3E31E1FA40A001085B2 /* PCCWHUDHandler.m in Sources */,
 				26D4E8661E00FB4B00D82973 /* PCCWWebServiceReponseSerializer.m in Sources */,

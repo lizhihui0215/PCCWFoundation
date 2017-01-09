@@ -6,5 +6,6 @@ github "lizhihui0215/MJRefresh"
 github "jdg/MBProgressHUD"
 github "lizhihui0215/KissXML"
 github "ccgus/fmdb"
+github "lizhihui0215/WebViewJavascriptBridge"
 #https://github.com/steipete/Aspects
 #https://github.com/zwaldowski/BlocksKit
