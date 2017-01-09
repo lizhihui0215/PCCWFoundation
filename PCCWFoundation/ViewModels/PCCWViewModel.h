@@ -1,5 +1,5 @@
 //
-//  NMViewModel.h
+//  PCCWViewModel.h
 //  IBLWorkFlow
 //
 //  Created by 李智慧 on 7/7/16.
@@ -10,9 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef void (^NMViewModelCompleteHandler)(NSError * _Nullable error);
+typedef void (^PCCWViewModelCompleteHandler)(NSError * _Nullable error);
 
-@interface NMViewModel : NSObject
+@interface PCCWViewModel : NSObject
 
 @end
 

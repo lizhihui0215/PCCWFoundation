@@ -1,13 +1,13 @@
 //
-//  NMDatabaseService.m
-//  NM
+//  PCCWDatabaseService.m
+//  PCCW
 //
 //  Created by 李智慧 on 26/10/2016.
 //  Copyright © 2016 PCCW. All rights reserved.
 //
 
-#import "NMDatabaseService.h"
+#import "PCCWDatabaseService.h"
 
-@implementation NMDatabaseService
+@implementation PCCWDatabaseService
 
 @end

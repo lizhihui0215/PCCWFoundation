@@ -1,23 +1,23 @@
 //
-//  NMMenuViewModel.m
+//  PCCWMenuViewModel.m
 //  NM
 //
 //  Created by 李智慧 on 23/11/2016.
 //  Copyright © 2016 PCCW. All rights reserved.
 //
 
-#import "NMMenuViewModel.h"
+#import "PCCWMenuViewModel.h"
 
-@interface NMMenuViewModel ()
+@interface PCCWMenuViewModel ()
 {
-    NSMutableArray<NMSection *> *_dataSource;
+    NSMutableArray<PCCWSection *> *_dataSource;
 }
 
-@property (nonatomic, strong) id<NMMenuViewModelProtocol> menuDataSource;
+@property (nonatomic, strong) id<PCCWMenuViewModelProtocol> menuDataSource;
 
 @end
 
-@implementation NMMenuItem
+@implementation PCCWMenuItem
 
 - (instancetype)initWithImage:(UIImage *)image
                          name:(NSString *)name
@@ -33,13 +33,13 @@
 
 @end
 
-@implementation NMMenuViewModel
+@implementation PCCWMenuViewModel
 
-- (NSMutableArray<NMSection *> *)dataSource{
+- (NSMutableArray<PCCWSection *> *)dataSource{
     return _dataSource;
 }
 
-- (void)setDataSource:(NSMutableArray<NMSection *> *)dataSource{
+- (void)setDataSource:(NSMutableArray<PCCWSection *> *)dataSource{
     _dataSource = dataSource;
 }
 
@@ -48,7 +48,7 @@
     self = [super init];
     if (self) {
         self.menuDataSource = self;
-        NMSection *section = [NMSection sectionWithInfo:nil
+        PCCWSection *section = [PCCWSection sectionWithInfo:nil
                                                   items:[self makeSectionItems]];
         
         [self.dataSource addObject:section];
@@ -56,17 +56,17 @@
     return self;
 }
 
-- (NSMutableArray<NMSectionItem *> *)makeSectionItems {
-    NSMutableArray<NMSectionItem *> *items = [NSMutableArray array];
+- (NSMutableArray<PCCWSectionItem *> *)makeSectionItems {
+    NSMutableArray<PCCWSectionItem *> *items = [NSMutableArray array];
     
     for (NSNumber *itemType in [self.menuDataSource items]) {
         UIImage *image = [self.menuDataSource itemImages][itemType];
         NSString *identifier = [self.menuDataSource segueIdentifiers][itemType];
         NSString *name = [self itemNames][itemType];
-        NMMenuItem *item = [[NMMenuItem alloc] initWithImage:image
+        PCCWMenuItem *item = [[PCCWMenuItem alloc] initWithImage:image
                                                         name:name
                                              segueIdentifier:identifier];
-        NMSectionItem *sectionItem = [NMSectionItem itemWithInfo:item selected:NO];
+        PCCWSectionItem *sectionItem = [PCCWSectionItem itemWithInfo:item selected:NO];
         [items addObject:sectionItem];
     }
     
@@ -74,8 +74,8 @@
 }
 
 
-- (NMMenuItem *)menuItemAtIndexPath:(NSIndexPath *)indexPath{
-    NMSectionItem *item = [self sectionItemAtIndexPath:indexPath];
+- (PCCWMenuItem *)menuItemAtIndexPath:(NSIndexPath *)indexPath{
+    PCCWSectionItem *item = [self sectionItemAtIndexPath:indexPath];
     return item.info;
 }
 

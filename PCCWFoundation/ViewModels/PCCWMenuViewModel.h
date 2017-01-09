@@ -1,16 +1,16 @@
 //
-//  NMMenuViewModel.h
+//  PCCWMenuViewModel.h
 //  NM
 //
 //  Created by 李智慧 on 23/11/2016.
 //  Copyright © 2016 PCCW. All rights reserved.
 //
 
-#import "NMListViewModel.h"
+#import "PCCWListViewModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol NMMenuViewModelProtocol <NSObject>
+@protocol PCCWMenuViewModelProtocol <NSObject>
 
 - (NSDictionary <NSNumber *, NSString *> *)segueIdentifiers;
 
@@ -22,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface NMMenuItem : NSObject
+@interface PCCWMenuItem : NSObject
 
 @property (nonatomic, strong) UIImage *image;
 
@@ -37,7 +37,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 
-@interface NMMenuViewModel : NMListViewModel<NMMenuViewModelProtocol>
+@interface PCCWMenuViewModel : PCCWListViewModel<PCCWMenuViewModelProtocol>
 
 - (UIImage *)imageAtIndexPath:(NSIndexPath *)indexPath;
 
@@ -45,7 +45,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (NSString *)identifierAtIndexPath:(NSIndexPath *)indexPath;
 
-- (NMMenuItem *)menuItemAtIndexPath:(NSIndexPath *)indexPath;
+- (PCCWMenuItem *)menuItemAtIndexPath:(NSIndexPath *)indexPath;
 
 @end
 

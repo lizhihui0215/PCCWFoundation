@@ -68,14 +68,14 @@
 		26DA09891E2366730027FAA7 /* PCCWMKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DA09871E2366730027FAA7 /* PCCWMKWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26DA098A1E2366730027FAA7 /* PCCWMKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA09881E2366730027FAA7 /* PCCWMKWebView.m */; };
 		26DA098C1E236A510027FAA7 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DA098B1E236A510027FAA7 /* Masonry.framework */; };
-		26DA09A01E2379E40027FAA7 /* NMListViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DA099A1E2379E40027FAA7 /* NMListViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26DA09A11E2379E40027FAA7 /* NMListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA099B1E2379E40027FAA7 /* NMListViewModel.m */; };
-		26DA09A21E2379E40027FAA7 /* NMViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DA099C1E2379E40027FAA7 /* NMViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26DA09A31E2379E40027FAA7 /* NMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA099D1E2379E40027FAA7 /* NMViewModel.m */; };
-		26DA09A41E2379E40027FAA7 /* NMMenuViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DA099E1E2379E40027FAA7 /* NMMenuViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26DA09A51E2379E40027FAA7 /* NMMenuViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA099F1E2379E40027FAA7 /* NMMenuViewModel.m */; };
-		26DA09A81E237A550027FAA7 /* NMDatabaseService.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DA09A61E237A550027FAA7 /* NMDatabaseService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26DA09A91E237A550027FAA7 /* NMDatabaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA09A71E237A550027FAA7 /* NMDatabaseService.m */; };
+		26DA09A01E2379E40027FAA7 /* PCCWListViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DA099A1E2379E40027FAA7 /* PCCWListViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26DA09A11E2379E40027FAA7 /* PCCWListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA099B1E2379E40027FAA7 /* PCCWListViewModel.m */; };
+		26DA09A21E2379E40027FAA7 /* PCCWViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DA099C1E2379E40027FAA7 /* PCCWViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26DA09A31E2379E40027FAA7 /* PCCWViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA099D1E2379E40027FAA7 /* PCCWViewModel.m */; };
+		26DA09A41E2379E40027FAA7 /* PCCWMenuViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DA099E1E2379E40027FAA7 /* PCCWMenuViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26DA09A51E2379E40027FAA7 /* PCCWMenuViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA099F1E2379E40027FAA7 /* PCCWMenuViewModel.m */; };
+		26DA09A81E237A550027FAA7 /* PCCWDatabaseService.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DA09A61E237A550027FAA7 /* PCCWDatabaseService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26DA09A91E237A550027FAA7 /* PCCWDatabaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA09A71E237A550027FAA7 /* PCCWDatabaseService.m */; };
 		26DA09AC1E237D790027FAA7 /* UIView+PCCWCornerRadius.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DA09AA1E237D790027FAA7 /* UIView+PCCWCornerRadius.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26DA09AD1E237D790027FAA7 /* UIView+PCCWCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA09AB1E237D790027FAA7 /* UIView+PCCWCornerRadius.m */; };
 /* End PBXBuildFile section */
@@ -155,14 +155,14 @@
 		26DA09871E2366730027FAA7 /* PCCWMKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWMKWebView.h; sourceTree = "<group>"; };
 		26DA09881E2366730027FAA7 /* PCCWMKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWMKWebView.m; sourceTree = "<group>"; };
 		26DA098B1E236A510027FAA7 /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
-		26DA099A1E2379E40027FAA7 /* NMListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMListViewModel.h; sourceTree = "<group>"; };
-		26DA099B1E2379E40027FAA7 /* NMListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMListViewModel.m; sourceTree = "<group>"; };
-		26DA099C1E2379E40027FAA7 /* NMViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMViewModel.h; sourceTree = "<group>"; };
-		26DA099D1E2379E40027FAA7 /* NMViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMViewModel.m; sourceTree = "<group>"; };
-		26DA099E1E2379E40027FAA7 /* NMMenuViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMMenuViewModel.h; sourceTree = "<group>"; };
-		26DA099F1E2379E40027FAA7 /* NMMenuViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMMenuViewModel.m; sourceTree = "<group>"; };
-		26DA09A61E237A550027FAA7 /* NMDatabaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMDatabaseService.h; sourceTree = "<group>"; };
-		26DA09A71E237A550027FAA7 /* NMDatabaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMDatabaseService.m; sourceTree = "<group>"; };
+		26DA099A1E2379E40027FAA7 /* PCCWListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWListViewModel.h; sourceTree = "<group>"; };
+		26DA099B1E2379E40027FAA7 /* PCCWListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWListViewModel.m; sourceTree = "<group>"; };
+		26DA099C1E2379E40027FAA7 /* PCCWViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWViewModel.h; sourceTree = "<group>"; };
+		26DA099D1E2379E40027FAA7 /* PCCWViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWViewModel.m; sourceTree = "<group>"; };
+		26DA099E1E2379E40027FAA7 /* PCCWMenuViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWMenuViewModel.h; sourceTree = "<group>"; };
+		26DA099F1E2379E40027FAA7 /* PCCWMenuViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWMenuViewModel.m; sourceTree = "<group>"; };
+		26DA09A61E237A550027FAA7 /* PCCWDatabaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWDatabaseService.h; sourceTree = "<group>"; };
+		26DA09A71E237A550027FAA7 /* PCCWDatabaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWDatabaseService.m; sourceTree = "<group>"; };
 		26DA09AA1E237D790027FAA7 /* UIView+PCCWCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PCCWCornerRadius.h"; sourceTree = "<group>"; };
 		26DA09AB1E237D790027FAA7 /* UIView+PCCWCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PCCWCornerRadius.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -279,8 +279,8 @@
 		5B87535E925656D051560B22 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				26DA09A61E237A550027FAA7 /* NMDatabaseService.h */,
-				26DA09A71E237A550027FAA7 /* NMDatabaseService.m */,
+				26DA09A61E237A550027FAA7 /* PCCWDatabaseService.h */,
+				26DA09A71E237A550027FAA7 /* PCCWDatabaseService.m */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -357,12 +357,12 @@
 		5B875CC82613C2E6E618315E /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				26DA099A1E2379E40027FAA7 /* NMListViewModel.h */,
-				26DA099B1E2379E40027FAA7 /* NMListViewModel.m */,
-				26DA099C1E2379E40027FAA7 /* NMViewModel.h */,
-				26DA099D1E2379E40027FAA7 /* NMViewModel.m */,
-				26DA099E1E2379E40027FAA7 /* NMMenuViewModel.h */,
-				26DA099F1E2379E40027FAA7 /* NMMenuViewModel.m */,
+				26DA099A1E2379E40027FAA7 /* PCCWListViewModel.h */,
+				26DA099B1E2379E40027FAA7 /* PCCWListViewModel.m */,
+				26DA099C1E2379E40027FAA7 /* PCCWViewModel.h */,
+				26DA099D1E2379E40027FAA7 /* PCCWViewModel.m */,
+				26DA099E1E2379E40027FAA7 /* PCCWMenuViewModel.h */,
+				26DA099F1E2379E40027FAA7 /* PCCWMenuViewModel.m */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -388,14 +388,14 @@
 				266F6A591E1E1F14006E210E /* UIAlertController+Blocks.h in Headers */,
 				26D4E86D1E01220600D82973 /* PCCWNetworkServices.h in Headers */,
 				266F6A551E1E1E0A006E210E /* PCCWException.h in Headers */,
-				26DA09A81E237A550027FAA7 /* NMDatabaseService.h in Headers */,
-				26DA09A41E2379E40027FAA7 /* NMMenuViewModel.h in Headers */,
+				26DA09A81E237A550027FAA7 /* PCCWDatabaseService.h in Headers */,
+				26DA09A41E2379E40027FAA7 /* PCCWMenuViewModel.h in Headers */,
 				266F6A5C1E1E201D006E210E /* PCCWFoundation-prefix.pch in Headers */,
-				26DA09A21E2379E40027FAA7 /* NMViewModel.h in Headers */,
+				26DA09A21E2379E40027FAA7 /* PCCWViewModel.h in Headers */,
 				26DA09891E2366730027FAA7 /* PCCWMKWebView.h in Headers */,
 				26DA09AC1E237D790027FAA7 /* UIView+PCCWCornerRadius.h in Headers */,
 				26D4E8691E0120EF00D82973 /* PCCWNotificationManager.h in Headers */,
-				26DA09A01E2379E40027FAA7 /* NMListViewModel.h in Headers */,
+				26DA09A01E2379E40027FAA7 /* PCCWListViewModel.h in Headers */,
 				26C5B3A11DFFF3270088BFF8 /* PCCWModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,14 +541,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				26C5B3A21DFFF3270088BFF8 /* PCCWModel.m in Sources */,
-				26DA09A31E2379E40027FAA7 /* NMViewModel.m in Sources */,
+				26DA09A31E2379E40027FAA7 /* PCCWViewModel.m in Sources */,
 				2636B88B1E1E42D200A67C84 /* PCCWTabBarViewController.m in Sources */,
 				2636B8851E1E42D200A67C84 /* PCCWTableViewHeaderFooterView.m in Sources */,
 				2636B8811E1E42D200A67C84 /* PCCWTableViewController.m in Sources */,
 				26D4E8621E00FB1F00D82973 /* PCCWWebServiceRequestSerializer.m in Sources */,
 				266F6A561E1E1E0A006E210E /* PCCWException.m in Sources */,
 				26D4E86E1E01220600D82973 /* PCCWNetworkServices.m in Sources */,
-				26DA09A51E2379E40027FAA7 /* NMMenuViewModel.m in Sources */,
+				26DA09A51E2379E40027FAA7 /* PCCWMenuViewModel.m in Sources */,
 				2636B8831E1E42D200A67C84 /* PCCWStaticTableViewController.m in Sources */,
 				26DA09AD1E237D790027FAA7 /* UIView+PCCWCornerRadius.m in Sources */,
 				26DA098A1E2366730027FAA7 /* PCCWMKWebView.m in Sources */,
@@ -556,8 +556,8 @@
 				268DB3E31E1FA40A001085B2 /* PCCWHUDHandler.m in Sources */,
 				26D4E8661E00FB4B00D82973 /* PCCWWebServiceReponseSerializer.m in Sources */,
 				2636B87B1E1E42D200A67C84 /* PCCWTableViewCell.m in Sources */,
-				26DA09A91E237A550027FAA7 /* NMDatabaseService.m in Sources */,
-				26DA09A11E2379E40027FAA7 /* NMListViewModel.m in Sources */,
+				26DA09A91E237A550027FAA7 /* PCCWDatabaseService.m in Sources */,
+				26DA09A11E2379E40027FAA7 /* PCCWListViewModel.m in Sources */,
 				26D4E86A1E0120EF00D82973 /* PCCWNotificationManager.m in Sources */,
 				26D4E8721E0131FA00D82973 /* PCCWWSDLParsers.m in Sources */,
 				2636B87F1E1E42D200A67C84 /* PCCWViewController.m in Sources */,

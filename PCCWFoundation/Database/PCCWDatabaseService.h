@@ -1,6 +1,6 @@
 //
-//  NMDatabaseService.h
-//  NM
+//  PCCWDatabaseService.h
+//  PCCW
 //
 //  Created by 李智慧 on 26/10/2016.
 //  Copyright © 2016 PCCW. All rights reserved.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NMDatabaseService : NSObject
+@interface PCCWDatabaseService : NSObject
 
 @end
 
