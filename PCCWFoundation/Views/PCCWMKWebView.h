@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <WebKit/WebKit.h>
-#import <WebViewJavascriptBridge/WebViewJavascriptBridge.h>
+#import <PCCWWebViewJavascriptBridge/PCCWWebViewJavascriptBridge.h>
 
 @interface PCCWMKWebView : UIView
 

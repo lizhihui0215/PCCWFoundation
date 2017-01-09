@@ -7,5 +7,6 @@ github "jdg/MBProgressHUD"
 github "lizhihui0215/KissXML"
 github "ccgus/fmdb"
 github "lizhihui0215/WebViewJavascriptBridge"
+github "SnapKit/Masonry"
 #https://github.com/steipete/Aspects
 #https://github.com/zwaldowski/BlocksKit

@@ -67,6 +67,7 @@
 		26DA09861E2365D40027FAA7 /* PCCWWebViewJavascriptBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DA09851E2365D40027FAA7 /* PCCWWebViewJavascriptBridge.framework */; };
 		26DA09891E2366730027FAA7 /* PCCWMKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DA09871E2366730027FAA7 /* PCCWMKWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26DA098A1E2366730027FAA7 /* PCCWMKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA09881E2366730027FAA7 /* PCCWMKWebView.m */; };
+		26DA098C1E236A510027FAA7 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DA098B1E236A510027FAA7 /* Masonry.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,6 +144,7 @@
 		26DA09851E2365D40027FAA7 /* PCCWWebViewJavascriptBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PCCWWebViewJavascriptBridge.framework; path = Carthage/Build/iOS/PCCWWebViewJavascriptBridge.framework; sourceTree = "<group>"; };
 		26DA09871E2366730027FAA7 /* PCCWMKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWMKWebView.h; sourceTree = "<group>"; };
 		26DA09881E2366730027FAA7 /* PCCWMKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWMKWebView.m; sourceTree = "<group>"; };
+		26DA098B1E236A510027FAA7 /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 			files = (
 				26A25CD81E228EC700693AF2 /* JSONModel.framework in Frameworks */,
 				26A25CDA1E228EC700693AF2 /* MBProgressHUD.framework in Frameworks */,
+				26DA098C1E236A510027FAA7 /* Masonry.framework in Frameworks */,
 				26A25CD61E228EC700693AF2 /* FDTemplateLayoutCell.framework in Frameworks */,
 				26A25CD41E228EC700693AF2 /* AFNetworkActivityLogger.framework in Frameworks */,
 				26A25CD51E228EC700693AF2 /* AFNetworking.framework in Frameworks */,
@@ -175,6 +178,7 @@
 		26A25CCB1E228E8E00693AF2 /* Dependency */ = {
 			isa = PBXGroup;
 			children = (
+				26DA098B1E236A510027FAA7 /* Masonry.framework */,
 				26DA09851E2365D40027FAA7 /* PCCWWebViewJavascriptBridge.framework */,
 				26A25CCC1E228EC700693AF2 /* AFNetworkActivityLogger.framework */,
 				26A25CCD1E228EC700693AF2 /* AFNetworking.framework */,
