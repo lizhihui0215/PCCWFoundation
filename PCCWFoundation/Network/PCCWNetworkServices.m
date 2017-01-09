@@ -9,7 +9,6 @@
 
 #import "PCCWNetworkServices.h"
 
-
 @implementation PCCWSOAPMethod
 
 
@@ -62,12 +61,7 @@
                                progress:(nullable void (^)(NSProgress *uploadProgress))uploadProgress
                                 success:(nullable void (^)(NSURLSessionDataTask *task, id _Nullable responseObject))success
                                 failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError *error))failure{
-        
-    self.requestSerializer = [PCCWWebServiceRequestSerializer serializerWithPath:SOAPMethod.SOAPFilePath
-                                                                      methodName:SOAPMethod.requestMethodName];
-    
-    self.responseSerializer = [PCCWWebServiceReponseSerializer serializerWithMethodName:SOAPMethod.responseMethodName];
-    
+            
     NSURLSessionDataTask *dataTask = [super POST:URLString
                                       parameters:parameters
                                         progress:uploadProgress
@@ -93,10 +87,6 @@
                                progress:(nullable void (^)(NSProgress *uploadProgress))uploadProgress
                                 success:(nullable void (^)(NSURLSessionDataTask *task, id _Nullable responseObject))success
                                 failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError *error))failure{
-    
-    self.requestSerializer = [AFJSONRequestSerializer serializerWithWritingOptions:NSJSONWritingPrettyPrinted];
-    
-    self.responseSerializer = [AFJSONResponseSerializer serializerWithReadingOptions:NSJSONReadingMutableContainers];
     
     NSURLSessionDataTask *dataTask = [super POST:URLString
                                       parameters:parameters
