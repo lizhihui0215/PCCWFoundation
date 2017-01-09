@@ -1,14 +1,14 @@
 //
-//  NMTableViewHeaderFooterView.m
-//  IBLWorkFlow
+//  PCCWTableViewHeaderFooterView.m
+//  PCCWFoundation
 //
 //  Created by 李智慧 on 7/12/16.
 //  Copyright © 2016 IBL. All rights reserved.
 //
 
-#import "NMTableViewHeaderFooterView.h"
+#import "PCCWTableViewHeaderFooterView.h"
 
-@implementation NMTableViewHeaderFooterView
+@implementation PCCWTableViewHeaderFooterView
 
 /*
 // Only override drawRect: if you perform custom drawing.

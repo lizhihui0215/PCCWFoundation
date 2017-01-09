@@ -1,6 +1,6 @@
 //
-//  NMViewController.h
-//  IBLWorkFlow
+//  PCCWViewController.h
+//  PCCWFoundation
 //
 //  Created by 李智慧 on 7/7/16.
 //  Copyright © 2016 IBL. All rights reserved.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NMViewController : UIViewController
+@interface PCCWViewController : UIViewController
 
 - (BOOL)showAlertWithError:(nullable NSError *)error;
 

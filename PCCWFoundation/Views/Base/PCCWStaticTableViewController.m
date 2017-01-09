@@ -1,29 +1,29 @@
 //
-//  NMStaticTableViewController.m
-//  IBLWorkFlow
+//  PCCWStaticTableViewController.m
+//  PCCWFoundation
 //
 //  Created by 李智慧 on 09/10/2016.
 //  Copyright © 2016 IBL. All rights reserved.
 //
 
-#import "NMStaticTableViewController.h"
-#import "NMHUDHandler.h"
+#import "PCCWStaticTableViewController.h"
+#import "PCCWHUDHandler.h"
 
-@interface NMStaticTableViewController ()
+@interface PCCWStaticTableViewController ()
 @property (nonatomic, strong) PCCWException *exception;
 
-@property (nonatomic, strong) NMHUDHandler *HUDHandler;
+@property (nonatomic, strong) PCCWHUDHandler *HUDHandler;
 
 @end
 
-@implementation NMStaticTableViewController
+@implementation PCCWStaticTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     self.exception = [PCCWException exceptionWithHandler:self];
     
-    self.HUDHandler = [NMHUDHandler handlerWithLoadingHandler:self];
+    self.HUDHandler = [PCCWHUDHandler handlerWithLoadingHandler:self];
 }
 
 - (void)removeFooterView{

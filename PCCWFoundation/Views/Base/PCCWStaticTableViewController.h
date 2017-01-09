@@ -1,6 +1,6 @@
 //
-//  NMStaticTableViewController.h
-//  IBLWorkFlow
+//  PCCWStaticTableViewController.h
+//  PCCWFoundation
 //
 //  Created by 李智慧 on 09/10/2016.
 //  Copyright © 2016 IBL. All rights reserved.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NMStaticTableViewController : UITableViewController
+@interface PCCWStaticTableViewController : UITableViewController
 - (BOOL)showAlertWithError:(nullable NSError *)error;
 
 - (void)showAlertWithError:(nullable NSError *)error

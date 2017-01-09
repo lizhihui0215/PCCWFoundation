@@ -1,18 +1,18 @@
 //
-//  NMTableViewController.h
-//  IBLWorkFlow
+//  PCCWTableViewController.h
+//  PCCWFoundation
 //
 //  Created by 李智慧 on 7/7/16.
 //  Copyright © 2016 IBL. All rights reserved.
 //
 
-#import "NMViewController.h"
+#import "PCCWViewController.h"
 #import <MJRefresh/MJRefresh.h>
 #import <FDTemplateLayoutCell/FDTemplateLayoutCell.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol NMTableViewControllerDelegate <NSObject>
+@protocol PCCWTableViewControllerDelegate <NSObject>
 
 - (MJRefreshStateHeader *)defaultRefreshHeader;
 
@@ -25,7 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface NMTableViewController : NMViewController<NMTableViewControllerDelegate,UITableViewDelegate, UITableViewDataSource>
+@interface PCCWTableViewController : PCCWViewController<PCCWTableViewControllerDelegate,UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) IBOutletCollection(UITableView) NSArray *tableViews;
 

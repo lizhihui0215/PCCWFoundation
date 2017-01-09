@@ -22,28 +22,25 @@
 
 /* Begin PBXBuildFile section */
 		2636B8591E1E2F2A00A67C84 /* Weather.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2636B8581E1E2F2A00A67C84 /* Weather.xml */; };
-		2636B87A1E1E42D200A67C84 /* NMTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2636B8681E1E42D200A67C84 /* NMTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2636B87B1E1E42D200A67C84 /* NMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2636B8691E1E42D200A67C84 /* NMTableViewCell.m */; };
-		2636B87E1E1E42D200A67C84 /* NMViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2636B86C1E1E42D200A67C84 /* NMViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2636B87F1E1E42D200A67C84 /* NMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2636B86D1E1E42D200A67C84 /* NMViewController.m */; };
-		2636B8801E1E42D200A67C84 /* NMTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2636B86E1E1E42D200A67C84 /* NMTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2636B8811E1E42D200A67C84 /* NMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2636B86F1E1E42D200A67C84 /* NMTableViewController.m */; };
-		2636B8821E1E42D200A67C84 /* NMStaticTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2636B8701E1E42D200A67C84 /* NMStaticTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2636B8831E1E42D200A67C84 /* NMStaticTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2636B8711E1E42D200A67C84 /* NMStaticTableViewController.m */; };
-		2636B8841E1E42D200A67C84 /* NMTableViewHeaderFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2636B8721E1E42D200A67C84 /* NMTableViewHeaderFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2636B8851E1E42D200A67C84 /* NMTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2636B8731E1E42D200A67C84 /* NMTableViewHeaderFooterView.m */; };
-		2636B8861E1E42D200A67C84 /* NMSearchTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2636B8741E1E42D200A67C84 /* NMSearchTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2636B8871E1E42D200A67C84 /* NMSearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2636B8751E1E42D200A67C84 /* NMSearchTableViewCell.m */; };
-		2636B88A1E1E42D200A67C84 /* NMTabBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2636B8781E1E42D200A67C84 /* NMTabBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2636B88B1E1E42D200A67C84 /* NMTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2636B8791E1E42D200A67C84 /* NMTabBarViewController.m */; };
+		2636B87A1E1E42D200A67C84 /* PCCWTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2636B8681E1E42D200A67C84 /* PCCWTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2636B87B1E1E42D200A67C84 /* PCCWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2636B8691E1E42D200A67C84 /* PCCWTableViewCell.m */; };
+		2636B87E1E1E42D200A67C84 /* PCCWViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2636B86C1E1E42D200A67C84 /* PCCWViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2636B87F1E1E42D200A67C84 /* PCCWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2636B86D1E1E42D200A67C84 /* PCCWViewController.m */; };
+		2636B8801E1E42D200A67C84 /* PCCWTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2636B86E1E1E42D200A67C84 /* PCCWTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2636B8811E1E42D200A67C84 /* PCCWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2636B86F1E1E42D200A67C84 /* PCCWTableViewController.m */; };
+		2636B8821E1E42D200A67C84 /* PCCWStaticTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2636B8701E1E42D200A67C84 /* PCCWStaticTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2636B8831E1E42D200A67C84 /* PCCWStaticTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2636B8711E1E42D200A67C84 /* PCCWStaticTableViewController.m */; };
+		2636B8841E1E42D200A67C84 /* PCCWTableViewHeaderFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2636B8721E1E42D200A67C84 /* PCCWTableViewHeaderFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2636B8851E1E42D200A67C84 /* PCCWTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2636B8731E1E42D200A67C84 /* PCCWTableViewHeaderFooterView.m */; };
+		2636B88A1E1E42D200A67C84 /* PCCWTabBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2636B8781E1E42D200A67C84 /* PCCWTabBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2636B88B1E1E42D200A67C84 /* PCCWTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2636B8791E1E42D200A67C84 /* PCCWTabBarViewController.m */; };
 		266F6A551E1E1E0A006E210E /* PCCWException.h in Headers */ = {isa = PBXBuildFile; fileRef = 266F6A531E1E1E0A006E210E /* PCCWException.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266F6A561E1E1E0A006E210E /* PCCWException.m in Sources */ = {isa = PBXBuildFile; fileRef = 266F6A541E1E1E0A006E210E /* PCCWException.m */; };
 		266F6A591E1E1F14006E210E /* UIAlertController+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 266F6A571E1E1F14006E210E /* UIAlertController+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266F6A5A1E1E1F14006E210E /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 266F6A581E1E1F14006E210E /* UIAlertController+Blocks.m */; };
 		266F6A5C1E1E201D006E210E /* PCCWFoundation-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 266F6A5B1E1E201D006E210E /* PCCWFoundation-prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
-		268DB3E21E1FA40A001085B2 /* NMHUDHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 268DB3E01E1FA40A001085B2 /* NMHUDHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		268DB3E31E1FA40A001085B2 /* NMHUDHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 268DB3E11E1FA40A001085B2 /* NMHUDHandler.m */; };
-		26994D621E20F3B200AB1514 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26994D611E20F3B200AB1514 /* README.md */; };
+		268DB3E21E1FA40A001085B2 /* PCCWHUDHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 268DB3E01E1FA40A001085B2 /* PCCWHUDHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		268DB3E31E1FA40A001085B2 /* PCCWHUDHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 268DB3E11E1FA40A001085B2 /* PCCWHUDHandler.m */; };
 		26A25CD41E228EC700693AF2 /* AFNetworkActivityLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A25CCC1E228EC700693AF2 /* AFNetworkActivityLogger.framework */; };
 		26A25CD51E228EC700693AF2 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A25CCD1E228EC700693AF2 /* AFNetworking.framework */; };
 		26A25CD61E228EC700693AF2 /* FDTemplateLayoutCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A25CCE1E228EC700693AF2 /* FDTemplateLayoutCell.framework */; };
@@ -93,27 +90,25 @@
 
 /* Begin PBXFileReference section */
 		2636B8581E1E2F2A00A67C84 /* Weather.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Weather.xml; sourceTree = "<group>"; };
-		2636B8681E1E42D200A67C84 /* NMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMTableViewCell.h; sourceTree = "<group>"; };
-		2636B8691E1E42D200A67C84 /* NMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMTableViewCell.m; sourceTree = "<group>"; };
-		2636B86C1E1E42D200A67C84 /* NMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMViewController.h; sourceTree = "<group>"; };
-		2636B86D1E1E42D200A67C84 /* NMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMViewController.m; sourceTree = "<group>"; };
-		2636B86E1E1E42D200A67C84 /* NMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMTableViewController.h; sourceTree = "<group>"; };
-		2636B86F1E1E42D200A67C84 /* NMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMTableViewController.m; sourceTree = "<group>"; };
-		2636B8701E1E42D200A67C84 /* NMStaticTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMStaticTableViewController.h; sourceTree = "<group>"; };
-		2636B8711E1E42D200A67C84 /* NMStaticTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMStaticTableViewController.m; sourceTree = "<group>"; };
-		2636B8721E1E42D200A67C84 /* NMTableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMTableViewHeaderFooterView.h; sourceTree = "<group>"; };
-		2636B8731E1E42D200A67C84 /* NMTableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMTableViewHeaderFooterView.m; sourceTree = "<group>"; };
-		2636B8741E1E42D200A67C84 /* NMSearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMSearchTableViewCell.h; sourceTree = "<group>"; };
-		2636B8751E1E42D200A67C84 /* NMSearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMSearchTableViewCell.m; sourceTree = "<group>"; };
-		2636B8781E1E42D200A67C84 /* NMTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMTabBarViewController.h; sourceTree = "<group>"; };
-		2636B8791E1E42D200A67C84 /* NMTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMTabBarViewController.m; sourceTree = "<group>"; };
+		2636B8681E1E42D200A67C84 /* PCCWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWTableViewCell.h; sourceTree = "<group>"; };
+		2636B8691E1E42D200A67C84 /* PCCWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWTableViewCell.m; sourceTree = "<group>"; };
+		2636B86C1E1E42D200A67C84 /* PCCWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWViewController.h; sourceTree = "<group>"; };
+		2636B86D1E1E42D200A67C84 /* PCCWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWViewController.m; sourceTree = "<group>"; };
+		2636B86E1E1E42D200A67C84 /* PCCWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWTableViewController.h; sourceTree = "<group>"; };
+		2636B86F1E1E42D200A67C84 /* PCCWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWTableViewController.m; sourceTree = "<group>"; };
+		2636B8701E1E42D200A67C84 /* PCCWStaticTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWStaticTableViewController.h; sourceTree = "<group>"; };
+		2636B8711E1E42D200A67C84 /* PCCWStaticTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWStaticTableViewController.m; sourceTree = "<group>"; };
+		2636B8721E1E42D200A67C84 /* PCCWTableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWTableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		2636B8731E1E42D200A67C84 /* PCCWTableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWTableViewHeaderFooterView.m; sourceTree = "<group>"; };
+		2636B8781E1E42D200A67C84 /* PCCWTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWTabBarViewController.h; sourceTree = "<group>"; };
+		2636B8791E1E42D200A67C84 /* PCCWTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWTabBarViewController.m; sourceTree = "<group>"; };
 		266F6A531E1E1E0A006E210E /* PCCWException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWException.h; sourceTree = "<group>"; };
 		266F6A541E1E1E0A006E210E /* PCCWException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWException.m; sourceTree = "<group>"; };
 		266F6A571E1E1F14006E210E /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
 		266F6A581E1E1F14006E210E /* UIAlertController+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Blocks.m"; sourceTree = "<group>"; };
 		266F6A5B1E1E201D006E210E /* PCCWFoundation-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PCCWFoundation-prefix.pch"; sourceTree = "<group>"; };
-		268DB3E01E1FA40A001085B2 /* NMHUDHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMHUDHandler.h; sourceTree = "<group>"; };
-		268DB3E11E1FA40A001085B2 /* NMHUDHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMHUDHandler.m; sourceTree = "<group>"; };
+		268DB3E01E1FA40A001085B2 /* PCCWHUDHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWHUDHandler.h; sourceTree = "<group>"; };
+		268DB3E11E1FA40A001085B2 /* PCCWHUDHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWHUDHandler.m; sourceTree = "<group>"; };
 		26994D611E20F3B200AB1514 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26A25CCC1E228EC700693AF2 /* AFNetworkActivityLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworkActivityLogger.framework; path = Carthage/Build/iOS/AFNetworkActivityLogger.framework; sourceTree = "<group>"; };
 		26A25CCD1E228EC700693AF2 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
@@ -251,8 +246,8 @@
 		5B875659E1620856422745FC /* Exceptions */ = {
 			isa = PBXGroup;
 			children = (
-				268DB3E01E1FA40A001085B2 /* NMHUDHandler.h */,
-				268DB3E11E1FA40A001085B2 /* NMHUDHandler.m */,
+				268DB3E01E1FA40A001085B2 /* PCCWHUDHandler.h */,
+				268DB3E11E1FA40A001085B2 /* PCCWHUDHandler.m */,
 				266F6A531E1E1E0A006E210E /* PCCWException.h */,
 				266F6A541E1E1E0A006E210E /* PCCWException.m */,
 			);
@@ -262,20 +257,18 @@
 		5B87582ABDB0F6964CA4BF31 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				2636B8681E1E42D200A67C84 /* NMTableViewCell.h */,
-				2636B8691E1E42D200A67C84 /* NMTableViewCell.m */,
-				2636B86C1E1E42D200A67C84 /* NMViewController.h */,
-				2636B86D1E1E42D200A67C84 /* NMViewController.m */,
-				2636B86E1E1E42D200A67C84 /* NMTableViewController.h */,
-				2636B86F1E1E42D200A67C84 /* NMTableViewController.m */,
-				2636B8701E1E42D200A67C84 /* NMStaticTableViewController.h */,
-				2636B8711E1E42D200A67C84 /* NMStaticTableViewController.m */,
-				2636B8721E1E42D200A67C84 /* NMTableViewHeaderFooterView.h */,
-				2636B8731E1E42D200A67C84 /* NMTableViewHeaderFooterView.m */,
-				2636B8741E1E42D200A67C84 /* NMSearchTableViewCell.h */,
-				2636B8751E1E42D200A67C84 /* NMSearchTableViewCell.m */,
-				2636B8781E1E42D200A67C84 /* NMTabBarViewController.h */,
-				2636B8791E1E42D200A67C84 /* NMTabBarViewController.m */,
+				2636B8681E1E42D200A67C84 /* PCCWTableViewCell.h */,
+				2636B8691E1E42D200A67C84 /* PCCWTableViewCell.m */,
+				2636B86C1E1E42D200A67C84 /* PCCWViewController.h */,
+				2636B86D1E1E42D200A67C84 /* PCCWViewController.m */,
+				2636B86E1E1E42D200A67C84 /* PCCWTableViewController.h */,
+				2636B86F1E1E42D200A67C84 /* PCCWTableViewController.m */,
+				2636B8701E1E42D200A67C84 /* PCCWStaticTableViewController.h */,
+				2636B8711E1E42D200A67C84 /* PCCWStaticTableViewController.m */,
+				2636B8721E1E42D200A67C84 /* PCCWTableViewHeaderFooterView.h */,
+				2636B8731E1E42D200A67C84 /* PCCWTableViewHeaderFooterView.m */,
+				2636B8781E1E42D200A67C84 /* PCCWTabBarViewController.h */,
+				2636B8791E1E42D200A67C84 /* PCCWTabBarViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -332,14 +325,13 @@
 				26C5B3921DFFE3060088BFF8 /* PCCWFoundation.h in Headers */,
 				26D4E8611E00FB1F00D82973 /* PCCWWebServiceRequestSerializer.h in Headers */,
 				26D4E8651E00FB4B00D82973 /* PCCWWebServiceReponseSerializer.h in Headers */,
-				2636B88A1E1E42D200A67C84 /* NMTabBarViewController.h in Headers */,
-				2636B87A1E1E42D200A67C84 /* NMTableViewCell.h in Headers */,
-				2636B87E1E1E42D200A67C84 /* NMViewController.h in Headers */,
-				2636B8821E1E42D200A67C84 /* NMStaticTableViewController.h in Headers */,
-				2636B8861E1E42D200A67C84 /* NMSearchTableViewCell.h in Headers */,
-				2636B8841E1E42D200A67C84 /* NMTableViewHeaderFooterView.h in Headers */,
-				268DB3E21E1FA40A001085B2 /* NMHUDHandler.h in Headers */,
-				2636B8801E1E42D200A67C84 /* NMTableViewController.h in Headers */,
+				2636B88A1E1E42D200A67C84 /* PCCWTabBarViewController.h in Headers */,
+				2636B87A1E1E42D200A67C84 /* PCCWTableViewCell.h in Headers */,
+				2636B87E1E1E42D200A67C84 /* PCCWViewController.h in Headers */,
+				2636B8821E1E42D200A67C84 /* PCCWStaticTableViewController.h in Headers */,
+				2636B8841E1E42D200A67C84 /* PCCWTableViewHeaderFooterView.h in Headers */,
+				268DB3E21E1FA40A001085B2 /* PCCWHUDHandler.h in Headers */,
+				2636B8801E1E42D200A67C84 /* PCCWTableViewController.h in Headers */,
 				26D4E8711E0131FA00D82973 /* PCCWWSDLParsers.h in Headers */,
 				266F6A591E1E1F14006E210E /* UIAlertController+Blocks.h in Headers */,
 				26D4E86D1E01220600D82973 /* PCCWNetworkServices.h in Headers */,
@@ -403,7 +395,6 @@
 				TargetAttributes = {
 					26C5B3801DFFE3050088BFF8 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 5F56XN57QC;
 						ProvisioningStyle = Automatic;
 					};
 					26C5B3891DFFE3060088BFF8 = {
@@ -500,22 +491,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				26C5B3A21DFFF3270088BFF8 /* PCCWModel.m in Sources */,
-				2636B88B1E1E42D200A67C84 /* NMTabBarViewController.m in Sources */,
-				2636B8851E1E42D200A67C84 /* NMTableViewHeaderFooterView.m in Sources */,
-				2636B8811E1E42D200A67C84 /* NMTableViewController.m in Sources */,
+				2636B88B1E1E42D200A67C84 /* PCCWTabBarViewController.m in Sources */,
+				2636B8851E1E42D200A67C84 /* PCCWTableViewHeaderFooterView.m in Sources */,
+				2636B8811E1E42D200A67C84 /* PCCWTableViewController.m in Sources */,
 				26D4E8621E00FB1F00D82973 /* PCCWWebServiceRequestSerializer.m in Sources */,
 				266F6A561E1E1E0A006E210E /* PCCWException.m in Sources */,
 				26D4E86E1E01220600D82973 /* PCCWNetworkServices.m in Sources */,
-				2636B8831E1E42D200A67C84 /* NMStaticTableViewController.m in Sources */,
+				2636B8831E1E42D200A67C84 /* PCCWStaticTableViewController.m in Sources */,
 				266F6A5A1E1E1F14006E210E /* UIAlertController+Blocks.m in Sources */,
-				268DB3E31E1FA40A001085B2 /* NMHUDHandler.m in Sources */,
+				268DB3E31E1FA40A001085B2 /* PCCWHUDHandler.m in Sources */,
 				26D4E8661E00FB4B00D82973 /* PCCWWebServiceReponseSerializer.m in Sources */,
-				26994D621E20F3B200AB1514 /* README.md in Sources */,
-				2636B87B1E1E42D200A67C84 /* NMTableViewCell.m in Sources */,
+				2636B87B1E1E42D200A67C84 /* PCCWTableViewCell.m in Sources */,
 				26D4E86A1E0120EF00D82973 /* PCCWNotificationManager.m in Sources */,
 				26D4E8721E0131FA00D82973 /* PCCWWSDLParsers.m in Sources */,
-				2636B87F1E1E42D200A67C84 /* NMViewController.m in Sources */,
-				2636B8871E1E42D200A67C84 /* NMSearchTableViewCell.m in Sources */,
+				2636B87F1E1E42D200A67C84 /* PCCWViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,7 +634,7 @@
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 5F56XN57QC;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -672,7 +661,7 @@
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 5F56XN57QC;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";

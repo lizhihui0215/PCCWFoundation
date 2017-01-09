@@ -23,6 +23,7 @@
 		291BFE1F1BB9ECEE00FFB029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 291BFE1E1BB9ECEE00FFB029 /* Assets.xcassets */; };
 		291BFE351BB9ED7F00FFB029 /* Gravatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291BFE341BB9ED7F00FFB029 /* Gravatar.swift */; };
 		291BFE371BB9EDD700FFB029 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 291BFE361BB9EDD700FFB029 /* UIKit.framework */; };
+		293206F41BD14AB50019EB9E /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293206F31BD14AB50019EB9E /* AFNetworking.framework */; };
 		293206F51BD14AF50019EB9E /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293206F31BD14AB50019EB9E /* AFNetworking.framework */; };
 		293206F61BD14B480019EB9E /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E6F19F1BB9DD7300A4466C /* AFAppDotNetAPIClient.m */; };
 		293206F71BD14B5C0019EB9E /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293206F31BD14AB50019EB9E /* AFNetworking.framework */; };
@@ -188,6 +189,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				293206F41BD14AB50019EB9E /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

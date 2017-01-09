@@ -1,6 +1,6 @@
 //
-//  NMTabBarViewController.h
-//  NM
+//  PCCWTabBarViewController.h
+//  PCCWFoundation
 //
 //  Created by 李智慧 on 28/11/2016.
 //  Copyright © 2016 PCCW. All rights reserved.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NMTabBarViewController : UITabBarController
+@interface PCCWTabBarViewController : UITabBarController
 
 - (BOOL)showAlertWithError:(nullable NSError *)error;
 

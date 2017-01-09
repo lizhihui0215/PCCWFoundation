@@ -1,18 +1,18 @@
 //
-//  NMTableViewController.m
-//  IBLWorkFlow
+//  PCCWTableViewController.m
+//  PCCWFoundation
 //
 //  Created by 李智慧 on 7/7/16.
 //  Copyright © 2016 IBL. All rights reserved.
 //
 
-#import "NMTableViewController.h"
+#import "PCCWTableViewController.h"
 
-@interface NMTableViewController ()
-@property (nonatomic, weak) id<NMTableViewControllerDelegate> delegate;
+@interface PCCWTableViewController ()
+@property (nonatomic, weak) id<PCCWTableViewControllerDelegate> delegate;
 @end
 
-@implementation NMTableViewController
+@implementation PCCWTableViewController
 
 - (UITableView *)tableView{
     return self.tableViews[0];
