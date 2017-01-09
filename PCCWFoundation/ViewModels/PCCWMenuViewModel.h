@@ -39,11 +39,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PCCWMenuViewModel : PCCWListViewModel<PCCWMenuViewModelProtocol>
 
-- (UIImage *)imageAtIndexPath:(NSIndexPath *)indexPath;
-
-- (NSString *)nameAtIndexPath:(NSIndexPath *)indexPath;
-
-- (NSString *)identifierAtIndexPath:(NSIndexPath *)indexPath;
 
 - (PCCWMenuItem *)menuItemAtIndexPath:(NSIndexPath *)indexPath;
 
