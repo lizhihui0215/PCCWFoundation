@@ -65,7 +65,7 @@
 		26D4E8711E0131FA00D82973 /* PCCWWSDLParsers.h in Headers */ = {isa = PBXBuildFile; fileRef = 26D4E86F1E0131FA00D82973 /* PCCWWSDLParsers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26D4E8721E0131FA00D82973 /* PCCWWSDLParsers.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D4E8701E0131FA00D82973 /* PCCWWSDLParsers.m */; };
 		26DA09861E2365D40027FAA7 /* PCCWWebViewJavascriptBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DA09851E2365D40027FAA7 /* PCCWWebViewJavascriptBridge.framework */; };
-		26DA09891E2366730027FAA7 /* PCCWMKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DA09871E2366730027FAA7 /* PCCWMKWebView.h */; };
+		26DA09891E2366730027FAA7 /* PCCWMKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DA09871E2366730027FAA7 /* PCCWMKWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26DA098A1E2366730027FAA7 /* PCCWMKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA09881E2366730027FAA7 /* PCCWMKWebView.m */; };
 /* End PBXBuildFile section */
 
@@ -339,7 +339,6 @@
 				2636B87A1E1E42D200A67C84 /* PCCWTableViewCell.h in Headers */,
 				2636B87E1E1E42D200A67C84 /* PCCWViewController.h in Headers */,
 				2636B8821E1E42D200A67C84 /* PCCWStaticTableViewController.h in Headers */,
-				26DA09891E2366730027FAA7 /* PCCWMKWebView.h in Headers */,
 				2636B8841E1E42D200A67C84 /* PCCWTableViewHeaderFooterView.h in Headers */,
 				268DB3E21E1FA40A001085B2 /* PCCWHUDHandler.h in Headers */,
 				2636B8801E1E42D200A67C84 /* PCCWTableViewController.h in Headers */,
@@ -348,6 +347,7 @@
 				26D4E86D1E01220600D82973 /* PCCWNetworkServices.h in Headers */,
 				266F6A551E1E1E0A006E210E /* PCCWException.h in Headers */,
 				266F6A5C1E1E201D006E210E /* PCCWFoundation-prefix.pch in Headers */,
+				26DA09891E2366730027FAA7 /* PCCWMKWebView.h in Headers */,
 				26D4E8691E0120EF00D82973 /* PCCWNotificationManager.h in Headers */,
 				26C5B3A11DFFF3270088BFF8 /* PCCWModel.h in Headers */,
 			);
