@@ -36,7 +36,7 @@ typedef NS_ENUM(NSInteger, PCCWNetworkServicesType) {
                          errorKey:(NSString *)errorKey
                   errorMessageKey:(NSString *)errorMessageKey
                         resultKey:(NSString *)resultKey
-                       successKeu:(NSString *)successKey
+                       successKey:(NSString *)successKey
                        failureKey:(NSString *)failureKey;
 
 + (instancetype)defaultServices;

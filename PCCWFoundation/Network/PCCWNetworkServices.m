@@ -37,7 +37,7 @@ static NSString * kResult = @"";
                          errorKey:(NSString *)errorKey
                   errorMessageKey:(NSString *)errorMessageKey
                         resultKey:(NSString *)resultKey
-                       successKeu:(NSString *)successKey
+                       successKey:(NSString *)successKey
                        failureKey:(NSString *)failureKey{
     PCCWNetworkServicesBaseURL = baseURL;
     kError = errorKey;
