@@ -43,7 +43,6 @@ typedef NS_ENUM(NSInteger, PCCWNetworkServicesType) {
 
 - (nullable NSURLSessionDataTask *)POST:(NSString *)URLString
                              SOAPMethod:(PCCWSOAPMethod *)SOAPMethod
-                             identifier:(NSString *)identifier
                              parameters:(nullable id)parameters
                                progress:(nullable void (^)(NSProgress *uploadProgress))uploadProgress
                                 success:(nullable void (^)(NSURLSessionDataTask *task, id _Nullable responseObject))success
