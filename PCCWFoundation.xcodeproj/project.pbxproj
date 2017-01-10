@@ -34,6 +34,10 @@
 		2636B8851E1E42D200A67C84 /* PCCWTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2636B8731E1E42D200A67C84 /* PCCWTableViewHeaderFooterView.m */; };
 		2636B88A1E1E42D200A67C84 /* PCCWTabBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2636B8781E1E42D200A67C84 /* PCCWTabBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2636B88B1E1E42D200A67C84 /* PCCWTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2636B8791E1E42D200A67C84 /* PCCWTabBarViewController.m */; };
+		265429FA1E24C0AA007C9FA6 /* PCCWRepository.h in Headers */ = {isa = PBXBuildFile; fileRef = 265429F81E24C0AA007C9FA6 /* PCCWRepository.h */; };
+		265429FB1E24C0AA007C9FA6 /* PCCWRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 265429F91E24C0AA007C9FA6 /* PCCWRepository.m */; };
+		265429FE1E24C0B4007C9FA6 /* PCCWDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 265429FC1E24C0B4007C9FA6 /* PCCWDomain.h */; };
+		265429FF1E24C0B4007C9FA6 /* PCCWDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 265429FD1E24C0B4007C9FA6 /* PCCWDomain.m */; };
 		266F6A551E1E1E0A006E210E /* PCCWException.h in Headers */ = {isa = PBXBuildFile; fileRef = 266F6A531E1E1E0A006E210E /* PCCWException.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266F6A561E1E1E0A006E210E /* PCCWException.m in Sources */ = {isa = PBXBuildFile; fileRef = 266F6A541E1E1E0A006E210E /* PCCWException.m */; };
 		266F6A591E1E1F14006E210E /* UIAlertController+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 266F6A571E1E1F14006E210E /* UIAlertController+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -116,6 +120,10 @@
 		2636B8731E1E42D200A67C84 /* PCCWTableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWTableViewHeaderFooterView.m; sourceTree = "<group>"; };
 		2636B8781E1E42D200A67C84 /* PCCWTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWTabBarViewController.h; sourceTree = "<group>"; };
 		2636B8791E1E42D200A67C84 /* PCCWTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWTabBarViewController.m; sourceTree = "<group>"; };
+		265429F81E24C0AA007C9FA6 /* PCCWRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWRepository.h; sourceTree = "<group>"; };
+		265429F91E24C0AA007C9FA6 /* PCCWRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWRepository.m; sourceTree = "<group>"; };
+		265429FC1E24C0B4007C9FA6 /* PCCWDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWDomain.h; sourceTree = "<group>"; };
+		265429FD1E24C0B4007C9FA6 /* PCCWDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWDomain.m; sourceTree = "<group>"; };
 		266F6A531E1E1E0A006E210E /* PCCWException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWException.h; sourceTree = "<group>"; };
 		266F6A541E1E1E0A006E210E /* PCCWException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWException.m; sourceTree = "<group>"; };
 		266F6A571E1E1F14006E210E /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
@@ -246,6 +254,8 @@
 				5B875659E1620856422745FC /* Exceptions */,
 				5B875894BCBA15684BB0E2B2 /* Extensions */,
 				5B87535E925656D051560B22 /* Database */,
+				5B8753FAAAE199771CF04DBC /* Data */,
+				5B875FEA4F298C536550DC8D /* Domain */,
 			);
 			path = PCCWFoundation;
 			sourceTree = "<group>";
@@ -283,6 +293,15 @@
 				26DA09A71E237A550027FAA7 /* PCCWDatabaseService.m */,
 			);
 			path = Database;
+			sourceTree = "<group>";
+		};
+		5B8753FAAAE199771CF04DBC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				265429F81E24C0AA007C9FA6 /* PCCWRepository.h */,
+				265429F91E24C0AA007C9FA6 /* PCCWRepository.m */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 		5B875659E1620856422745FC /* Exceptions */ = {
@@ -367,6 +386,15 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		5B875FEA4F298C536550DC8D /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				265429FC1E24C0B4007C9FA6 /* PCCWDomain.h */,
+				265429FD1E24C0B4007C9FA6 /* PCCWDomain.m */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -385,9 +413,11 @@
 				268DB3E21E1FA40A001085B2 /* PCCWHUDHandler.h in Headers */,
 				2636B8801E1E42D200A67C84 /* PCCWTableViewController.h in Headers */,
 				26D4E8711E0131FA00D82973 /* PCCWWSDLParsers.h in Headers */,
+				265429FA1E24C0AA007C9FA6 /* PCCWRepository.h in Headers */,
 				266F6A591E1E1F14006E210E /* UIAlertController+Blocks.h in Headers */,
 				26D4E86D1E01220600D82973 /* PCCWNetworkServices.h in Headers */,
 				266F6A551E1E1E0A006E210E /* PCCWException.h in Headers */,
+				265429FE1E24C0B4007C9FA6 /* PCCWDomain.h in Headers */,
 				26DA09A81E237A550027FAA7 /* PCCWDatabaseService.h in Headers */,
 				26DA09A41E2379E40027FAA7 /* PCCWMenuViewModel.h in Headers */,
 				266F6A5C1E1E201D006E210E /* PCCWFoundation-prefix.pch in Headers */,
@@ -548,9 +578,11 @@
 				26D4E8621E00FB1F00D82973 /* PCCWWebServiceRequestSerializer.m in Sources */,
 				266F6A561E1E1E0A006E210E /* PCCWException.m in Sources */,
 				26D4E86E1E01220600D82973 /* PCCWNetworkServices.m in Sources */,
+				265429FB1E24C0AA007C9FA6 /* PCCWRepository.m in Sources */,
 				26DA09A51E2379E40027FAA7 /* PCCWMenuViewModel.m in Sources */,
 				2636B8831E1E42D200A67C84 /* PCCWStaticTableViewController.m in Sources */,
 				26DA09AD1E237D790027FAA7 /* UIView+PCCWCornerRadius.m in Sources */,
+				265429FF1E24C0B4007C9FA6 /* PCCWDomain.m in Sources */,
 				26DA098A1E2366730027FAA7 /* PCCWMKWebView.m in Sources */,
 				266F6A5A1E1E1F14006E210E /* UIAlertController+Blocks.m in Sources */,
 				268DB3E31E1FA40A001085B2 /* PCCWHUDHandler.m in Sources */,
