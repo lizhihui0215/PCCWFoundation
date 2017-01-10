@@ -18,7 +18,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (NSArray<NSNumber *> *)items;
 
+@optional
 - (NSDictionary <NSNumber *, NSString *> *)itemNames;
+
+- (UIImage *)imageAtIndexPath:(NSIndexPath *)indexPath;
+
+- (NSString *)nameAtIndexPath:(NSIndexPath *)indexPath;
+
+- (NSString *)identifierAtIndexPath:(NSIndexPath *)indexPath;
 
 @end
 
