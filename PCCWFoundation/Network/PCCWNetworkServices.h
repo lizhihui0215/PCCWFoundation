@@ -12,7 +12,6 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-static NSString * PCCWNetworkServicesBaseURL = @"http://www.webxml.com.cn";
 
 typedef NS_ENUM(NSInteger, PCCWNetworkServicesType) {
     PCCWNetworkServicesTypeJSON,
@@ -32,6 +31,13 @@ typedef NS_ENUM(NSInteger, PCCWNetworkServicesType) {
 @interface PCCWNetworkServices : AFHTTPSessionManager
 
 @property (nonatomic, assign, readonly) PCCWNetworkServicesType servicesType;
+
++ (void)configServicesWithBaseURL:(NSString *)baseURL
+                         errorKey:(NSString *)errorKey
+                  errorMessageKey:(NSString *)errorMessageKey
+                        resultKey:(NSString *)resultKey
+                       successKeu:(NSString *)successKey
+                       failureKey:(NSString *)failureKey;
 
 + (instancetype)defaultServices;
 

@@ -8,6 +8,17 @@
 //
 
 #import "PCCWNetworkServices.h"
+static NSString * PCCWNetworkServicesBaseURL = @"http://www.webxml.com.cn";
+
+static NSString * kError = @"";
+
+static NSString * kErrorMessage = @"";
+
+static NSString * kSuccess = @"";
+
+static NSString * kFailure = @"";
+
+static NSString * kResult = @"";
 
 @implementation PCCWSOAPMethod
 
@@ -21,6 +32,20 @@
 @end
 
 @implementation PCCWNetworkServices
+
++ (void)configServicesWithBaseURL:(NSString *)baseURL
+                         errorKey:(NSString *)errorKey
+                  errorMessageKey:(NSString *)errorMessageKey
+                        resultKey:(NSString *)resultKey
+                       successKeu:(NSString *)successKey
+                       failureKey:(NSString *)failureKey{
+    PCCWNetworkServicesBaseURL = baseURL;
+    kError = errorKey;
+    kResult = resultKey;
+    kSuccess = successKey;
+    kFailure = failureKey;
+    kErrorMessage = errorMessageKey;
+}
 
 + (instancetype)defaultServices{
     static PCCWNetworkServices *sharedInstance = nil;
@@ -109,13 +134,13 @@
 
 - (id)handleErrorWithReponseObject:(NSMutableDictionary *)reponseObject error:(NSError **)error{
     
-    if([reponseObject[@"status"] isEqualToString:@"N"]){
+    if([reponseObject[kError] isEqualToString:kFailure]){
         if (error) *error = errorWithCode(0,
-                                          reponseObject[@"errorName"]);;
+                                          reponseObject[kErrorMessage]);;
         return  nil;
     }
     
-    return reponseObject[@"results"];
+    return reponseObject[kResult];
 }
 
 
