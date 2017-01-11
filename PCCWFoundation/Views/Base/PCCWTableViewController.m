@@ -9,7 +9,7 @@
 #import "PCCWTableViewController.h"
 
 @interface PCCWTableViewController ()
-@property (nonatomic, weak) id<PCCWTableViewControllerDelegate> delegate;
+@property (nonatomic, weak) id<PCCWTableViewControllerDelegate> tableViewDelegate;
 @end
 
 @implementation PCCWTableViewController
@@ -21,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.delegate = self;
+    self.tableViewDelegate = self;
     self.headerRefresh = NO;
     self.footerRefresh = NO;
     for (UITableView *tableView in self.tableViews) {
@@ -68,8 +68,8 @@
         }
     }
     
-    if ([self.delegate respondsToSelector:@selector(tableView:footerBeginRefresh:)]) {
-        [self.delegate tableView:theTableView footerBeginRefresh:footer];
+    if ([self.tableViewDelegate respondsToSelector:@selector(tableView:footerBeginRefresh:)]) {
+        [self.tableViewDelegate tableView:theTableView footerBeginRefresh:footer];
     }
 }
 
@@ -82,8 +82,8 @@
         }
     }
     
-    if ([self.delegate respondsToSelector:@selector(tableView:headerBeginRefresh:)]) {
-        [self.delegate tableView:theTableView headerBeginRefresh:header];
+    if ([self.tableViewDelegate respondsToSelector:@selector(tableView:headerBeginRefresh:)]) {
+        [self.tableViewDelegate tableView:theTableView headerBeginRefresh:header];
     }
 }
 
