@@ -7,6 +7,7 @@
 //
 
 #import "PCCWTableViewController.h"
+#import "PCCWListViewModel.h"
 
 @interface PCCWTableViewController ()
 @property (nonatomic, weak) id<PCCWTableViewControllerDelegate> tableViewDelegate;
@@ -24,6 +25,13 @@
     self.tableViewDelegate = self;
     self.headerRefresh = NO;
     self.footerRefresh = NO;
+    if (![self valueForKey:@"viewModel"]) {
+        NSException *exception = [NSException exceptionWithName:@""
+                                                         reason:@"property viewModel not found"
+                                                       userInfo:nil];
+        [exception raise];
+    }
+    
     for (UITableView *tableView in self.tableViews) {
         
         if ([tableView respondsToSelector:@selector(setSeparatorInset:)]) {
@@ -99,11 +107,21 @@
 
 #pragma mark - TableViewDataSource
 
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    PCCWListViewModel *viewModel = [self valueForKey:@"viewModel"];
+
+    return [viewModel numberOfSections];
+}
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 0;
+    
+    PCCWListViewModel *viewModel = [self valueForKey:@"viewModel"];
+    
+    return [viewModel numberOfRowsInSection:section];;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
     return nil;
 }
 
