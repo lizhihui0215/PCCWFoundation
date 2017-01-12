@@ -8,5 +8,9 @@ github "lizhihui0215/KissXML"
 github "ccgus/fmdb"
 github "lizhihui0215/WebViewJavascriptBridge"
 github "SnapKit/Masonry"
-#https://github.com/steipete/Aspects
-#https://github.com/zwaldowski/BlocksKit
+#https://github.com/zwaldowski/BlocksKit 工具
+github "lizhihui0215/BlocksKit"
+#https://github.com/steipete/Aspects 面向切面
+#https://github.com/oarrabi/OAStackView UIStackView iOS 7.0以上
+#https://github.com/Augustyniak/RATreeView  展开列表
+#https://github.com/mxcl/PromiseKit 异步框架

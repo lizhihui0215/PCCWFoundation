@@ -80,6 +80,7 @@
 		26DA09A91E237A550027FAA7 /* PCCWDatabaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA09A71E237A550027FAA7 /* PCCWDatabaseService.m */; };
 		26DA09AC1E237D790027FAA7 /* UIView+PCCWCornerRadius.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DA09AA1E237D790027FAA7 /* UIView+PCCWCornerRadius.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26DA09AD1E237D790027FAA7 /* UIView+PCCWCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA09AB1E237D790027FAA7 /* UIView+PCCWCornerRadius.m */; };
+		26DB72FB1E2767EA00B8C6B6 /* BlocksKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DB72FA1E2767EA00B8C6B6 /* BlocksKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -169,6 +170,7 @@
 		26DA09A71E237A550027FAA7 /* PCCWDatabaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWDatabaseService.m; sourceTree = "<group>"; };
 		26DA09AA1E237D790027FAA7 /* UIView+PCCWCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PCCWCornerRadius.h"; sourceTree = "<group>"; };
 		26DA09AB1E237D790027FAA7 /* UIView+PCCWCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PCCWCornerRadius.m"; sourceTree = "<group>"; };
+		26DB72FA1E2767EA00B8C6B6 /* BlocksKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BlocksKit.framework; path = Carthage/Build/iOS/BlocksKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26DB72FB1E2767EA00B8C6B6 /* BlocksKit.framework in Frameworks */,
 				26A25CD81E228EC700693AF2 /* JSONModel.framework in Frameworks */,
 				26A25CDA1E228EC700693AF2 /* MBProgressHUD.framework in Frameworks */,
 				26DA098C1E236A510027FAA7 /* Masonry.framework in Frameworks */,
@@ -202,6 +205,7 @@
 		26A25CCB1E228E8E00693AF2 /* Dependency */ = {
 			isa = PBXGroup;
 			children = (
+				26DB72FA1E2767EA00B8C6B6 /* BlocksKit.framework */,
 				26DA098B1E236A510027FAA7 /* Masonry.framework */,
 				26DA09851E2365D40027FAA7 /* PCCWWebViewJavascriptBridge.framework */,
 				26A25CCC1E228EC700693AF2 /* AFNetworkActivityLogger.framework */,
