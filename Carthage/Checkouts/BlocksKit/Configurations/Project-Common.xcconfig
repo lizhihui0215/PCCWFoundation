@@ -99,7 +99,7 @@ CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Developer
 COPY_PHASE_STRIP = NO
 
 // Enable new-world bytecode compilation
-ENABLE_BITCODE = NO
+// ENABLE_BITCODE = NO
 
 // Enable Strict Checking of objc_msgSend Calls
 //
