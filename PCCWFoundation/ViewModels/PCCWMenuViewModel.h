@@ -46,6 +46,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PCCWMenuViewModel : PCCWListViewModel<PCCWMenuViewModelProtocol>
 
+- (void)reloadMenuItems;
 
 - (PCCWMenuItem *)menuItemAtIndexPath:(NSIndexPath *)indexPath;
 

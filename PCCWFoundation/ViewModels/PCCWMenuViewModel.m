@@ -56,6 +56,11 @@
     return self;
 }
 
+- (void)reloadMenuItems{
+    [self sectionAt:0].items = [self makeSectionItems];
+}
+
+
 - (NSMutableArray<PCCWSectionItem *> *)makeSectionItems {
     NSMutableArray<PCCWSectionItem *> *items = [NSMutableArray array];
     
