@@ -81,6 +81,9 @@
 		26DA09AC1E237D790027FAA7 /* UIView+PCCWCornerRadius.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DA09AA1E237D790027FAA7 /* UIView+PCCWCornerRadius.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26DA09AD1E237D790027FAA7 /* UIView+PCCWCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA09AB1E237D790027FAA7 /* UIView+PCCWCornerRadius.m */; };
 		26DB72FB1E2767EA00B8C6B6 /* BlocksKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DB72FA1E2767EA00B8C6B6 /* BlocksKit.framework */; };
+		5B875140C4EF03286C65ED33 /* PCCWLocalized.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B875A1D844CD77FA72CE915 /* PCCWLocalized.m */; };
+		5B87539984B28135AFCDF115 /* PCCWLocalized.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B875A21495F63FA3A568D4E /* PCCWLocalized.h */; };
+		5B875657CBBAD21235C1038F /* PCCWLocalizedProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B8758364439CB7E49096103 /* PCCWLocalizedProtocol.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -171,6 +174,9 @@
 		26DA09AA1E237D790027FAA7 /* UIView+PCCWCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PCCWCornerRadius.h"; sourceTree = "<group>"; };
 		26DA09AB1E237D790027FAA7 /* UIView+PCCWCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PCCWCornerRadius.m"; sourceTree = "<group>"; };
 		26DB72FA1E2767EA00B8C6B6 /* BlocksKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BlocksKit.framework; path = Carthage/Build/iOS/BlocksKit.framework; sourceTree = "<group>"; };
+		5B8758364439CB7E49096103 /* PCCWLocalizedProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWLocalizedProtocol.h; sourceTree = "<group>"; };
+		5B875A1D844CD77FA72CE915 /* PCCWLocalized.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWLocalized.m; sourceTree = "<group>"; };
+		5B875A21495F63FA3A568D4E /* PCCWLocalized.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWLocalized.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +262,7 @@
 				5B87535E925656D051560B22 /* Database */,
 				5B8753FAAAE199771CF04DBC /* Data */,
 				5B875FEA4F298C536550DC8D /* Domain */,
+				5B8757D92D61F721E5D737A7 /* Localized */,
 			);
 			path = PCCWFoundation;
 			sourceTree = "<group>";
@@ -315,6 +322,15 @@
 			path = Exceptions;
 			sourceTree = "<group>";
 		};
+		5B8757D92D61F721E5D737A7 /* Localized */ = {
+			isa = PBXGroup;
+			children = (
+				5B875A21495F63FA3A568D4E /* PCCWLocalized.h */,
+				5B875A1D844CD77FA72CE915 /* PCCWLocalized.m */,
+			);
+			path = Localized;
+			sourceTree = "<group>";
+		};
 		5B87582ABDB0F6964CA4BF31 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -330,6 +346,7 @@
 				2636B8731E1E42D200A67C84 /* PCCWTableViewHeaderFooterView.m */,
 				2636B8781E1E42D200A67C84 /* PCCWTabBarViewController.h */,
 				2636B8791E1E42D200A67C84 /* PCCWTabBarViewController.m */,
+				5B8758364439CB7E49096103 /* PCCWLocalizedProtocol.h */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -424,6 +441,8 @@
 				26D4E8691E0120EF00D82973 /* PCCWNotificationManager.h in Headers */,
 				26DA09A01E2379E40027FAA7 /* PCCWListViewModel.h in Headers */,
 				26C5B3A11DFFF3270088BFF8 /* PCCWModel.h in Headers */,
+				5B87539984B28135AFCDF115 /* PCCWLocalized.h in Headers */,
+				5B875657CBBAD21235C1038F /* PCCWLocalizedProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,6 +608,7 @@
 				26D4E86A1E0120EF00D82973 /* PCCWNotificationManager.m in Sources */,
 				26D4E8721E0131FA00D82973 /* PCCWWSDLParsers.m in Sources */,
 				2636B87F1E1E42D200A67C84 /* PCCWViewController.m in Sources */,
+				5B875140C4EF03286C65ED33 /* PCCWLocalized.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

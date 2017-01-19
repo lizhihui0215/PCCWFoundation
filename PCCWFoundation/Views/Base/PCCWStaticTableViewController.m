@@ -10,6 +10,7 @@
 #import "PCCWHUDHandler.h"
 
 @interface PCCWStaticTableViewController ()
+
 @property (nonatomic, strong) PCCWException *exception;
 
 @property (nonatomic, strong) PCCWHUDHandler *HUDHandler;
@@ -24,6 +25,14 @@
     self.exception = [PCCWException exceptionWithHandler:self];
     
     self.HUDHandler = [PCCWHUDHandler handlerWithLoadingHandler:self];
+
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(languageDidChanged:)
+                                                 name:PCCWLocalizedLanguageChangedNotification
+                                               object:nil];
+}
+
+- (void)languageDidChanged:(NSNotification *)notification {
 }
 
 - (void)removeFooterView{
@@ -62,6 +71,11 @@
 
 - (void)hidHUDForView:(UIView *)view{
     [self.HUDHandler hidenHUDFor:view];
+}
+
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 /*

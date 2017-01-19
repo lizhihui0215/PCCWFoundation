@@ -22,6 +22,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(languageDidChanged:)
+                                                 name:PCCWLocalizedLanguageChangedNotification
+                                               object:nil];
     self.tableViewDelegate = self;
     self.headerRefresh = NO;
     self.footerRefresh = NO;
@@ -43,6 +47,9 @@
     }
     
     [self removeTableFooterView];
+}
+
+- (void)languageDidChanged:(NSNotification *)notification {
 }
 
 - (MJRefreshStateHeader *)defaultRefreshHeader {
@@ -128,6 +135,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 /*

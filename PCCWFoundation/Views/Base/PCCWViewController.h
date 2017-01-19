@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PCCWLocalizedProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PCCWViewController : UIViewController
+@interface PCCWViewController : UIViewController<PCCWLocalizedProtocol>
 
 - (BOOL)showAlertWithError:(nullable NSError *)error;
 

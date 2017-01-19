@@ -9,6 +9,7 @@
 #import "PCCWViewController.h"
 #import <MJRefresh/MJRefresh.h>
 #import <FDTemplateLayoutCell/FDTemplateLayoutCell.h>
+#import "PCCWLocalizedProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -25,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface PCCWTableViewController : PCCWViewController<PCCWTableViewControllerDelegate,UITableViewDelegate, UITableViewDataSource>
+@interface PCCWTableViewController : PCCWViewController<PCCWTableViewControllerDelegate, PCCWLocalizedProtocol, UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) IBOutletCollection(UITableView) NSArray *tableViews;
 

@@ -24,6 +24,14 @@
     self.exception = [PCCWException exceptionWithHandler:self];
     
     self.HUDHandler = [PCCWHUDHandler handlerWithLoadingHandler:self];
+
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(languageDidChanged:)
+                                                 name:PCCWLocalizedLanguageChangedNotification
+                                               object:nil];
+}
+
+- (void)languageDidChanged:(NSNotification *)notification {
 }
 
 - (void)didReceiveMemoryWarning {
@@ -54,6 +62,11 @@
 
 - (void)hidHUDForView:(UIView *)view{
     [self.HUDHandler hidenHUDFor:view];
+}
+
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 /*

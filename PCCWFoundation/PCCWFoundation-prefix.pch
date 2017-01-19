@@ -9,5 +9,6 @@
 #ifdef __OBJC__
 
 #import "PCCWException.h"
+#import "PCCWLocalized.h"
 
 #endif

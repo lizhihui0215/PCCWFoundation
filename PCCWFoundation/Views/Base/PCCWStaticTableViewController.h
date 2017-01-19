@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "PCCWLocalizedProtocol.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PCCWStaticTableViewController : UITableViewController
+@interface PCCWStaticTableViewController : UITableViewController<PCCWLocalizedProtocol>
 - (BOOL)showAlertWithError:(nullable NSError *)error;
 
 - (void)showAlertWithError:(nullable NSError *)error
