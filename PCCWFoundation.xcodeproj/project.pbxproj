@@ -34,9 +34,9 @@
 		2636B8851E1E42D200A67C84 /* PCCWTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2636B8731E1E42D200A67C84 /* PCCWTableViewHeaderFooterView.m */; };
 		2636B88A1E1E42D200A67C84 /* PCCWTabBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2636B8781E1E42D200A67C84 /* PCCWTabBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2636B88B1E1E42D200A67C84 /* PCCWTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2636B8791E1E42D200A67C84 /* PCCWTabBarViewController.m */; };
-		265429FA1E24C0AA007C9FA6 /* PCCWRepository.h in Headers */ = {isa = PBXBuildFile; fileRef = 265429F81E24C0AA007C9FA6 /* PCCWRepository.h */; };
+		265429FA1E24C0AA007C9FA6 /* PCCWRepository.h in Headers */ = {isa = PBXBuildFile; fileRef = 265429F81E24C0AA007C9FA6 /* PCCWRepository.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		265429FB1E24C0AA007C9FA6 /* PCCWRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 265429F91E24C0AA007C9FA6 /* PCCWRepository.m */; };
-		265429FE1E24C0B4007C9FA6 /* PCCWDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 265429FC1E24C0B4007C9FA6 /* PCCWDomain.h */; };
+		265429FE1E24C0B4007C9FA6 /* PCCWDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 265429FC1E24C0B4007C9FA6 /* PCCWDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		265429FF1E24C0B4007C9FA6 /* PCCWDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 265429FD1E24C0B4007C9FA6 /* PCCWDomain.m */; };
 		266F6A551E1E1E0A006E210E /* PCCWException.h in Headers */ = {isa = PBXBuildFile; fileRef = 266F6A531E1E1E0A006E210E /* PCCWException.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266F6A561E1E1E0A006E210E /* PCCWException.m in Sources */ = {isa = PBXBuildFile; fileRef = 266F6A541E1E1E0A006E210E /* PCCWException.m */; };
@@ -82,8 +82,8 @@
 		26DA09AD1E237D790027FAA7 /* UIView+PCCWCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA09AB1E237D790027FAA7 /* UIView+PCCWCornerRadius.m */; };
 		26DB72FB1E2767EA00B8C6B6 /* BlocksKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DB72FA1E2767EA00B8C6B6 /* BlocksKit.framework */; };
 		5B875140C4EF03286C65ED33 /* PCCWLocalized.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B875A1D844CD77FA72CE915 /* PCCWLocalized.m */; };
-		5B87539984B28135AFCDF115 /* PCCWLocalized.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B875A21495F63FA3A568D4E /* PCCWLocalized.h */; };
-		5B875657CBBAD21235C1038F /* PCCWLocalizedProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B8758364439CB7E49096103 /* PCCWLocalizedProtocol.h */; };
+		5B87539984B28135AFCDF115 /* PCCWLocalized.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B875A21495F63FA3A568D4E /* PCCWLocalized.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B875657CBBAD21235C1038F /* PCCWLocalizedProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B8758364439CB7E49096103 /* PCCWLocalizedProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -428,21 +428,21 @@
 				268DB3E21E1FA40A001085B2 /* PCCWHUDHandler.h in Headers */,
 				2636B8801E1E42D200A67C84 /* PCCWTableViewController.h in Headers */,
 				26D4E8711E0131FA00D82973 /* PCCWWSDLParsers.h in Headers */,
-				265429FA1E24C0AA007C9FA6 /* PCCWRepository.h in Headers */,
 				266F6A591E1E1F14006E210E /* UIAlertController+Blocks.h in Headers */,
 				26D4E86D1E01220600D82973 /* PCCWNetworkServices.h in Headers */,
 				266F6A551E1E1E0A006E210E /* PCCWException.h in Headers */,
-				265429FE1E24C0B4007C9FA6 /* PCCWDomain.h in Headers */,
 				26DA09A81E237A550027FAA7 /* PCCWDatabaseService.h in Headers */,
 				26DA09A41E2379E40027FAA7 /* PCCWMenuViewModel.h in Headers */,
 				266F6A5C1E1E201D006E210E /* PCCWFoundation-prefix.pch in Headers */,
 				26DA09A21E2379E40027FAA7 /* PCCWViewModel.h in Headers */,
 				26DA09AC1E237D790027FAA7 /* UIView+PCCWCornerRadius.h in Headers */,
 				26D4E8691E0120EF00D82973 /* PCCWNotificationManager.h in Headers */,
-				26DA09A01E2379E40027FAA7 /* PCCWListViewModel.h in Headers */,
-				26C5B3A11DFFF3270088BFF8 /* PCCWModel.h in Headers */,
+				265429FA1E24C0AA007C9FA6 /* PCCWRepository.h in Headers */,
+				265429FE1E24C0B4007C9FA6 /* PCCWDomain.h in Headers */,
 				5B87539984B28135AFCDF115 /* PCCWLocalized.h in Headers */,
 				5B875657CBBAD21235C1038F /* PCCWLocalizedProtocol.h in Headers */,
+				26DA09A01E2379E40027FAA7 /* PCCWListViewModel.h in Headers */,
+				26C5B3A11DFFF3270088BFF8 /* PCCWModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
