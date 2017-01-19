@@ -23,6 +23,14 @@
     return self;
 }
 
+- (BOOL)isSelectedAtIndexPath:(NSIndexPath *)indexPath{
+    return [self sectionItemAtIndexPath:indexPath].isSelected;
+}
+
+- (void)setSelected:(BOOL)selected atIndexPath:(NSIndexPath *)indexPath{
+    [self sectionItemAtIndexPath:indexPath].selected = selected;;
+}
+
 - (NSMutableArray<PCCWSection *> *)indexedSectionsWithObjects:(NSArray<id> *)objects
                                                      filter:(NSPredicate * (^)(NSString *letter))filter{
     

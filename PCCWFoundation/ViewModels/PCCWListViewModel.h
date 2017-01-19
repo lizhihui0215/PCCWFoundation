@@ -58,6 +58,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak) id<PCCWListViewModelProtocol> delegate;
 
+- (BOOL)isSelectedAtIndexPath:(NSIndexPath *)indexPath;
+
+- (void)setSelected:(BOOL)selected atIndexPath:(NSIndexPath *)indexPath;
+
 - (NSMutableArray<PCCWSection *> *)indexedSectionsWithObjects:(id)objects
                                                   filter:(NSPredicate * (^)(NSString *letter))filter;
 
