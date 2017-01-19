@@ -42,12 +42,12 @@
 		266097CA1E30921700097E1F /* EXTADT.m in Sources */ = {isa = PBXBuildFile; fileRef = 266097B21E30921700097E1F /* EXTADT.m */; };
 		266097CB1E30921700097E1F /* EXTConcreteProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 266097B31E30921700097E1F /* EXTConcreteProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266097CC1E30921700097E1F /* EXTConcreteProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 266097B41E30921700097E1F /* EXTConcreteProtocol.m */; };
-		266097CD1E30921700097E1F /* EXTCoroutine.h in Headers */ = {isa = PBXBuildFile; fileRef = 266097B51E30921700097E1F /* EXTCoroutine.h */; };
+		266097CD1E30921700097E1F /* EXTCoroutine.h in Headers */ = {isa = PBXBuildFile; fileRef = 266097B51E30921700097E1F /* EXTCoroutine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266097CE1E30921700097E1F /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 266097B61E30921700097E1F /* EXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266097CF1E30921700097E1F /* EXTNil.h in Headers */ = {isa = PBXBuildFile; fileRef = 266097B71E30921700097E1F /* EXTNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266097D01E30921700097E1F /* EXTNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 266097B81E30921700097E1F /* EXTNil.m */; };
 		266097D11E30921700097E1F /* extobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 266097B91E30921700097E1F /* extobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		266097D31E30921700097E1F /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 266097BB1E30921700097E1F /* EXTRuntimeExtensions.h */; };
+		266097D31E30921700097E1F /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 266097BB1E30921700097E1F /* EXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266097D41E30921700097E1F /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 266097BC1E30921700097E1F /* EXTRuntimeExtensions.m */; };
 		266097D51E30921700097E1F /* EXTSafeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 266097BD1E30921700097E1F /* EXTSafeCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266097D61E30921700097E1F /* EXTSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 266097BE1E30921700097E1F /* EXTSafeCategory.m */; };
@@ -56,7 +56,7 @@
 		266097D91E30921700097E1F /* EXTSelectorChecking.h in Headers */ = {isa = PBXBuildFile; fileRef = 266097C11E30921700097E1F /* EXTSelectorChecking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266097DA1E30921700097E1F /* EXTSelectorChecking.m in Sources */ = {isa = PBXBuildFile; fileRef = 266097C21E30921700097E1F /* EXTSelectorChecking.m */; };
 		266097DB1E30921700097E1F /* EXTSynthesize.h in Headers */ = {isa = PBXBuildFile; fileRef = 266097C31E30921700097E1F /* EXTSynthesize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		266097DC1E30921700097E1F /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 266097C41E30921700097E1F /* metamacros.h */; };
+		266097DC1E30921700097E1F /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 266097C41E30921700097E1F /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266097DD1E30921700097E1F /* NSInvocation+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = 266097C51E30921700097E1F /* NSInvocation+EXT.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266097DE1E30921700097E1F /* NSInvocation+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = 266097C61E30921700097E1F /* NSInvocation+EXT.m */; };
 		266097DF1E30921700097E1F /* NSMethodSignature+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = 266097C71E30921700097E1F /* NSMethodSignature+EXT.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -506,7 +506,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				266097DC1E30921700097E1F /* metamacros.h in Headers */,
 				26C5B3921DFFE3060088BFF8 /* PCCWFoundation.h in Headers */,
 				26D4E8611E00FB1F00D82973 /* PCCWWebServiceRequestSerializer.h in Headers */,
 				26D4E8651E00FB4B00D82973 /* PCCWWebServiceReponseSerializer.h in Headers */,
@@ -516,7 +515,6 @@
 				2636B8821E1E42D200A67C84 /* PCCWStaticTableViewController.h in Headers */,
 				2636B8841E1E42D200A67C84 /* PCCWTableViewHeaderFooterView.h in Headers */,
 				268DB3E21E1FA40A001085B2 /* PCCWHUDHandler.h in Headers */,
-				266097CD1E30921700097E1F /* EXTCoroutine.h in Headers */,
 				2636B8801E1E42D200A67C84 /* PCCWTableViewController.h in Headers */,
 				26D4E8711E0131FA00D82973 /* PCCWWSDLParsers.h in Headers */,
 				266F6A591E1E1F14006E210E /* UIAlertController+Blocks.h in Headers */,
@@ -526,7 +524,6 @@
 				26DA09A41E2379E40027FAA7 /* PCCWMenuViewModel.h in Headers */,
 				266097D11E30921700097E1F /* extobjc.h in Headers */,
 				266097C91E30921700097E1F /* EXTADT.h in Headers */,
-				266097D31E30921700097E1F /* EXTRuntimeExtensions.h in Headers */,
 				266097CB1E30921700097E1F /* EXTConcreteProtocol.h in Headers */,
 				266097CE1E30921700097E1F /* EXTKeyPathCoding.h in Headers */,
 				266F6A5C1E1E201D006E210E /* PCCWFoundation-prefix.pch in Headers */,
@@ -544,9 +541,12 @@
 				266097E71E3093FD00097E1F /* UIColor+HSV.h in Headers */,
 				265429FA1E24C0AA007C9FA6 /* PCCWRepository.h in Headers */,
 				265429FE1E24C0B4007C9FA6 /* PCCWDomain.h in Headers */,
+				266097DC1E30921700097E1F /* metamacros.h in Headers */,
 				5B87539984B28135AFCDF115 /* PCCWLocalized.h in Headers */,
+				266097CD1E30921700097E1F /* EXTCoroutine.h in Headers */,
 				5B875657CBBAD21235C1038F /* PCCWLocalizedProtocol.h in Headers */,
 				26DA09A01E2379E40027FAA7 /* PCCWListViewModel.h in Headers */,
+				266097D31E30921700097E1F /* EXTRuntimeExtensions.h in Headers */,
 				26C5B3A11DFFF3270088BFF8 /* PCCWModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
