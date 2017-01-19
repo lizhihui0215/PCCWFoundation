@@ -65,6 +65,8 @@
 		266097E61E3093FD00097E1F /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 266097E21E3093FD00097E1F /* UIColor+Expanded.m */; };
 		266097E71E3093FD00097E1F /* UIColor+HSV.h in Headers */ = {isa = PBXBuildFile; fileRef = 266097E31E3093FD00097E1F /* UIColor+HSV.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266097E81E3093FD00097E1F /* UIColor+HSV.m in Sources */ = {isa = PBXBuildFile; fileRef = 266097E41E3093FD00097E1F /* UIColor+HSV.m */; };
+		266097F71E30AC6200097E1F /* PCCWCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 266097F51E30AC6200097E1F /* PCCWCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266097F81E30AC6200097E1F /* PCCWCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 266097F61E30AC6200097E1F /* PCCWCheckBox.m */; };
 		266F6A551E1E1E0A006E210E /* PCCWException.h in Headers */ = {isa = PBXBuildFile; fileRef = 266F6A531E1E1E0A006E210E /* PCCWException.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266F6A561E1E1E0A006E210E /* PCCWException.m in Sources */ = {isa = PBXBuildFile; fileRef = 266F6A541E1E1E0A006E210E /* PCCWException.m */; };
 		266F6A591E1E1F14006E210E /* UIAlertController+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 266F6A571E1E1F14006E210E /* UIAlertController+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -180,6 +182,8 @@
 		266097E21E3093FD00097E1F /* UIColor+Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Expanded.m"; sourceTree = "<group>"; };
 		266097E31E3093FD00097E1F /* UIColor+HSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HSV.h"; sourceTree = "<group>"; };
 		266097E41E3093FD00097E1F /* UIColor+HSV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HSV.m"; sourceTree = "<group>"; };
+		266097F51E30AC6200097E1F /* PCCWCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWCheckBox.h; sourceTree = "<group>"; };
+		266097F61E30AC6200097E1F /* PCCWCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWCheckBox.m; sourceTree = "<group>"; };
 		266F6A531E1E1E0A006E210E /* PCCWException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWException.h; sourceTree = "<group>"; };
 		266F6A541E1E1E0A006E210E /* PCCWException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWException.m; sourceTree = "<group>"; };
 		266F6A571E1E1F14006E210E /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
@@ -440,6 +444,8 @@
 			isa = PBXGroup;
 			children = (
 				5B87582ABDB0F6964CA4BF31 /* Base */,
+				266097F51E30AC6200097E1F /* PCCWCheckBox.h */,
+				266097F61E30AC6200097E1F /* PCCWCheckBox.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -547,6 +553,7 @@
 				5B875657CBBAD21235C1038F /* PCCWLocalizedProtocol.h in Headers */,
 				26DA09A01E2379E40027FAA7 /* PCCWListViewModel.h in Headers */,
 				266097D31E30921700097E1F /* EXTRuntimeExtensions.h in Headers */,
+				266097F71E30AC6200097E1F /* PCCWCheckBox.h in Headers */,
 				26C5B3A11DFFF3270088BFF8 /* PCCWModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -698,6 +705,7 @@
 				26DA09A31E2379E40027FAA7 /* PCCWViewModel.m in Sources */,
 				2636B88B1E1E42D200A67C84 /* PCCWTabBarViewController.m in Sources */,
 				266097DE1E30921700097E1F /* NSInvocation+EXT.m in Sources */,
+				266097F81E30AC6200097E1F /* PCCWCheckBox.m in Sources */,
 				2636B8851E1E42D200A67C84 /* PCCWTableViewHeaderFooterView.m in Sources */,
 				2636B8811E1E42D200A67C84 /* PCCWTableViewController.m in Sources */,
 				266097E81E3093FD00097E1F /* UIColor+HSV.m in Sources */,

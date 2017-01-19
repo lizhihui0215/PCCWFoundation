@@ -44,4 +44,5 @@ FOUNDATION_EXPORT const unsigned char PCCWFoundationVersionString[];
 #import <PCCWFoundation/extobjc.h>
 #import <PCCWFoundation/UIColor+Expanded.h>
 #import <PCCWFoundation/UIColor+HSV.h>
+#import <PCCWFoundation/PCCWCheckBox.h>
 #import <BlocksKit/BlocksKit.h>
