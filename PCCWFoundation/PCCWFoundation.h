@@ -38,4 +38,5 @@ FOUNDATION_EXPORT const unsigned char PCCWFoundationVersionString[];
 #import <PCCWFoundation/PCCWDatabaseService.h>
 #import <PCCWFoundation/PCCWHUDHandler.h>
 #import <PCCWFoundation/PCCWException.h>
+#import <PCCWFoundation/PCCWLocalized.h>
 #import <BlocksKit/BlocksKit.h>
