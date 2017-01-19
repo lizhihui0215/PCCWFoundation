@@ -22,14 +22,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(languageDidChanged:)
-                                                 name:PCCWLocalizedLanguageChangedNotification
-                                               object:nil];
-        
+    addLanguageChangedNotification(self);
+    NSNotification *notification = [NSNotification notificationWithName:PCCWLocalizedLanguageChangedNotification
+                                                                 object:[PCCWLocalized defaultLocalized].preferredLanguage];
+    [self languageDidChanged:notification];
     self.exception = [PCCWException exceptionWithHandler:self];
     
     self.HUDHandler = [PCCWHUDHandler handlerWithLoadingHandler:self];
+}
+
+- (void)awakeFromNib{
+    [super awakeFromNib];
+    addLanguageChangedNotification(self);
+    NSNotification *notification = [NSNotification notificationWithName:PCCWLocalizedLanguageChangedNotification
+                                                                 object:[PCCWLocalized defaultLocalized].preferredLanguage];
+    [self languageDidChanged:notification];
 }
 
 - (void)languageDidChanged:(NSNotification *)notification {

@@ -13,6 +13,20 @@ NSString * const PCCWLocalizedLanguageChangedNotification = @"con.pccw.localized
 
 static void * PCCWLocalizedBundleKey = &PCCWLocalizedBundleKey;
 
+inline void addLanguageChangedNotification(UIViewController *viewController){
+    [[NSNotificationCenter defaultCenter] removeObserver:viewController
+                                                    name:PCCWLocalizedLanguageChangedNotification
+                                                  object:nil];
+    #pragma clang diagnostic push
+    #pragma clang diagnostic ignored "-Wundeclared-selector"
+    [[NSNotificationCenter defaultCenter] addObserver:viewController
+                                             selector:@selector(languageDidChanged:)
+                                                 name:PCCWLocalizedLanguageChangedNotification
+                                               object:nil];
+    #pragma clang diagnostic pop
+}
+
+
 @interface PCCWLocalizedBundle : NSBundle
 
 @end

@@ -22,10 +22,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(languageDidChanged:)
-                                                 name:PCCWLocalizedLanguageChangedNotification
-                                               object:nil];
+    addLanguageChangedNotification(self);
+    NSNotification *notification = [NSNotification notificationWithName:PCCWLocalizedLanguageChangedNotification
+                                                                 object:[PCCWLocalized defaultLocalized].preferredLanguage];
+    [self languageDidChanged:notification];
+
     self.tableViewDelegate = self;
     self.headerRefresh = NO;
     self.footerRefresh = NO;
@@ -47,6 +48,14 @@
     }
     
     [self removeTableFooterView];
+}
+
+- (void)awakeFromNib{
+    [super awakeFromNib];
+    addLanguageChangedNotification(self);
+    NSNotification *notification = [NSNotification notificationWithName:PCCWLocalizedLanguageChangedNotification
+                                                                 object:[PCCWLocalized defaultLocalized].preferredLanguage];
+    [self languageDidChanged:notification];
 }
 
 - (void)languageDidChanged:(NSNotification *)notification {
