@@ -48,19 +48,19 @@ static inline BOOL pccw_addMethod(Class theClass, SEL selector, Method method) {
 }
 
 - (void)setConfirmCancelTitle:(NSString *)confirmCancelTitle{
-    [self bk_associateValue:confirmCancelTitle withKey:@selector(confirmOKTitle)];
+    [self bk_associateValue:confirmCancelTitle withKey:@selector(confirmCancelTitle)];
 }
 
 - (NSString *)confirmOKTitle{
-    return [self bk_associatedValueForKey:_cmd];
+    return [self bk_associatedValueForKey:@selector(confirmOKTitle)];
 }
 
 - (NSString *)confirmCancelTitle{
-   return [self bk_associatedValueForKey:_cmd];
+   return [self bk_associatedValueForKey:@selector(confirmCancelTitle)];
 }
 
 - (NSString *)errorOkTitle {
-    return [self bk_associatedValueForKey:_cmd];
+    return [self bk_associatedValueForKey:@selector(errorOkTitle)];
 }
 
 + (void)load{
@@ -94,7 +94,7 @@ static inline BOOL pccw_addMethod(Class theClass, SEL selector, Method method) {
 }
 
 - (void)pccw_viewDidLoad{
-    [[[self class] appearance] applyInvocationTo:self];
+    [[[self class] appearance] applyInvocationRecursivelyTo:self upToSuperClass:[UIViewController class]];
     
     addLanguageChangedNotification(self);
     NSNotification *notification = [NSNotification notificationWithName:PCCWLocalizedLanguageChangedNotification
@@ -107,7 +107,9 @@ static inline BOOL pccw_addMethod(Class theClass, SEL selector, Method method) {
     [self pccw_viewDidLoad];
 }
 
-- (void)languageDidChanged:(NSNotification *)notification {
+- (void)pccw_languageDidChanged:(NSNotification *)notification {
+    [[[self class] appearance] applyInvocationRecursivelyTo:self upToSuperClass:[UIViewController class]];
+    [self languageDidChanged:notification];
 }
 
 - (BOOL)showAlertWithError:(NSError *)error{
@@ -163,8 +165,8 @@ static inline BOOL pccw_addMethod(Class theClass, SEL selector, Method method) {
                                        withTitle:title
                                          message:message
                                cancelButtonTitle:self.confirmCancelTitle
-                          destructiveButtonTitle:self.confirmOKTitle
-                               otherButtonTitles:@[@""]
+                          destructiveButtonTitle:nil
+                               otherButtonTitles:@[self.confirmOKTitle]
                                         tapBlock:^(UIAlertController * _Nonnull controller, UIAlertAction * _Nonnull action, NSInteger buttonIndex) {
                                             completeHandler(buttonIndex == 0);
                                         }];

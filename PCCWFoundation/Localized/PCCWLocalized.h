@@ -12,6 +12,12 @@ FOUNDATION_EXPORT NSString * const PCCWLocalizedLanguageChangedNotification;
 
 FOUNDATION_EXPORT void addLanguageChangedNotification(UIViewController *viewController);
 
+@protocol PCCWLocalizedProtocol <NSObject>
+
+- (void)languageDidChanged:(NSNotification *)notification;
+
+@end
+
 @interface PCCWLocalized : NSObject
 
 + (instancetype)defaultLocalized;

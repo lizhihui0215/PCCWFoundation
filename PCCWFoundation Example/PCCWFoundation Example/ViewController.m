@@ -10,6 +10,7 @@
 
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
@@ -17,7 +18,33 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"as";
+    [self.textField setBk_didEndEditingBlock:^(UITextField * _Nonnull textField) {
+        [[UIViewController appearance] setConfirmCancelTitle:textField.text];
+        [[UIViewController appearance] setConfirmOKTitle:textField.text];
+        [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithName:textField.text]];
+        
     
+        [self showConfirmWithTitle:@"test"
+                           message:@"xx"
+                   completeHandler:^(BOOL isCancel) {
+                       NSLog(@"is cancel %d",isCancel);
+                   }];
+
+        
+    }];
+    
+    
+    [self.view bk_whenTapped:^{
+        [self showConfirmWithTitle:@"test"
+                           message:@"xx"
+                   completeHandler:^(BOOL isCancel) {
+                       NSLog(@"is cancel %d",isCancel);
+                   }];
+    }];
+}
+- (IBAction)changeAppearance:(id)sender {
+    [self.textField resignFirstResponder];
     
 }
 

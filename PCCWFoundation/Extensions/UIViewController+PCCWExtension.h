@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIViewController (PCCWExtension)<PCCWAppearance>
+@interface UIViewController (PCCWExtension)<PCCWAppearance, PCCWLocalizedProtocol>
 
 @property (nonatomic, assign) NSString *confirmCancelTitle PCCW_APPEARANCE_SELECTOR;
 

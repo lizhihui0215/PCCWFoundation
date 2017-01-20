@@ -39,6 +39,18 @@ static NSMutableDictionary *instanceOfClassesDictionary = nil;
         [targetInvocation setTarget:target];
         [targetInvocation invoke];
         targetInvocation = nil;
+        
+        NSArray *a;
+        [targetInvocation getArgument:&a atIndex:3];
+        
+        NSArray *b;
+        [targetInvocation getReturnValue:&b];
+        
+        
+        NSLog(@"arguments %@, \n return %@",a,b);
+        
+        
+        
     }
 }
 
@@ -68,7 +80,7 @@ static NSMutableDictionary *instanceOfClassesDictionary = nil;
         instanceOfClassesDictionary = [[NSMutableDictionary alloc] init];
     });
     
-    if (![self test:aClass])
+    if (![instanceOfClassesDictionary objectForKey:NSStringFromClass(aClass)])
     {
         id appearance = [[self alloc] initWithClass:aClass];
         [instanceOfClassesDictionary setObject:appearance forKey:NSStringFromClass(aClass)];
@@ -77,21 +89,7 @@ static NSMutableDictionary *instanceOfClassesDictionary = nil;
     else {
         return [instanceOfClassesDictionary objectForKey:NSStringFromClass(aClass)];
     }
-}
-
-+ (BOOL)test:(Class)aClass{
-    Class class = aClass;
     
-    while (class != [NSObject class]) {
-        if (!instanceOfClassesDictionary[NSStringFromClass(class)]) {
-            id appearance = [[self alloc] initWithClass:aClass];
-            [instanceOfClassesDictionary setObject:appearance forKey:NSStringFromClass(aClass)];
-            return appearance;
-        }
-        class = class_getSuperclass(class);
-    }
-    
-    return [instanceOfClassesDictionary objectForKey:NSStringFromClass(aClass)];
 }
 
 - (void)forwardInvocation:(NSInvocation *)anInvocation;

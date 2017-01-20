@@ -20,7 +20,7 @@ inline void addLanguageChangedNotification(UIViewController *viewController){
     #pragma clang diagnostic push
     #pragma clang diagnostic ignored "-Wundeclared-selector"
     [[NSNotificationCenter defaultCenter] addObserver:viewController
-                                             selector:@selector(languageDidChanged:)
+                                             selector:@selector(pccw_languageDidChanged:)
                                                  name:PCCWLocalizedLanguageChangedNotification
                                                object:nil];
     #pragma clang diagnostic pop
