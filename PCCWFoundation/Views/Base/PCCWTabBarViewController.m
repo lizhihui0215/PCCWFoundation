@@ -10,9 +10,6 @@
 #import "PCCWHUDHandler.h"
 
 @interface PCCWTabBarViewController ()
-@property (nonatomic, strong) PCCWException *exception;
-
-@property (nonatomic, strong) PCCWHUDHandler *HUDHandler;
 
 @end
 
@@ -21,23 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    addLanguageChangedNotification(self);
-    NSNotification *notification = [NSNotification notificationWithName:PCCWLocalizedLanguageChangedNotification
-                                                                 object:[PCCWLocalized defaultLocalized].preferredLanguage];
-    [self languageDidChanged:notification];
-
-    self.exception = [PCCWException exceptionWithHandler:self];
-    
-    self.HUDHandler = [PCCWHUDHandler handlerWithLoadingHandler:self];
 
 }
 
 - (void)awakeFromNib{
     [super awakeFromNib];
-    addLanguageChangedNotification(self);
-    NSNotification *notification = [NSNotification notificationWithName:PCCWLocalizedLanguageChangedNotification
-                                                                 object:[PCCWLocalized defaultLocalized].preferredLanguage];
-    [self languageDidChanged:notification];
 }
 
 - (void)languageDidChanged:(NSNotification *)notification {
@@ -46,31 +31,6 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (BOOL)showAlertWithError:(NSError *)error{
-    return [self.exception handleExceptionWithError:error];
-}
-
-- (void)showAlertWithError:(NSError *)error
-           completeHandler:(void (^)(BOOL isShowError, NSError *error)) handler{
-    [self.exception handleExceptionWithError:error completeHandler:handler];
-}
-
-- (void)showHUDWithMessage:(NSString *)message forView:(UIView *)view{
-    [self.HUDHandler showHUDWithMessage:message forView:view];
-}
-
-- (void)showHUDWithMessage:(NSString *)message{
-    [self.HUDHandler showHUDWithMessage:message];
-}
-
-- (void)hidHUD{
-    [self.HUDHandler hidenHUD];
-}
-
-- (void)hidHUDForView:(UIView *)view{
-    [self.HUDHandler hidenHUDFor:view];
 }
 
 - (void)dealloc

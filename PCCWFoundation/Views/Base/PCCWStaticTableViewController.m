@@ -22,22 +22,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    addLanguageChangedNotification(self);
-    NSNotification *notification = [NSNotification notificationWithName:PCCWLocalizedLanguageChangedNotification
-                                                                 object:[PCCWLocalized defaultLocalized].preferredLanguage];
-    [self languageDidChanged:notification];
-
-    self.exception = [PCCWException exceptionWithHandler:self];
-    
-    self.HUDHandler = [PCCWHUDHandler handlerWithLoadingHandler:self];
-}
+    }
 
 - (void)awakeFromNib{
     [super awakeFromNib];
-    addLanguageChangedNotification(self);
-    NSNotification *notification = [NSNotification notificationWithName:PCCWLocalizedLanguageChangedNotification
-                                                                 object:[PCCWLocalized defaultLocalized].preferredLanguage];
-    [self languageDidChanged:notification];
 }
 
 - (void)languageDidChanged:(NSNotification *)notification {

@@ -72,6 +72,8 @@
 		266F6A591E1E1F14006E210E /* UIAlertController+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 266F6A571E1E1F14006E210E /* UIAlertController+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266F6A5A1E1E1F14006E210E /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 266F6A581E1E1F14006E210E /* UIAlertController+Blocks.m */; };
 		266F6A5C1E1E201D006E210E /* PCCWFoundation-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 266F6A5B1E1E201D006E210E /* PCCWFoundation-prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
+		268105DA1E31DAFA007A550E /* UIViewController+PCCWExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 268105D81E31DAFA007A550E /* UIViewController+PCCWExtension.h */; };
+		268105DB1E31DAFA007A550E /* UIViewController+PCCWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 268105D91E31DAFA007A550E /* UIViewController+PCCWExtension.m */; };
 		268DB3E21E1FA40A001085B2 /* PCCWHUDHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 268DB3E01E1FA40A001085B2 /* PCCWHUDHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		268DB3E31E1FA40A001085B2 /* PCCWHUDHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 268DB3E11E1FA40A001085B2 /* PCCWHUDHandler.m */; };
 		26A25CD41E228EC700693AF2 /* AFNetworkActivityLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A25CCC1E228EC700693AF2 /* AFNetworkActivityLogger.framework */; };
@@ -189,6 +191,8 @@
 		266F6A571E1E1F14006E210E /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
 		266F6A581E1E1F14006E210E /* UIAlertController+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Blocks.m"; sourceTree = "<group>"; };
 		266F6A5B1E1E201D006E210E /* PCCWFoundation-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PCCWFoundation-prefix.pch"; sourceTree = "<group>"; };
+		268105D81E31DAFA007A550E /* UIViewController+PCCWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PCCWExtension.h"; sourceTree = "<group>"; };
+		268105D91E31DAFA007A550E /* UIViewController+PCCWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PCCWExtension.m"; sourceTree = "<group>"; };
 		268DB3E01E1FA40A001085B2 /* PCCWHUDHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWHUDHandler.h; sourceTree = "<group>"; };
 		268DB3E11E1FA40A001085B2 /* PCCWHUDHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWHUDHandler.m; sourceTree = "<group>"; };
 		26994D611E20F3B200AB1514 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -461,6 +465,8 @@
 				26DA09AB1E237D790027FAA7 /* UIView+PCCWCornerRadius.m */,
 				266F6A571E1E1F14006E210E /* UIAlertController+Blocks.h */,
 				266F6A581E1E1F14006E210E /* UIAlertController+Blocks.m */,
+				268105D81E31DAFA007A550E /* UIViewController+PCCWExtension.h */,
+				268105D91E31DAFA007A550E /* UIViewController+PCCWExtension.m */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -535,6 +541,7 @@
 				266F6A5C1E1E201D006E210E /* PCCWFoundation-prefix.pch in Headers */,
 				266097CF1E30921700097E1F /* EXTNil.h in Headers */,
 				266097D51E30921700097E1F /* EXTSafeCategory.h in Headers */,
+				268105DA1E31DAFA007A550E /* UIViewController+PCCWExtension.h in Headers */,
 				26DA09A21E2379E40027FAA7 /* PCCWViewModel.h in Headers */,
 				26DA09AC1E237D790027FAA7 /* UIView+PCCWCornerRadius.h in Headers */,
 				266097D71E30921700097E1F /* EXTScope.h in Headers */,
@@ -710,6 +717,7 @@
 				2636B8811E1E42D200A67C84 /* PCCWTableViewController.m in Sources */,
 				266097E81E3093FD00097E1F /* UIColor+HSV.m in Sources */,
 				266097D61E30921700097E1F /* EXTSafeCategory.m in Sources */,
+				268105DB1E31DAFA007A550E /* UIViewController+PCCWExtension.m in Sources */,
 				26D4E8621E00FB1F00D82973 /* PCCWWebServiceRequestSerializer.m in Sources */,
 				266F6A561E1E1E0A006E210E /* PCCWException.m in Sources */,
 				26D4E86E1E01220600D82973 /* PCCWNetworkServices.m in Sources */,
