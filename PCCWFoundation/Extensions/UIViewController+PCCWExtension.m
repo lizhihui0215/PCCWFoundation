@@ -8,7 +8,9 @@
 
 #import "UIViewController+PCCWExtension.h"
 #import "UIAlertController+Blocks.h"
+#import <BlocksKit/BlocksKit.h>
 #import "PCCWHUDHandler.h"
+
 static inline void pccw_swizzleSelector(Class theClass, SEL originalSelector, SEL swizzledSelector) {
     Method originalMethod = class_getInstanceMethod(theClass, originalSelector);
     Method swizzledMethod = class_getInstanceMethod(theClass, swizzledSelector);
@@ -31,22 +33,10 @@ static inline BOOL pccw_addMethod(Class theClass, SEL selector, Method method) {
 @implementation UIViewController (PCCWExtension)
 
 
-void test(Class class, Method method) {
-    NSLog(@"class %@ method %@",class,method);
-}
-
 + (void)load{
-    Method originalPCCWViewDidLoadMethod = class_getInstanceMethod([self class], @selector(pccw_viewDidLoad));
+    pccw_swizzleSelector([self class], @selector(viewDidLoad), @selector(pccw_viewDidLoad));
     
-    Method originalPCCWAwakeFromNib = class_getInstanceMethod([self class], @selector(pccw_awakeFromNib));
-    
-    if (ext_addMethods([self class], &originalPCCWViewDidLoadMethod, 1, YES, &test)){
-        pccw_swizzleSelector([self class], @selector(viewDidLoad), @selector(pccw_viewDidLoad));
-    }
-    
-    if(ext_addMethods([self class], &originalPCCWAwakeFromNib, 1, YES, &test)){
-        pccw_swizzleSelector([self class], @selector(awakeFromNib), @selector(pccw_awakeFromNib));
-    }
+    pccw_swizzleSelector([self class], @selector(awakeFromNib), @selector(pccw_awakeFromNib));
 }
 
 - (void)pccw_awakeFromNib{
@@ -55,6 +45,22 @@ void test(Class class, Method method) {
     NSNotification *notification = [NSNotification notificationWithName:PCCWLocalizedLanguageChangedNotification
                                                                  object:[PCCWLocalized defaultLocalized].preferredLanguage];
     [self languageDidChanged:notification];
+}
+
+- (void)setException:(PCCWException *)exception{
+    [self bk_associateValue:exception withKey:@selector(exception)];
+}
+
+- (PCCWException *)exception{
+    return [self bk_associatedValueForKey:_cmd];
+}
+
+- (void)setHUDHandler:(PCCWHUDHandler *)HUDHandler{
+    [self bk_associateValue:HUDHandler withKey:@selector(exception)];
+}
+
+- (PCCWHUDHandler *)HUDHandler{
+    return [self bk_associatedValueForKey:_cmd];
 }
 
 - (void)pccw_viewDidLoad{
@@ -122,7 +128,7 @@ void test(Class class, Method method) {
     [UIAlertController showAlertInViewController:self
                                        withTitle:title
                                          message:message
-                               cancelButtonTitle:@""
+                               cancelButtonTitle:@"取消"
                           destructiveButtonTitle:nil
                                otherButtonTitles:@[@""]
                                         tapBlock:^(UIAlertController * _Nonnull controller, UIAlertAction * _Nonnull action, NSInteger buttonIndex) {

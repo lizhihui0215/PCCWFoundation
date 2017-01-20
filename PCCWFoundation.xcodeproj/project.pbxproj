@@ -72,7 +72,7 @@
 		266F6A591E1E1F14006E210E /* UIAlertController+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 266F6A571E1E1F14006E210E /* UIAlertController+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266F6A5A1E1E1F14006E210E /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 266F6A581E1E1F14006E210E /* UIAlertController+Blocks.m */; };
 		266F6A5C1E1E201D006E210E /* PCCWFoundation-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 266F6A5B1E1E201D006E210E /* PCCWFoundation-prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
-		268105DA1E31DAFA007A550E /* UIViewController+PCCWExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 268105D81E31DAFA007A550E /* UIViewController+PCCWExtension.h */; };
+		268105DA1E31DAFA007A550E /* UIViewController+PCCWExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 268105D81E31DAFA007A550E /* UIViewController+PCCWExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		268105DB1E31DAFA007A550E /* UIViewController+PCCWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 268105D91E31DAFA007A550E /* UIViewController+PCCWExtension.m */; };
 		268DB3E21E1FA40A001085B2 /* PCCWHUDHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 268DB3E01E1FA40A001085B2 /* PCCWHUDHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		268DB3E31E1FA40A001085B2 /* PCCWHUDHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 268DB3E11E1FA40A001085B2 /* PCCWHUDHandler.m */; };
@@ -541,7 +541,6 @@
 				266F6A5C1E1E201D006E210E /* PCCWFoundation-prefix.pch in Headers */,
 				266097CF1E30921700097E1F /* EXTNil.h in Headers */,
 				266097D51E30921700097E1F /* EXTSafeCategory.h in Headers */,
-				268105DA1E31DAFA007A550E /* UIViewController+PCCWExtension.h in Headers */,
 				26DA09A21E2379E40027FAA7 /* PCCWViewModel.h in Headers */,
 				26DA09AC1E237D790027FAA7 /* UIView+PCCWCornerRadius.h in Headers */,
 				266097D71E30921700097E1F /* EXTScope.h in Headers */,
@@ -560,6 +559,7 @@
 				5B875657CBBAD21235C1038F /* PCCWLocalizedProtocol.h in Headers */,
 				26DA09A01E2379E40027FAA7 /* PCCWListViewModel.h in Headers */,
 				266097D31E30921700097E1F /* EXTRuntimeExtensions.h in Headers */,
+				268105DA1E31DAFA007A550E /* UIViewController+PCCWExtension.h in Headers */,
 				266097F71E30AC6200097E1F /* PCCWCheckBox.h in Headers */,
 				26C5B3A11DFFF3270088BFF8 /* PCCWModel.h in Headers */,
 			);

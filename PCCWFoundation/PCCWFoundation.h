@@ -45,4 +45,5 @@ FOUNDATION_EXPORT const unsigned char PCCWFoundationVersionString[];
 #import <PCCWFoundation/UIColor+Expanded.h>
 #import <PCCWFoundation/UIColor+HSV.h>
 #import <PCCWFoundation/PCCWCheckBox.h>
+#import <PCCWFoundation/UIViewController+PCCWExtension.h>
 #import <BlocksKit/BlocksKit.h>

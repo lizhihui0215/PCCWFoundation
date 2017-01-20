@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <PCCWFoundation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : PCCWViewController
 
 
 @end

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <PCCWFoundation/PCCWWSDLParsers.h>
+
 
 @interface ViewController ()
 
@@ -17,16 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Weather" ofType:@"xml"];
     
-    PCCWWSDLParsers *pars = [PCCWWSDLParsers WSDLParserWithPath:path];
     
-    NSString *xml = [pars SOAPContentWithMethodName:@"getWeatherbyCityName"
-                                         parameters:@{}];
-    
-    NSLog(@"xml %@",xml);
+}
 
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [self showAlertWithError:errorWithCode(0, @"xx")];
+
+    
+    [self showConfirmWithTitle:@"test"
+                       message:@"xx"
+               completeHandler:^(BOOL isCancel) {
+                   NSLog(@"is cancel %d",isCancel);
+               }];
 }
 
 

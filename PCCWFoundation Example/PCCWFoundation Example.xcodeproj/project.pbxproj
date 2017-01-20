@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		268106551E31EF55007A550E /* AFNetworkActivityLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2681063F1E31EF35007A550E /* AFNetworkActivityLogger.framework */; };
+		268106561E31EF55007A550E /* AFNetworkActivityLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2681063F1E31EF35007A550E /* AFNetworkActivityLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		268106571E31EF55007A550E /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268106401E31EF35007A550E /* AFNetworking.framework */; };
+		268106581E31EF55007A550E /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268106401E31EF35007A550E /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		268106591E31EF55007A550E /* BlocksKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268106411E31EF35007A550E /* BlocksKit.framework */; };
+		2681065A1E31EF55007A550E /* BlocksKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268106411E31EF35007A550E /* BlocksKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2681065B1E31EF55007A550E /* FDTemplateLayoutCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268106421E31EF35007A550E /* FDTemplateLayoutCell.framework */; };
+		2681065C1E31EF55007A550E /* FDTemplateLayoutCell.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268106421E31EF35007A550E /* FDTemplateLayoutCell.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2681065D1E31EF55007A550E /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268106431E31EF35007A550E /* FMDB.framework */; };
+		2681065E1E31EF55007A550E /* FMDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268106431E31EF35007A550E /* FMDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2681065F1E31EF55007A550E /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268106441E31EF35007A550E /* JSONModel.framework */; };
+		268106601E31EF55007A550E /* JSONModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268106441E31EF35007A550E /* JSONModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		268106611E31EF55007A550E /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268106451E31EF35007A550E /* KissXML.framework */; };
+		268106621E31EF55007A550E /* KissXML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268106451E31EF35007A550E /* KissXML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		268106631E31EF55007A550E /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268106461E31EF35007A550E /* Masonry.framework */; };
+		268106641E31EF55007A550E /* Masonry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268106461E31EF35007A550E /* Masonry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		268106651E31EF55007A550E /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268106471E31EF35007A550E /* MBProgressHUD.framework */; };
+		268106661E31EF55007A550E /* MBProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268106471E31EF35007A550E /* MBProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		268106671E31EF55007A550E /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268106481E31EF35007A550E /* MJRefresh.framework */; };
+		268106681E31EF55007A550E /* MJRefresh.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268106481E31EF35007A550E /* MJRefresh.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		268106691E31EF55007A550E /* PCCWWebViewJavascriptBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268106491E31EF35007A550E /* PCCWWebViewJavascriptBridge.framework */; };
+		2681066A1E31EF55007A550E /* PCCWWebViewJavascriptBridge.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268106491E31EF35007A550E /* PCCWWebViewJavascriptBridge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2685F9CA1E2092E5001D53B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2685F9C91E2092E5001D53B8 /* main.m */; };
 		2685F9CD1E2092E5001D53B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2685F9CC1E2092E5001D53B8 /* AppDelegate.m */; };
 		2685F9D01E2092E5001D53B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2685F9CF1E2092E5001D53B8 /* ViewController.m */; };
@@ -36,12 +58,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		26A25C681E21238E00693AF2 /* Embed Frameworks */ = {
+		268106121E31EE64007A550E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				268106601E31EF55007A550E /* JSONModel.framework in Embed Frameworks */,
+				268106561E31EF55007A550E /* AFNetworkActivityLogger.framework in Embed Frameworks */,
+				268106661E31EF55007A550E /* MBProgressHUD.framework in Embed Frameworks */,
+				268106621E31EF55007A550E /* KissXML.framework in Embed Frameworks */,
+				2681065A1E31EF55007A550E /* BlocksKit.framework in Embed Frameworks */,
+				268106681E31EF55007A550E /* MJRefresh.framework in Embed Frameworks */,
+				2681065C1E31EF55007A550E /* FDTemplateLayoutCell.framework in Embed Frameworks */,
+				2681065E1E31EF55007A550E /* FMDB.framework in Embed Frameworks */,
+				268106641E31EF55007A550E /* Masonry.framework in Embed Frameworks */,
+				268106581E31EF55007A550E /* AFNetworking.framework in Embed Frameworks */,
+				2681066A1E31EF55007A550E /* PCCWWebViewJavascriptBridge.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,6 +82,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2681063F1E31EF35007A550E /* AFNetworkActivityLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworkActivityLogger.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/AFNetworkActivityLogger.framework; sourceTree = "<group>"; };
+		268106401E31EF35007A550E /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
+		268106411E31EF35007A550E /* BlocksKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BlocksKit.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/BlocksKit.framework; sourceTree = "<group>"; };
+		268106421E31EF35007A550E /* FDTemplateLayoutCell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FDTemplateLayoutCell.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/FDTemplateLayoutCell.framework; sourceTree = "<group>"; };
+		268106431E31EF35007A550E /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMDB.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/FMDB.framework; sourceTree = "<group>"; };
+		268106441E31EF35007A550E /* JSONModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSONModel.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/JSONModel.framework; sourceTree = "<group>"; };
+		268106451E31EF35007A550E /* KissXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KissXML.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/KissXML.framework; sourceTree = "<group>"; };
+		268106461E31EF35007A550E /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
+		268106471E31EF35007A550E /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/MBProgressHUD.framework; sourceTree = "<group>"; };
+		268106481E31EF35007A550E /* MJRefresh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MJRefresh.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/MJRefresh.framework; sourceTree = "<group>"; };
+		268106491E31EF35007A550E /* PCCWWebViewJavascriptBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PCCWWebViewJavascriptBridge.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/PCCWWebViewJavascriptBridge.framework; sourceTree = "<group>"; };
 		2685F9C51E2092E5001D53B8 /* PCCWFoundation Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PCCWFoundation Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2685F9C91E2092E5001D53B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2685F9CB1E2092E5001D53B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,14 +110,6 @@
 		2685F9ED1E2092E5001D53B8 /* PCCWFoundation_ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCCWFoundation_ExampleUITests.m; sourceTree = "<group>"; };
 		2685F9EF1E2092E5001D53B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2685FAED1E20DFD9001D53B8 /* Weather.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Weather.xml; sourceTree = "<group>"; };
-		26A25C831E21262200693AF2 /* AFNetworkActivityLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworkActivityLogger.framework; sourceTree = "<group>"; };
-		26A25C841E21262200693AF2 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
-		26A25C851E21262200693AF2 /* FDTemplateLayoutCell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FDTemplateLayoutCell.framework; sourceTree = "<group>"; };
-		26A25C861E21262200693AF2 /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FMDB.framework; sourceTree = "<group>"; };
-		26A25C871E21262200693AF2 /* JSONModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSONModel.framework; sourceTree = "<group>"; };
-		26A25C881E21262200693AF2 /* KissXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KissXML.framework; sourceTree = "<group>"; };
-		26A25C891E21262200693AF2 /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MBProgressHUD.framework; sourceTree = "<group>"; };
-		26A25C8A1E21262200693AF2 /* MJRefresh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MJRefresh.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +117,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2681065F1E31EF55007A550E /* JSONModel.framework in Frameworks */,
+				268106551E31EF55007A550E /* AFNetworkActivityLogger.framework in Frameworks */,
+				268106651E31EF55007A550E /* MBProgressHUD.framework in Frameworks */,
+				268106611E31EF55007A550E /* KissXML.framework in Frameworks */,
+				268106591E31EF55007A550E /* BlocksKit.framework in Frameworks */,
+				268106671E31EF55007A550E /* MJRefresh.framework in Frameworks */,
+				2681065B1E31EF55007A550E /* FDTemplateLayoutCell.framework in Frameworks */,
+				2681065D1E31EF55007A550E /* FMDB.framework in Frameworks */,
+				268106631E31EF55007A550E /* Masonry.framework in Frameworks */,
+				268106571E31EF55007A550E /* AFNetworking.framework in Frameworks */,
+				268106691E31EF55007A550E /* PCCWWebViewJavascriptBridge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,14 +215,17 @@
 		26A25C821E21262200693AF2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				26A25C831E21262200693AF2 /* AFNetworkActivityLogger.framework */,
-				26A25C841E21262200693AF2 /* AFNetworking.framework */,
-				26A25C851E21262200693AF2 /* FDTemplateLayoutCell.framework */,
-				26A25C861E21262200693AF2 /* FMDB.framework */,
-				26A25C871E21262200693AF2 /* JSONModel.framework */,
-				26A25C881E21262200693AF2 /* KissXML.framework */,
-				26A25C891E21262200693AF2 /* MBProgressHUD.framework */,
-				26A25C8A1E21262200693AF2 /* MJRefresh.framework */,
+				2681063F1E31EF35007A550E /* AFNetworkActivityLogger.framework */,
+				268106401E31EF35007A550E /* AFNetworking.framework */,
+				268106411E31EF35007A550E /* BlocksKit.framework */,
+				268106421E31EF35007A550E /* FDTemplateLayoutCell.framework */,
+				268106431E31EF35007A550E /* FMDB.framework */,
+				268106441E31EF35007A550E /* JSONModel.framework */,
+				268106451E31EF35007A550E /* KissXML.framework */,
+				268106461E31EF35007A550E /* Masonry.framework */,
+				268106471E31EF35007A550E /* MBProgressHUD.framework */,
+				268106481E31EF35007A550E /* MJRefresh.framework */,
+				268106491E31EF35007A550E /* PCCWWebViewJavascriptBridge.framework */,
 			);
 			name = Frameworks;
 			path = "../../../Library/Developer/Xcode/DerivedData/PCCWFoundation-himzavvlgarsleaxvtfyzoqrsyre/Build/Products/Debug-iphonesimulator/PCCWFoundation.framework/Frameworks";
@@ -191,7 +241,7 @@
 				2685F9C11E2092E5001D53B8 /* Sources */,
 				2685F9C21E2092E5001D53B8 /* Frameworks */,
 				2685F9C31E2092E5001D53B8 /* Resources */,
-				26A25C681E21238E00693AF2 /* Embed Frameworks */,
+				268106121E31EE64007A550E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -477,6 +527,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/../Carthage/Build/iOS/",
 				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../PCCWFoundation/";
 				INFOPLIST_FILE = "PCCWFoundation Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pccw.PCCWFoundation-Example";
@@ -495,6 +546,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/../Carthage/Build/iOS/",
 				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../PCCWFoundation/";
 				INFOPLIST_FILE = "PCCWFoundation Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pccw.PCCWFoundation-Example";
