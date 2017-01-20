@@ -11,4 +11,5 @@
 #import "PCCWException.h"
 #import "PCCWLocalized.h"
 #import "extobjc.h"
+#import "PCCWAppearance.h"
 #endif

@@ -7,10 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PCCWAppearance.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIViewController (PCCWExtension)
+@interface UIViewController (PCCWExtension)<PCCWAppearance>
+
+@property (nonatomic, assign) NSString *confirmCancelTitle PCCW_APPEARANCE_SELECTOR;
+
+@property (nonatomic, assign) NSString *confirmOKTitle PCCW_APPEARANCE_SELECTOR;
+
+@property (nonatomic, assign) NSString *errorOkTitle PCCW_APPEARANCE_SELECTOR;
+
++ (id)appearance;
 
 - (BOOL)showAlertWithError:(nullable NSError *)error;
 

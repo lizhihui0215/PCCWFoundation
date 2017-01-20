@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <PCCWFoundation.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[UIViewController appearance] setConfirmCancelTitle:@"取消！！"];
+    [[UIViewController appearance] setConfirmOKTitle:@"确定！！"];
+    [[UIViewController appearance] setErrorOkTitle:@"哈哈！！"];
+    
     return YES;
 }
 

@@ -25,7 +25,6 @@
     [super viewDidAppear:animated];
     [self showAlertWithError:errorWithCode(0, @"xx")];
 
-    
     [self showConfirmWithTitle:@"test"
                        message:@"xx"
                completeHandler:^(BOOL isCancel) {

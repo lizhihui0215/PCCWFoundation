@@ -7,6 +7,7 @@
 //
 
 #import "UIAlertController+Blocks.h"
+#import "UIViewController+PCCWExtension.h"
 
 NSString * const kExceptionCode = @"com.pccw.foundation.exception.code";
 
@@ -67,7 +68,7 @@ NSError * errorWithCode(NSInteger code, NSString *message){
     [UIAlertController showAlertInViewController:self.handler
                                        withTitle:message
                                          message:code
-                               cancelButtonTitle:@"确定"
+                               cancelButtonTitle:self.handler.errorOkTitle
                           destructiveButtonTitle:nil
                                otherButtonTitles:nil
                                         tapBlock:^(UIAlertController * _Nonnull controller, UIAlertAction * _Nonnull action, NSInteger buttonIndex) {
