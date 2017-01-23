@@ -9,7 +9,6 @@
 #import "PCCWViewController.h"
 #import <MJRefresh/MJRefresh.h>
 #import <FDTemplateLayoutCell/FDTemplateLayoutCell.h>
-#import "PCCWLocalizedProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

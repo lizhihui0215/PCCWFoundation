@@ -117,7 +117,6 @@
 		5B875059AA9CD283908BA0C9 /* NSInvocation+Copy.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B87583D0311E4C8B4B38B09 /* NSInvocation+Copy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B875140C4EF03286C65ED33 /* PCCWLocalized.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B875A1D844CD77FA72CE915 /* PCCWLocalized.m */; };
 		5B87539984B28135AFCDF115 /* PCCWLocalized.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B875A21495F63FA3A568D4E /* PCCWLocalized.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B875657CBBAD21235C1038F /* PCCWLocalizedProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B8758364439CB7E49096103 /* PCCWLocalizedProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B875E0C019649454F138DDD /* NSInvocation+Copy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8754BF6B0A96F881CDB6BE /* NSInvocation+Copy.m */; };
 /* End PBXBuildFile section */
 
@@ -243,7 +242,6 @@
 		26DA09AB1E237D790027FAA7 /* UIView+PCCWCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PCCWCornerRadius.m"; sourceTree = "<group>"; };
 		26DB72FA1E2767EA00B8C6B6 /* BlocksKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BlocksKit.framework; path = Carthage/Build/iOS/BlocksKit.framework; sourceTree = "<group>"; };
 		5B8754BF6B0A96F881CDB6BE /* NSInvocation+Copy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+Copy.m"; sourceTree = "<group>"; };
-		5B8758364439CB7E49096103 /* PCCWLocalizedProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWLocalizedProtocol.h; sourceTree = "<group>"; };
 		5B87583D0311E4C8B4B38B09 /* NSInvocation+Copy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+Copy.h"; sourceTree = "<group>"; };
 		5B875A1D844CD77FA72CE915 /* PCCWLocalized.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWLocalized.m; sourceTree = "<group>"; };
 		5B875A21495F63FA3A568D4E /* PCCWLocalized.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWLocalized.h; sourceTree = "<group>"; };
@@ -448,7 +446,6 @@
 				2636B8731E1E42D200A67C84 /* PCCWTableViewHeaderFooterView.m */,
 				2636B8781E1E42D200A67C84 /* PCCWTabBarViewController.h */,
 				2636B8791E1E42D200A67C84 /* PCCWTabBarViewController.m */,
-				5B8758364439CB7E49096103 /* PCCWLocalizedProtocol.h */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -576,7 +573,6 @@
 				266097DC1E30921700097E1F /* metamacros.h in Headers */,
 				5B87539984B28135AFCDF115 /* PCCWLocalized.h in Headers */,
 				266097CD1E30921700097E1F /* EXTCoroutine.h in Headers */,
-				5B875657CBBAD21235C1038F /* PCCWLocalizedProtocol.h in Headers */,
 				26DA09A01E2379E40027FAA7 /* PCCWListViewModel.h in Headers */,
 				266097D31E30921700097E1F /* EXTRuntimeExtensions.h in Headers */,
 				268105DA1E31DAFA007A550E /* UIViewController+PCCWExtension.h in Headers */,
