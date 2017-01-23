@@ -89,18 +89,18 @@
 
 @dynamic bk_frameForPreviewItem, bk_transitionImageForPreviewItem, bk_shouldOpenURLForPreviewItem, bk_willDismissBlock, bk_didDismissBlock;
 
-+ (void)load
-{
-	@autoreleasepool {
-		[self bk_registerDynamicDelegate];
-		[self bk_linkDelegateMethods:@{
-									   @"bk_frameForPreviewItem": @"previewController:frameForPreviewItem:inSourceView:",
-									   @"bk_transitionImageForPreviewItem": @"previewController:transitionImageForPreviewItem:contentRect:",
-									   @"bk_shouldOpenURLForPreviewItem": @"previewController:shouldOpenURL:forPreviewItem:",
-									   @"bk_willDismissBlock": @"previewControllerWillDismiss:",
-									   @"bk_didDismissBlock": @"previewControllerDidDismiss:"
-									   }];
-	}
-}
+//+ (void)load
+//{
+//	@autoreleasepool {
+//		[self bk_registerDynamicDelegate];
+//		[self bk_linkDelegateMethods:@{
+//									   @"bk_frameForPreviewItem": @"previewController:frameForPreviewItem:inSourceView:",
+//									   @"bk_transitionImageForPreviewItem": @"previewController:transitionImageForPreviewItem:contentRect:",
+//									   @"bk_shouldOpenURLForPreviewItem": @"previewController:shouldOpenURL:forPreviewItem:",
+//									   @"bk_willDismissBlock": @"previewControllerWillDismiss:",
+//									   @"bk_didDismissBlock": @"previewControllerDidDismiss:"
+//									   }];
+//	}
+//}
 
 @end
