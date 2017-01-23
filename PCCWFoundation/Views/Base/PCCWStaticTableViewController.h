@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PCCWStaticTableViewController : UITableViewController<PCCWLocalizedProtocol>
+@interface PCCWStaticTableViewController : UITableViewController
 
 - (void)removeFooterView;
 @end

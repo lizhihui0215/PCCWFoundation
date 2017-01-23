@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PCCWViewController : UIViewController<PCCWLocalizedProtocol>
+@interface PCCWViewController : UIViewController
 
 @end
 

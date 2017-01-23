@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PCCWTabBarViewController : UITabBarController<PCCWLocalizedProtocol>
+@interface PCCWTabBarViewController : UITabBarController
 
 @end
 

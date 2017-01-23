@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PCCWLocalized.h"
 #import "PCCWAppearance.h"
 
 NS_ASSUME_NONNULL_BEGIN

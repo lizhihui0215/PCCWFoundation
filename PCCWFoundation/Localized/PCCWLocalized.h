@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PCCWLocalized.h"
 
 FOUNDATION_EXPORT NSString * const PCCWLocalizedLanguageChangedNotification;
 
