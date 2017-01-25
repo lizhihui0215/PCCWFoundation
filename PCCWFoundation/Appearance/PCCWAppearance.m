@@ -39,18 +39,6 @@ static NSMutableDictionary *instanceOfClassesDictionary = nil;
         [targetInvocation setTarget:target];
         [targetInvocation invoke];
         targetInvocation = nil;
-        
-        NSArray *a;
-        [targetInvocation getArgument:&a atIndex:3];
-        
-        NSArray *b;
-        [targetInvocation getReturnValue:&b];
-        
-        
-        NSLog(@"arguments %@, \n return %@",a,b);
-        
-        
-        
     }
 }
 

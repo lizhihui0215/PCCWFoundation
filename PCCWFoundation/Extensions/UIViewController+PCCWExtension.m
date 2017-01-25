@@ -112,8 +112,9 @@ static inline BOOL pccw_addMethod(Class theClass, SEL selector, Method method) {
 }
 
 - (void)pccw_languageDidChanged:(NSNotification *)notification {
-    [[[self class] appearance] applyInvocationRecursivelyTo:self upToSuperClass:[UIViewController class]];
     [self languageDidChanged:notification];
+    [[[self class] appearance] applyInvocationRecursivelyTo:self
+                                             upToSuperClass:[UIViewController class]];
 }
 
 - (BOOL)showAlertWithError:(NSError *)error{
