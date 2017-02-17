@@ -216,4 +216,9 @@
     return [super isEqual:object];
 }
 
+- (NSComparisonResult)compare:(PCCWSectionItem *)other
+{
+    return [self.info compare:other.info];
+}
+
 @end

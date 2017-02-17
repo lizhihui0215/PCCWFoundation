@@ -51,6 +51,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign, getter=isSelected) BOOL selected;
 
+- (NSComparisonResult)compare:(PCCWSectionItem *)other;
+
 + (PCCWSectionItem *)itemWithInfo:(nullable id)info selected:(BOOL)selected;
 @end
 
