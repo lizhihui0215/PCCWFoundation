@@ -67,6 +67,8 @@
 		266097E81E3093FD00097E1F /* UIColor+HSV.m in Sources */ = {isa = PBXBuildFile; fileRef = 266097E41E3093FD00097E1F /* UIColor+HSV.m */; };
 		266097F71E30AC6200097E1F /* PCCWCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 266097F51E30AC6200097E1F /* PCCWCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266097F81E30AC6200097E1F /* PCCWCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 266097F61E30AC6200097E1F /* PCCWCheckBox.m */; };
+		2662EF731E56AD26003F1E0A /* PCCWFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2662EF711E56AD26003F1E0A /* PCCWFileManager.h */; };
+		2662EF741E56AD26003F1E0A /* PCCWFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2662EF721E56AD26003F1E0A /* PCCWFileManager.m */; };
 		266F6A551E1E1E0A006E210E /* PCCWException.h in Headers */ = {isa = PBXBuildFile; fileRef = 266F6A531E1E1E0A006E210E /* PCCWException.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266F6A561E1E1E0A006E210E /* PCCWException.m in Sources */ = {isa = PBXBuildFile; fileRef = 266F6A541E1E1E0A006E210E /* PCCWException.m */; };
 		266F6A591E1E1F14006E210E /* UIAlertController+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 266F6A571E1E1F14006E210E /* UIAlertController+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -189,6 +191,8 @@
 		266097E41E3093FD00097E1F /* UIColor+HSV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HSV.m"; sourceTree = "<group>"; };
 		266097F51E30AC6200097E1F /* PCCWCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWCheckBox.h; sourceTree = "<group>"; };
 		266097F61E30AC6200097E1F /* PCCWCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWCheckBox.m; sourceTree = "<group>"; };
+		2662EF711E56AD26003F1E0A /* PCCWFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWFileManager.h; sourceTree = "<group>"; };
+		2662EF721E56AD26003F1E0A /* PCCWFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWFileManager.m; sourceTree = "<group>"; };
 		266F6A531E1E1E0A006E210E /* PCCWException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWException.h; sourceTree = "<group>"; };
 		266F6A541E1E1E0A006E210E /* PCCWException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWException.m; sourceTree = "<group>"; };
 		266F6A571E1E1F14006E210E /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
@@ -463,6 +467,8 @@
 		5B875894BCBA15684BB0E2B2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				2662EF711E56AD26003F1E0A /* PCCWFileManager.h */,
+				2662EF721E56AD26003F1E0A /* PCCWFileManager.m */,
 				266097E11E3093FD00097E1F /* UIColor+Expanded.h */,
 				266097E21E3093FD00097E1F /* UIColor+Expanded.m */,
 				266097E31E3093FD00097E1F /* UIColor+HSV.h */,
@@ -560,6 +566,7 @@
 				266097D51E30921700097E1F /* EXTSafeCategory.h in Headers */,
 				26DA09A21E2379E40027FAA7 /* PCCWViewModel.h in Headers */,
 				26DA09AC1E237D790027FAA7 /* UIView+PCCWCornerRadius.h in Headers */,
+				2662EF731E56AD26003F1E0A /* PCCWFileManager.h in Headers */,
 				266097D71E30921700097E1F /* EXTScope.h in Headers */,
 				266097DB1E30921700097E1F /* EXTSynthesize.h in Headers */,
 				266097D91E30921700097E1F /* EXTSelectorChecking.h in Headers */,
@@ -735,6 +742,7 @@
 				2636B8811E1E42D200A67C84 /* PCCWTableViewController.m in Sources */,
 				266097E81E3093FD00097E1F /* UIColor+HSV.m in Sources */,
 				266097D61E30921700097E1F /* EXTSafeCategory.m in Sources */,
+				2662EF741E56AD26003F1E0A /* PCCWFileManager.m in Sources */,
 				268105DB1E31DAFA007A550E /* UIViewController+PCCWExtension.m in Sources */,
 				26D4E8621E00FB1F00D82973 /* PCCWWebServiceRequestSerializer.m in Sources */,
 				266F6A561E1E1E0A006E210E /* PCCWException.m in Sources */,
