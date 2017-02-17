@@ -86,7 +86,7 @@ static inline BOOL pccw_addMethod(Class theClass, SEL selector, Method method) {
 }
 
 - (void)setHUDHandler:(PCCWHUDHandler *)HUDHandler{
-    [self bk_associateValue:HUDHandler withKey:@selector(exception)];
+    [self bk_associateValue:HUDHandler withKey:@selector(HUDHandler)];
 }
 
 - (PCCWHUDHandler *)HUDHandler{
