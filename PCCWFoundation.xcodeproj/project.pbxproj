@@ -67,7 +67,7 @@
 		266097E81E3093FD00097E1F /* UIColor+HSV.m in Sources */ = {isa = PBXBuildFile; fileRef = 266097E41E3093FD00097E1F /* UIColor+HSV.m */; };
 		266097F71E30AC6200097E1F /* PCCWCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 266097F51E30AC6200097E1F /* PCCWCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266097F81E30AC6200097E1F /* PCCWCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 266097F61E30AC6200097E1F /* PCCWCheckBox.m */; };
-		2662EF731E56AD26003F1E0A /* PCCWFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2662EF711E56AD26003F1E0A /* PCCWFileManager.h */; };
+		2662EF731E56AD26003F1E0A /* PCCWFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2662EF711E56AD26003F1E0A /* PCCWFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2662EF741E56AD26003F1E0A /* PCCWFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2662EF721E56AD26003F1E0A /* PCCWFileManager.m */; };
 		266F6A551E1E1E0A006E210E /* PCCWException.h in Headers */ = {isa = PBXBuildFile; fileRef = 266F6A531E1E1E0A006E210E /* PCCWException.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266F6A561E1E1E0A006E210E /* PCCWException.m in Sources */ = {isa = PBXBuildFile; fileRef = 266F6A541E1E1E0A006E210E /* PCCWException.m */; };
