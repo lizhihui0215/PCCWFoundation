@@ -566,7 +566,6 @@
 				266097D51E30921700097E1F /* EXTSafeCategory.h in Headers */,
 				26DA09A21E2379E40027FAA7 /* PCCWViewModel.h in Headers */,
 				26DA09AC1E237D790027FAA7 /* UIView+PCCWCornerRadius.h in Headers */,
-				2662EF731E56AD26003F1E0A /* PCCWFileManager.h in Headers */,
 				266097D71E30921700097E1F /* EXTScope.h in Headers */,
 				266097DB1E30921700097E1F /* EXTSynthesize.h in Headers */,
 				266097D91E30921700097E1F /* EXTSelectorChecking.h in Headers */,
@@ -586,6 +585,7 @@
 				266097F71E30AC6200097E1F /* PCCWCheckBox.h in Headers */,
 				268106721E32066B007A550E /* PCCWAppearance.h in Headers */,
 				5B875059AA9CD283908BA0C9 /* NSInvocation+Copy.h in Headers */,
+				2662EF731E56AD26003F1E0A /* PCCWFileManager.h in Headers */,
 				26C5B3A11DFFF3270088BFF8 /* PCCWModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

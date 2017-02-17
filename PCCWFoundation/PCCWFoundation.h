@@ -48,5 +48,5 @@ FOUNDATION_EXPORT const unsigned char PCCWFoundationVersionString[];
 #import <PCCWFoundation/UIViewController+PCCWExtension.h>
 #import <PCCWFoundation/NSInvocation+Copy.h>
 #import <PCCWFoundation/PCCWAppearance.h>
-
+#import <PCCWFoundation/PCCWFileManager.h>
 #import <BlocksKit/BlocksKit.h>
