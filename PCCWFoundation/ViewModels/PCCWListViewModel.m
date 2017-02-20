@@ -105,6 +105,13 @@
    return [self sectionAt:sectionIndex].items;
 }
 
+- (NSArray <PCCWSectionItem *> *)sectionItemsWithSelectedStatus:(BOOL)selectedStatus
+                                                      atSection:(NSInteger)sectionIndex{
+    PCCWSection *section = [self sectionAt:sectionIndex];
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF.isSelected == %@", (selectedStatus)];
+    return [section.items filteredArrayUsingPredicate:predicate];
+}
+
 - (void)deleteSelectedItemsAtSection:(NSInteger)sectionIndex{
     PCCWSection *section = [self sectionAt:sectionIndex];
     

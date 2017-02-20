@@ -83,6 +83,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (NSMutableArray <PCCWSectionItem *> *)sectionItemsWithObjects:(NSArray<id> *)objects;
 
+- (NSArray <PCCWSectionItem *> *)sectionItemsWithSelectedStatus:(BOOL)selectedStatus
+                                                      atSection:(NSInteger)sectionIndex;
+
 @end
 
 NS_ASSUME_NONNULL_END
