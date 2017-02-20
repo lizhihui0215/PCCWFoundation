@@ -60,7 +60,7 @@ NSError * errorWithCode(NSInteger code, NSString *message){
     
     IsShowing = YES;
     
-    NSString *code = [error.userInfo[kExceptionCode] integerValue] == 0 ? nil : error.userInfo[kExceptionCode];
+    NSString *code = [error.userInfo[kExceptionCode] integerValue] == 0 ? nil : [error.userInfo[kExceptionCode] stringValue];
     
     NSString *message = error.userInfo[kExceptionMessage];
     
