@@ -80,6 +80,10 @@
 		268106721E32066B007A550E /* PCCWAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 2681066E1E32066B007A550E /* PCCWAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		268DB3E21E1FA40A001085B2 /* PCCWHUDHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 268DB3E01E1FA40A001085B2 /* PCCWHUDHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		268DB3E31E1FA40A001085B2 /* PCCWHUDHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 268DB3E11E1FA40A001085B2 /* PCCWHUDHandler.m */; };
+		2692320C1E5AA22100740C2B /* NSDate+PCCWExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2692320A1E5AA22100740C2B /* NSDate+PCCWExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2692320D1E5AA22100740C2B /* NSDate+PCCWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2692320B1E5AA22100740C2B /* NSDate+PCCWExtension.m */; };
+		269232101E5AB5B600740C2B /* NSString+PCCWExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2692320E1E5AB5B600740C2B /* NSString+PCCWExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		269232111E5AB5B600740C2B /* NSString+PCCWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2692320F1E5AB5B600740C2B /* NSString+PCCWExtension.m */; };
 		26A25CD41E228EC700693AF2 /* AFNetworkActivityLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A25CCC1E228EC700693AF2 /* AFNetworkActivityLogger.framework */; };
 		26A25CD51E228EC700693AF2 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A25CCD1E228EC700693AF2 /* AFNetworking.framework */; };
 		26A25CD61E228EC700693AF2 /* FDTemplateLayoutCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A25CCE1E228EC700693AF2 /* FDTemplateLayoutCell.framework */; };
@@ -204,6 +208,10 @@
 		2681066E1E32066B007A550E /* PCCWAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWAppearance.h; sourceTree = "<group>"; };
 		268DB3E01E1FA40A001085B2 /* PCCWHUDHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCWHUDHandler.h; sourceTree = "<group>"; };
 		268DB3E11E1FA40A001085B2 /* PCCWHUDHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCWHUDHandler.m; sourceTree = "<group>"; };
+		2692320A1E5AA22100740C2B /* NSDate+PCCWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+PCCWExtension.h"; sourceTree = "<group>"; };
+		2692320B1E5AA22100740C2B /* NSDate+PCCWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+PCCWExtension.m"; sourceTree = "<group>"; };
+		2692320E1E5AB5B600740C2B /* NSString+PCCWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PCCWExtension.h"; sourceTree = "<group>"; };
+		2692320F1E5AB5B600740C2B /* NSString+PCCWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PCCWExtension.m"; sourceTree = "<group>"; };
 		26994D611E20F3B200AB1514 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26A25CCC1E228EC700693AF2 /* AFNetworkActivityLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworkActivityLogger.framework; path = Carthage/Build/iOS/AFNetworkActivityLogger.framework; sourceTree = "<group>"; };
 		26A25CCD1E228EC700693AF2 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
@@ -468,6 +476,10 @@
 			isa = PBXGroup;
 			children = (
 				2662EF711E56AD26003F1E0A /* PCCWFileManager.h */,
+				2692320A1E5AA22100740C2B /* NSDate+PCCWExtension.h */,
+				2692320B1E5AA22100740C2B /* NSDate+PCCWExtension.m */,
+				2692320E1E5AB5B600740C2B /* NSString+PCCWExtension.h */,
+				2692320F1E5AB5B600740C2B /* NSString+PCCWExtension.m */,
 				2662EF721E56AD26003F1E0A /* PCCWFileManager.m */,
 				266097E11E3093FD00097E1F /* UIColor+Expanded.h */,
 				266097E21E3093FD00097E1F /* UIColor+Expanded.m */,
@@ -584,7 +596,9 @@
 				268105DA1E31DAFA007A550E /* UIViewController+PCCWExtension.h in Headers */,
 				266097F71E30AC6200097E1F /* PCCWCheckBox.h in Headers */,
 				268106721E32066B007A550E /* PCCWAppearance.h in Headers */,
+				269232101E5AB5B600740C2B /* NSString+PCCWExtension.h in Headers */,
 				5B875059AA9CD283908BA0C9 /* NSInvocation+Copy.h in Headers */,
+				2692320C1E5AA22100740C2B /* NSDate+PCCWExtension.h in Headers */,
 				2662EF731E56AD26003F1E0A /* PCCWFileManager.h in Headers */,
 				26C5B3A11DFFF3270088BFF8 /* PCCWModel.h in Headers */,
 			);
@@ -753,12 +767,14 @@
 				26DA09AD1E237D790027FAA7 /* UIView+PCCWCornerRadius.m in Sources */,
 				265429FF1E24C0B4007C9FA6 /* PCCWDomain.m in Sources */,
 				266097CA1E30921700097E1F /* EXTADT.m in Sources */,
+				269232111E5AB5B600740C2B /* NSString+PCCWExtension.m in Sources */,
 				266097DA1E30921700097E1F /* EXTSelectorChecking.m in Sources */,
 				266F6A5A1E1E1F14006E210E /* UIAlertController+Blocks.m in Sources */,
 				268DB3E31E1FA40A001085B2 /* PCCWHUDHandler.m in Sources */,
 				266097D81E30921700097E1F /* EXTScope.m in Sources */,
 				26D4E8661E00FB4B00D82973 /* PCCWWebServiceReponseSerializer.m in Sources */,
 				2636B87B1E1E42D200A67C84 /* PCCWTableViewCell.m in Sources */,
+				2692320D1E5AA22100740C2B /* NSDate+PCCWExtension.m in Sources */,
 				26DA09A91E237A550027FAA7 /* PCCWDatabaseService.m in Sources */,
 				26DA09A11E2379E40027FAA7 /* PCCWListViewModel.m in Sources */,
 				266097CC1E30921700097E1F /* EXTConcreteProtocol.m in Sources */,
