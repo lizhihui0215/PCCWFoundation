@@ -10,4 +10,6 @@
 
 @interface NSDate (PCCWExtension)
 
+- (NSString *)stringDateWithFormat:(NSString *)format;
+
 @end
