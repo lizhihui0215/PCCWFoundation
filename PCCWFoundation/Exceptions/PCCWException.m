@@ -60,10 +60,9 @@ NSError * errorWithCode(NSInteger code, NSString *message){
     
     IsShowing = YES;
     
-    NSString *code = [error.userInfo[kExceptionCode] stringValue];
+    NSString *code = [error.userInfo[kExceptionCode] integerValue] == 0 ? nil : error.userInfo[kExceptionCode];
     
     NSString *message = error.userInfo[kExceptionMessage];
-    
     
     [UIAlertController showAlertInViewController:self.handler
                                        withTitle:message
