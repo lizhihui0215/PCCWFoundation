@@ -17,8 +17,6 @@
 		2681065C1E31EF55007A550E /* FDTemplateLayoutCell.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268106421E31EF35007A550E /* FDTemplateLayoutCell.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2681065D1E31EF55007A550E /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268106431E31EF35007A550E /* FMDB.framework */; };
 		2681065E1E31EF55007A550E /* FMDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268106431E31EF35007A550E /* FMDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2681065F1E31EF55007A550E /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268106441E31EF35007A550E /* JSONModel.framework */; };
-		268106601E31EF55007A550E /* JSONModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268106441E31EF35007A550E /* JSONModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		268106611E31EF55007A550E /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268106451E31EF35007A550E /* KissXML.framework */; };
 		268106621E31EF55007A550E /* KissXML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268106451E31EF35007A550E /* KissXML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		268106631E31EF55007A550E /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268106461E31EF35007A550E /* Masonry.framework */; };
@@ -64,7 +62,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				268106601E31EF55007A550E /* JSONModel.framework in Embed Frameworks */,
 				268106561E31EF55007A550E /* AFNetworkActivityLogger.framework in Embed Frameworks */,
 				268106661E31EF55007A550E /* MBProgressHUD.framework in Embed Frameworks */,
 				268106621E31EF55007A550E /* KissXML.framework in Embed Frameworks */,
@@ -87,7 +84,6 @@
 		268106411E31EF35007A550E /* BlocksKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BlocksKit.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/BlocksKit.framework; sourceTree = "<group>"; };
 		268106421E31EF35007A550E /* FDTemplateLayoutCell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FDTemplateLayoutCell.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/FDTemplateLayoutCell.framework; sourceTree = "<group>"; };
 		268106431E31EF35007A550E /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMDB.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/FMDB.framework; sourceTree = "<group>"; };
-		268106441E31EF35007A550E /* JSONModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSONModel.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/JSONModel.framework; sourceTree = "<group>"; };
 		268106451E31EF35007A550E /* KissXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KissXML.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/KissXML.framework; sourceTree = "<group>"; };
 		268106461E31EF35007A550E /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
 		268106471E31EF35007A550E /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/MBProgressHUD.framework; sourceTree = "<group>"; };
@@ -117,7 +113,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2681065F1E31EF55007A550E /* JSONModel.framework in Frameworks */,
 				268106551E31EF55007A550E /* AFNetworkActivityLogger.framework in Frameworks */,
 				268106651E31EF55007A550E /* MBProgressHUD.framework in Frameworks */,
 				268106611E31EF55007A550E /* KissXML.framework in Frameworks */,
@@ -220,7 +215,6 @@
 				268106411E31EF35007A550E /* BlocksKit.framework */,
 				268106421E31EF35007A550E /* FDTemplateLayoutCell.framework */,
 				268106431E31EF35007A550E /* FMDB.framework */,
-				268106441E31EF35007A550E /* JSONModel.framework */,
 				268106451E31EF35007A550E /* KissXML.framework */,
 				268106461E31EF35007A550E /* Masonry.framework */,
 				268106471E31EF35007A550E /* MBProgressHUD.framework */,
@@ -294,7 +288,7 @@
 		2685F9BD1E2092E5001D53B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "李智慧";
 				TargetAttributes = {
 					2685F9C41E2092E5001D53B8 = {
@@ -444,6 +438,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -492,6 +487,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
