@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "PCCWLocalized.h"
 #import "PCCWAppearance.h"
+#import "PCCWException.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

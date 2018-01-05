@@ -9,6 +9,7 @@
 @import AFNetworking;
 #import "PCCWWebServiceReponseSerializer.h"
 #import "PCCWWebServiceRequestSerializer.h"
+#import "PCCWException.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

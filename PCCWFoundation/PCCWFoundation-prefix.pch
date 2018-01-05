@@ -9,7 +9,6 @@
 #ifdef __OBJC__
     #import "PCCWException.h"
     #import "PCCWLocalized.h"
-    #import "extobjc.h"
     #import "PCCWAppearance.h"
     #import <BlocksKit/BlocksKit.h>
 #endif

@@ -10,6 +10,7 @@
 #import "UIAlertController+Blocks.h"
 #import <BlocksKit/BlocksKit.h>
 #import "PCCWHUDHandler.h"
+#import <objc/runtime.h>
 
 static inline void pccw_swizzleSelector(Class theClass, SEL originalSelector, SEL swizzledSelector) {
     Method originalMethod = class_getInstanceMethod(theClass, originalSelector);

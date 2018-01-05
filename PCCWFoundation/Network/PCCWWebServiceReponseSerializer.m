@@ -8,6 +8,7 @@
 
 #import "PCCWWebServiceReponseSerializer.h"
 #import "PCCWWSDLParsers.h"
+#import "PCCWException.h"
 
 static NSString * const kCode = @"resultCode";
 
