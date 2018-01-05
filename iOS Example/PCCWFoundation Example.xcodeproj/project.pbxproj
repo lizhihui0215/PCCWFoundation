@@ -7,26 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		268106551E31EF55007A550E /* AFNetworkActivityLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2681063F1E31EF35007A550E /* AFNetworkActivityLogger.framework */; };
-		268106561E31EF55007A550E /* AFNetworkActivityLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2681063F1E31EF35007A550E /* AFNetworkActivityLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		268106571E31EF55007A550E /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268106401E31EF35007A550E /* AFNetworking.framework */; };
-		268106581E31EF55007A550E /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268106401E31EF35007A550E /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		268106591E31EF55007A550E /* BlocksKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268106411E31EF35007A550E /* BlocksKit.framework */; };
-		2681065A1E31EF55007A550E /* BlocksKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268106411E31EF35007A550E /* BlocksKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2681065B1E31EF55007A550E /* FDTemplateLayoutCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268106421E31EF35007A550E /* FDTemplateLayoutCell.framework */; };
-		2681065C1E31EF55007A550E /* FDTemplateLayoutCell.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268106421E31EF35007A550E /* FDTemplateLayoutCell.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2681065D1E31EF55007A550E /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268106431E31EF35007A550E /* FMDB.framework */; };
-		2681065E1E31EF55007A550E /* FMDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268106431E31EF35007A550E /* FMDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		268106611E31EF55007A550E /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268106451E31EF35007A550E /* KissXML.framework */; };
-		268106621E31EF55007A550E /* KissXML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268106451E31EF35007A550E /* KissXML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		268106631E31EF55007A550E /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268106461E31EF35007A550E /* Masonry.framework */; };
-		268106641E31EF55007A550E /* Masonry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268106461E31EF35007A550E /* Masonry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		268106651E31EF55007A550E /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268106471E31EF35007A550E /* MBProgressHUD.framework */; };
-		268106661E31EF55007A550E /* MBProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268106471E31EF35007A550E /* MBProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		268106671E31EF55007A550E /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268106481E31EF35007A550E /* MJRefresh.framework */; };
-		268106681E31EF55007A550E /* MJRefresh.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268106481E31EF35007A550E /* MJRefresh.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		268106691E31EF55007A550E /* PCCWWebViewJavascriptBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268106491E31EF35007A550E /* PCCWWebViewJavascriptBridge.framework */; };
-		2681066A1E31EF55007A550E /* PCCWWebViewJavascriptBridge.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268106491E31EF35007A550E /* PCCWWebViewJavascriptBridge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		033B9D6FABEA433B026C7744 /* Pods_PCCWFoundation_PCCWFoundation_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6E2A98F18FB3177AB47BF1 /* Pods_PCCWFoundation_PCCWFoundation_Example.framework */; };
 		2685F9CA1E2092E5001D53B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2685F9C91E2092E5001D53B8 /* main.m */; };
 		2685F9CD1E2092E5001D53B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2685F9CC1E2092E5001D53B8 /* AppDelegate.m */; };
 		2685F9D01E2092E5001D53B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2685F9CF1E2092E5001D53B8 /* ViewController.m */; };
@@ -62,16 +43,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				268106561E31EF55007A550E /* AFNetworkActivityLogger.framework in Embed Frameworks */,
-				268106661E31EF55007A550E /* MBProgressHUD.framework in Embed Frameworks */,
-				268106621E31EF55007A550E /* KissXML.framework in Embed Frameworks */,
-				2681065A1E31EF55007A550E /* BlocksKit.framework in Embed Frameworks */,
-				268106681E31EF55007A550E /* MJRefresh.framework in Embed Frameworks */,
-				2681065C1E31EF55007A550E /* FDTemplateLayoutCell.framework in Embed Frameworks */,
-				2681065E1E31EF55007A550E /* FMDB.framework in Embed Frameworks */,
-				268106641E31EF55007A550E /* Masonry.framework in Embed Frameworks */,
-				268106581E31EF55007A550E /* AFNetworking.framework in Embed Frameworks */,
-				2681066A1E31EF55007A550E /* PCCWWebViewJavascriptBridge.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,16 +50,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2681063F1E31EF35007A550E /* AFNetworkActivityLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworkActivityLogger.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/AFNetworkActivityLogger.framework; sourceTree = "<group>"; };
-		268106401E31EF35007A550E /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
-		268106411E31EF35007A550E /* BlocksKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BlocksKit.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/BlocksKit.framework; sourceTree = "<group>"; };
-		268106421E31EF35007A550E /* FDTemplateLayoutCell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FDTemplateLayoutCell.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/FDTemplateLayoutCell.framework; sourceTree = "<group>"; };
-		268106431E31EF35007A550E /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMDB.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/FMDB.framework; sourceTree = "<group>"; };
-		268106451E31EF35007A550E /* KissXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KissXML.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/KissXML.framework; sourceTree = "<group>"; };
-		268106461E31EF35007A550E /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
-		268106471E31EF35007A550E /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/MBProgressHUD.framework; sourceTree = "<group>"; };
-		268106481E31EF35007A550E /* MJRefresh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MJRefresh.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/MJRefresh.framework; sourceTree = "<group>"; };
-		268106491E31EF35007A550E /* PCCWWebViewJavascriptBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PCCWWebViewJavascriptBridge.framework; path = ../../../../../../../../../../Workspace/PCCWFoundation/Carthage/Build/iOS/PCCWWebViewJavascriptBridge.framework; sourceTree = "<group>"; };
+		1309F046F2C99C594610B882 /* Pods-PCCWFoundation-PCCWFoundation Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PCCWFoundation-PCCWFoundation Example.release.xcconfig"; path = "../Pods/Target Support Files/Pods-PCCWFoundation-PCCWFoundation Example/Pods-PCCWFoundation-PCCWFoundation Example.release.xcconfig"; sourceTree = "<group>"; };
 		2685F9C51E2092E5001D53B8 /* PCCWFoundation Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PCCWFoundation Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2685F9C91E2092E5001D53B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2685F9CB1E2092E5001D53B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,6 +68,8 @@
 		2685F9ED1E2092E5001D53B8 /* PCCWFoundation_ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCCWFoundation_ExampleUITests.m; sourceTree = "<group>"; };
 		2685F9EF1E2092E5001D53B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2685FAED1E20DFD9001D53B8 /* Weather.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Weather.xml; sourceTree = "<group>"; };
+		B7FCBF36B5AF931FD61F79B9 /* Pods-PCCWFoundation-PCCWFoundation Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PCCWFoundation-PCCWFoundation Example.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-PCCWFoundation-PCCWFoundation Example/Pods-PCCWFoundation-PCCWFoundation Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CE6E2A98F18FB3177AB47BF1 /* Pods_PCCWFoundation_PCCWFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PCCWFoundation_PCCWFoundation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,16 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				268106551E31EF55007A550E /* AFNetworkActivityLogger.framework in Frameworks */,
-				268106651E31EF55007A550E /* MBProgressHUD.framework in Frameworks */,
-				268106611E31EF55007A550E /* KissXML.framework in Frameworks */,
-				268106591E31EF55007A550E /* BlocksKit.framework in Frameworks */,
-				268106671E31EF55007A550E /* MJRefresh.framework in Frameworks */,
-				2681065B1E31EF55007A550E /* FDTemplateLayoutCell.framework in Frameworks */,
-				2681065D1E31EF55007A550E /* FMDB.framework in Frameworks */,
-				268106631E31EF55007A550E /* Masonry.framework in Frameworks */,
-				268106571E31EF55007A550E /* AFNetworking.framework in Frameworks */,
-				268106691E31EF55007A550E /* PCCWWebViewJavascriptBridge.framework in Frameworks */,
+				033B9D6FABEA433B026C7744 /* Pods_PCCWFoundation_PCCWFoundation_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,11 +101,12 @@
 		2685F9BC1E2092E5001D53B8 = {
 			isa = PBXGroup;
 			children = (
-				26A25C821E21262200693AF2 /* Frameworks */,
 				2685F9C71E2092E5001D53B8 /* PCCWFoundation Example */,
 				2685F9E11E2092E5001D53B8 /* PCCWFoundation ExampleTests */,
 				2685F9EC1E2092E5001D53B8 /* PCCWFoundation ExampleUITests */,
 				2685F9C61E2092E5001D53B8 /* Products */,
+				F03DC72B0B1E0FC6706EDE58 /* Pods */,
+				DDA418282319D96C0AE5E5AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -207,22 +163,21 @@
 			path = "PCCWFoundation ExampleUITests";
 			sourceTree = "<group>";
 		};
-		26A25C821E21262200693AF2 /* Frameworks */ = {
+		DDA418282319D96C0AE5E5AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2681063F1E31EF35007A550E /* AFNetworkActivityLogger.framework */,
-				268106401E31EF35007A550E /* AFNetworking.framework */,
-				268106411E31EF35007A550E /* BlocksKit.framework */,
-				268106421E31EF35007A550E /* FDTemplateLayoutCell.framework */,
-				268106431E31EF35007A550E /* FMDB.framework */,
-				268106451E31EF35007A550E /* KissXML.framework */,
-				268106461E31EF35007A550E /* Masonry.framework */,
-				268106471E31EF35007A550E /* MBProgressHUD.framework */,
-				268106481E31EF35007A550E /* MJRefresh.framework */,
-				268106491E31EF35007A550E /* PCCWWebViewJavascriptBridge.framework */,
+				CE6E2A98F18FB3177AB47BF1 /* Pods_PCCWFoundation_PCCWFoundation_Example.framework */,
 			);
 			name = Frameworks;
-			path = "../../../Library/Developer/Xcode/DerivedData/PCCWFoundation-himzavvlgarsleaxvtfyzoqrsyre/Build/Products/Debug-iphonesimulator/PCCWFoundation.framework/Frameworks";
+			sourceTree = "<group>";
+		};
+		F03DC72B0B1E0FC6706EDE58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7FCBF36B5AF931FD61F79B9 /* Pods-PCCWFoundation-PCCWFoundation Example.debug.xcconfig */,
+				1309F046F2C99C594610B882 /* Pods-PCCWFoundation-PCCWFoundation Example.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,10 +187,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2685F9F21E2092E5001D53B8 /* Build configuration list for PBXNativeTarget "PCCWFoundation Example" */;
 			buildPhases = (
+				FA81AA16BCD7F2DF0D986AEA /* [CP] Check Pods Manifest.lock */,
 				2685F9C11E2092E5001D53B8 /* Sources */,
 				2685F9C21E2092E5001D53B8 /* Frameworks */,
 				2685F9C31E2092E5001D53B8 /* Resources */,
 				268106121E31EE64007A550E /* Embed Frameworks */,
+				11F70331E36A34237EDC3776 /* [CP] Embed Pods Frameworks */,
+				D3A706AF268459E6B65EFB16 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -288,12 +246,12 @@
 		2685F9BD1E2092E5001D53B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "李智慧";
 				TargetAttributes = {
 					2685F9C41E2092E5001D53B8 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 5F56XN57QC;
+						DevelopmentTeam = 5R5G2D4E69;
 						ProvisioningStyle = Automatic;
 					};
 					2685F9DD1E2092E5001D53B8 = {
@@ -357,6 +315,98 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11F70331E36A34237EDC3776 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-PCCWFoundation-PCCWFoundation Example/Pods-PCCWFoundation-PCCWFoundation Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/BlocksKit/BlocksKit.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaSecurity/CocoaSecurity.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/EDColor/EDColor.framework",
+				"${BUILT_PRODUCTS_DIR}/FDStackView/FDStackView.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
+				"${BUILT_PRODUCTS_DIR}/KissXML/KissXML.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/RESideMenu/RESideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/SDVersion/SDVersion.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SSKeychain/SSKeychain.framework",
+				"${BUILT_PRODUCTS_DIR}/UITableView+FDTemplateLayoutCell/UITableView_FDTemplateLayoutCell.framework",
+				"${BUILT_PRODUCTS_DIR}/WebViewJavascriptBridge/WebViewJavascriptBridge.framework",
+				"${BUILT_PRODUCTS_DIR}/libextobjc/libextobjc.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BlocksKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaSecurity.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EDColor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDStackView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KissXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RESideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDVersion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSKeychain.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITableView_FDTemplateLayoutCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebViewJavascriptBridge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libextobjc.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-PCCWFoundation-PCCWFoundation Example/Pods-PCCWFoundation-PCCWFoundation Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3A706AF268459E6B65EFB16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-PCCWFoundation-PCCWFoundation Example/Pods-PCCWFoundation-PCCWFoundation Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA81AA16BCD7F2DF0D986AEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PCCWFoundation-PCCWFoundation Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2685F9C11E2092E5001D53B8 /* Sources */ = {
@@ -429,7 +479,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -437,7 +489,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -478,7 +534,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -486,7 +544,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -514,15 +576,13 @@
 		};
 		2685F9F31E2092E5001D53B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7FCBF36B5AF931FD61F79B9 /* Pods-PCCWFoundation-PCCWFoundation Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5F56XN57QC;
+				DEVELOPMENT_TEAM = 5R5G2D4E69;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../Carthage/Build/iOS/",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../PCCWFoundation/";
 				INFOPLIST_FILE = "PCCWFoundation Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -533,15 +593,13 @@
 		};
 		2685F9F41E2092E5001D53B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1309F046F2C99C594610B882 /* Pods-PCCWFoundation-PCCWFoundation Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5F56XN57QC;
+				DEVELOPMENT_TEAM = 5R5G2D4E69;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../Carthage/Build/iOS/",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../PCCWFoundation/";
 				INFOPLIST_FILE = "PCCWFoundation Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

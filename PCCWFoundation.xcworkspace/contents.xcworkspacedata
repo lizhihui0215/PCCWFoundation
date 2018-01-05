@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:iOS Example/PCCWFoundation Example.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:PCCWFoundation.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:PCCWFoundation Example/PCCWFoundation Example.xcodeproj">
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

@@ -6,8 +6,8 @@
 //  Copyright © 2016 PCCW. All rights reserved.
 //
 
-@import Realm;
+#import <JSONModel/JSONModel.h>
 
-@interface PCCWModel : RLMObject
+@interface PCCWModel : JSONModel
 
 @end

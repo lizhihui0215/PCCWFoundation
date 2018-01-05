@@ -8,8 +8,10 @@
 
 #import "PCCWTableViewController.h"
 #import "PCCWListViewModel.h"
+#import <DZNEmptyDataSet/UIScrollView+EmptyDataSet.h>
 
-@interface PCCWTableViewController ()
+
+@interface PCCWTableViewController ()<DZNEmptyDataSetSource,DZNEmptyDataSetDelegate>
 @property (nonatomic, weak) id<PCCWTableViewControllerDelegate> tableViewDelegate;
 @end
 
@@ -109,6 +111,19 @@
         view.backgroundColor = [UIColor whiteColor];
         
         tableView.tableFooterView = view;
+    }
+}
+#pragma mark - DZNEmptyDataSet
+
+- (UIImage *)buttonImageForEmptyDataSet:(UIScrollView *)scrollView forState:(UIControlState)state
+{
+    return [UIImage imageNamed:@"emptyTableView"];
+}
+
+- (void)emptyDataSet:(UIScrollView *)scrollView didTapButton:(UIButton *)button
+{
+    if (!self.tableView.mj_header.isRefreshing && self.headerRefresh) {
+        [self.tableView.mj_header beginRefreshing];
     }
 }
 

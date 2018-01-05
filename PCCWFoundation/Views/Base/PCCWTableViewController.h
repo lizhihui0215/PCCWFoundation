@@ -8,7 +8,7 @@
 
 #import "PCCWViewController.h"
 #import <MJRefresh/MJRefresh.h>
-#import <FDTemplateLayoutCell/FDTemplateLayoutCell.h>
+#import <UITableView_FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

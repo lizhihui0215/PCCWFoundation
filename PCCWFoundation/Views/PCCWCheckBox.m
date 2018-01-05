@@ -7,7 +7,8 @@
 //
 
 #import "PCCWCheckBox.h"
-#import <BlocksKit/BlocksKit.h>
+#import <BlocksKit/UIControl+BlocksKit.h>
+
 
 @implementation PCCWCheckBox
 
@@ -31,7 +32,8 @@
 }
 
 - (void)commonInit {
-    [self bk_addEventHandler:^(id  _Nonnull sender) {
+    
+    [self bk_addEventHandler:^(id sender) {
         self.selected = !self.isSelected;
     } forControlEvents:UIControlEventTouchDown];
 }
