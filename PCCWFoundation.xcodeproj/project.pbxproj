@@ -57,7 +57,11 @@
 		2692320D1E5AA22100740C2B /* NSDate+PCCWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2692320B1E5AA22100740C2B /* NSDate+PCCWExtension.m */; };
 		269232101E5AB5B600740C2B /* NSString+PCCWExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2692320E1E5AB5B600740C2B /* NSString+PCCWExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		269232111E5AB5B600740C2B /* NSString+PCCWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2692320F1E5AB5B600740C2B /* NSString+PCCWExtension.m */; };
-		269C24211FFFD01D001D30F5 /* AFNetworkActivityLogger in Resources */ = {isa = PBXBuildFile; fileRef = 269C24201FFFD01D001D30F5 /* AFNetworkActivityLogger */; };
+		269C24281FFFD3D5001D30F5 /* AFNetworkActivityConsoleLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 269C24231FFFD3D5001D30F5 /* AFNetworkActivityConsoleLogger.h */; };
+		269C24291FFFD3D5001D30F5 /* AFNetworkActivityLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 269C24241FFFD3D5001D30F5 /* AFNetworkActivityLogger.h */; };
+		269C242A1FFFD3D5001D30F5 /* AFNetworkActivityConsoleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 269C24251FFFD3D5001D30F5 /* AFNetworkActivityConsoleLogger.m */; };
+		269C242B1FFFD3D5001D30F5 /* AFNetworkActivityLoggerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 269C24261FFFD3D5001D30F5 /* AFNetworkActivityLoggerProtocol.h */; };
+		269C242C1FFFD3D5001D30F5 /* AFNetworkActivityLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 269C24271FFFD3D5001D30F5 /* AFNetworkActivityLogger.m */; };
 		26A4C86B1E03D2BB005BE5FC /* User.xml in Resources */ = {isa = PBXBuildFile; fileRef = 26A4C86A1E03D2BB005BE5FC /* User.xml */; };
 		26C5B3901DFFE3060088BFF8 /* PCCWFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C5B38F1DFFE3060088BFF8 /* PCCWFoundationTests.m */; };
 		26C5B3921DFFE3060088BFF8 /* PCCWFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 26C5B3841DFFE3050088BFF8 /* PCCWFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -150,7 +154,11 @@
 		2692320E1E5AB5B600740C2B /* NSString+PCCWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PCCWExtension.h"; sourceTree = "<group>"; };
 		2692320F1E5AB5B600740C2B /* NSString+PCCWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PCCWExtension.m"; sourceTree = "<group>"; };
 		26994D611E20F3B200AB1514 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		269C24201FFFD01D001D30F5 /* AFNetworkActivityLogger */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AFNetworkActivityLogger; sourceTree = "<group>"; };
+		269C24231FFFD3D5001D30F5 /* AFNetworkActivityConsoleLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityConsoleLogger.h; sourceTree = "<group>"; };
+		269C24241FFFD3D5001D30F5 /* AFNetworkActivityLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityLogger.h; sourceTree = "<group>"; };
+		269C24251FFFD3D5001D30F5 /* AFNetworkActivityConsoleLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityConsoleLogger.m; sourceTree = "<group>"; };
+		269C24261FFFD3D5001D30F5 /* AFNetworkActivityLoggerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityLoggerProtocol.h; sourceTree = "<group>"; };
+		269C24271FFFD3D5001D30F5 /* AFNetworkActivityLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityLogger.m; sourceTree = "<group>"; };
 		26A4C86A1E03D2BB005BE5FC /* User.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = User.xml; sourceTree = "<group>"; };
 		26C5B3811DFFE3050088BFF8 /* PCCWFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PCCWFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C5B3841DFFE3050088BFF8 /* PCCWFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCCWFoundation.h; sourceTree = "<group>"; };
@@ -208,6 +216,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		269C24221FFFD3D5001D30F5 /* AFNetworkActivityLogger */ = {
+			isa = PBXGroup;
+			children = (
+				269C24231FFFD3D5001D30F5 /* AFNetworkActivityConsoleLogger.h */,
+				269C24241FFFD3D5001D30F5 /* AFNetworkActivityLogger.h */,
+				269C24251FFFD3D5001D30F5 /* AFNetworkActivityConsoleLogger.m */,
+				269C24261FFFD3D5001D30F5 /* AFNetworkActivityLoggerProtocol.h */,
+				269C24271FFFD3D5001D30F5 /* AFNetworkActivityLogger.m */,
+			);
+			path = AFNetworkActivityLogger;
+			sourceTree = "<group>";
+		};
 		26C5B3771DFFE3050088BFF8 = {
 			isa = PBXGroup;
 			children = (
@@ -347,7 +367,7 @@
 		5B875894BCBA15684BB0E2B2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				269C24201FFFD01D001D30F5 /* AFNetworkActivityLogger */,
+				269C24221FFFD3D5001D30F5 /* AFNetworkActivityLogger */,
 				2662EF711E56AD26003F1E0A /* PCCWFileManager.h */,
 				2662EF721E56AD26003F1E0A /* PCCWFileManager.m */,
 				2692320A1E5AA22100740C2B /* NSDate+PCCWExtension.h */,
@@ -458,18 +478,21 @@
 				266F6A5C1E1E201D006E210E /* PCCWFoundation-prefix.pch in Headers */,
 				26DA09A21E2379E40027FAA7 /* PCCWViewModel.h in Headers */,
 				26DA09AC1E237D790027FAA7 /* UIView+PCCWCornerRadius.h in Headers */,
+				269C24291FFFD3D5001D30F5 /* AFNetworkActivityLogger.h in Headers */,
 				26D4E8691E0120EF00D82973 /* PCCWNotificationManager.h in Headers */,
 				265429FA1E24C0AA007C9FA6 /* PCCWRepository.h in Headers */,
 				265429FE1E24C0B4007C9FA6 /* PCCWDomain.h in Headers */,
 				5B87539984B28135AFCDF115 /* PCCWLocalized.h in Headers */,
 				26DA09A01E2379E40027FAA7 /* PCCWListViewModel.h in Headers */,
 				268105DA1E31DAFA007A550E /* UIViewController+PCCWExtension.h in Headers */,
+				269C24281FFFD3D5001D30F5 /* AFNetworkActivityConsoleLogger.h in Headers */,
 				266097F71E30AC6200097E1F /* PCCWCheckBox.h in Headers */,
 				268106721E32066B007A550E /* PCCWAppearance.h in Headers */,
 				269232101E5AB5B600740C2B /* NSString+PCCWExtension.h in Headers */,
 				5B875059AA9CD283908BA0C9 /* NSInvocation+Copy.h in Headers */,
 				2692320C1E5AA22100740C2B /* NSDate+PCCWExtension.h in Headers */,
 				2662EF731E56AD26003F1E0A /* PCCWFileManager.h in Headers */,
+				269C242B1FFFD3D5001D30F5 /* AFNetworkActivityLoggerProtocol.h in Headers */,
 				26C5B3A11DFFF3270088BFF8 /* PCCWModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -568,7 +591,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				269C24211FFFD01D001D30F5 /* AFNetworkActivityLogger in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,6 +676,7 @@
 				26DA09A31E2379E40027FAA7 /* PCCWViewModel.m in Sources */,
 				2636B88B1E1E42D200A67C84 /* PCCWTabBarViewController.m in Sources */,
 				266097F81E30AC6200097E1F /* PCCWCheckBox.m in Sources */,
+				269C242A1FFFD3D5001D30F5 /* AFNetworkActivityConsoleLogger.m in Sources */,
 				2636B8851E1E42D200A67C84 /* PCCWTableViewHeaderFooterView.m in Sources */,
 				2636B8811E1E42D200A67C84 /* PCCWTableViewController.m in Sources */,
 				2662EF741E56AD26003F1E0A /* PCCWFileManager.m in Sources */,
@@ -667,6 +690,7 @@
 				26DA09AD1E237D790027FAA7 /* UIView+PCCWCornerRadius.m in Sources */,
 				265429FF1E24C0B4007C9FA6 /* PCCWDomain.m in Sources */,
 				269232111E5AB5B600740C2B /* NSString+PCCWExtension.m in Sources */,
+				269C242C1FFFD3D5001D30F5 /* AFNetworkActivityLogger.m in Sources */,
 				266F6A5A1E1E1F14006E210E /* UIAlertController+Blocks.m in Sources */,
 				268DB3E31E1FA40A001085B2 /* PCCWHUDHandler.m in Sources */,
 				26D4E8661E00FB4B00D82973 /* PCCWWebServiceReponseSerializer.m in Sources */,
