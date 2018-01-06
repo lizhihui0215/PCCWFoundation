@@ -36,7 +36,7 @@ static BOOL IsHiddenErrorCode = YES;
 @implementation PCCWException
 
 + (void)setIsHiddenErrorCode:(BOOL)isHidden {
-    IsHiddenErrorCode = isHidden
+    IsHiddenErrorCode = isHidden;
 }
 
 - (instancetype)initWithHandler:(UIViewController *)handler{
