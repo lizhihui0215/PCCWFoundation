@@ -21,6 +21,9 @@ FOUNDATION_EXPORT const unsigned char PCCWFoundationVersionString[];
 #import <PCCWFoundation/PCCWNetworkServices.h>
 #import <PCCWFoundation/PCCWNotificationManager.h>
 #import <PCCWFoundation/PCCWException.h>
+#import <PCCWFoundation/AFNetworkActivityConsoleLogger.h>
+#import <PCCWFoundation/AFNetworkActivityLogger.h>
+#import <PCCWFoundation/AFNetworkActivityLoggerProtocol.h>
 #import <PCCWFoundation/PCCWWebServiceReponseSerializer.h>
 #import <PCCWFoundation/PCCWWebServiceRequestSerializer.h>
 #import <PCCWFoundation/PCCWWSDLParsers.h>

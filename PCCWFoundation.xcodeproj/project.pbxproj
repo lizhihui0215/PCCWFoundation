@@ -57,10 +57,10 @@
 		2692320D1E5AA22100740C2B /* NSDate+PCCWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2692320B1E5AA22100740C2B /* NSDate+PCCWExtension.m */; };
 		269232101E5AB5B600740C2B /* NSString+PCCWExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2692320E1E5AB5B600740C2B /* NSString+PCCWExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		269232111E5AB5B600740C2B /* NSString+PCCWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2692320F1E5AB5B600740C2B /* NSString+PCCWExtension.m */; };
-		269C24281FFFD3D5001D30F5 /* AFNetworkActivityConsoleLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 269C24231FFFD3D5001D30F5 /* AFNetworkActivityConsoleLogger.h */; };
-		269C24291FFFD3D5001D30F5 /* AFNetworkActivityLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 269C24241FFFD3D5001D30F5 /* AFNetworkActivityLogger.h */; };
+		269C24281FFFD3D5001D30F5 /* AFNetworkActivityConsoleLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 269C24231FFFD3D5001D30F5 /* AFNetworkActivityConsoleLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		269C24291FFFD3D5001D30F5 /* AFNetworkActivityLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 269C24241FFFD3D5001D30F5 /* AFNetworkActivityLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		269C242A1FFFD3D5001D30F5 /* AFNetworkActivityConsoleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 269C24251FFFD3D5001D30F5 /* AFNetworkActivityConsoleLogger.m */; };
-		269C242B1FFFD3D5001D30F5 /* AFNetworkActivityLoggerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 269C24261FFFD3D5001D30F5 /* AFNetworkActivityLoggerProtocol.h */; };
+		269C242B1FFFD3D5001D30F5 /* AFNetworkActivityLoggerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 269C24261FFFD3D5001D30F5 /* AFNetworkActivityLoggerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		269C242C1FFFD3D5001D30F5 /* AFNetworkActivityLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 269C24271FFFD3D5001D30F5 /* AFNetworkActivityLogger.m */; };
 		26A4C86B1E03D2BB005BE5FC /* User.xml in Resources */ = {isa = PBXBuildFile; fileRef = 26A4C86A1E03D2BB005BE5FC /* User.xml */; };
 		26C5B3901DFFE3060088BFF8 /* PCCWFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C5B38F1DFFE3060088BFF8 /* PCCWFoundationTests.m */; };
@@ -478,21 +478,21 @@
 				266F6A5C1E1E201D006E210E /* PCCWFoundation-prefix.pch in Headers */,
 				26DA09A21E2379E40027FAA7 /* PCCWViewModel.h in Headers */,
 				26DA09AC1E237D790027FAA7 /* UIView+PCCWCornerRadius.h in Headers */,
-				269C24291FFFD3D5001D30F5 /* AFNetworkActivityLogger.h in Headers */,
 				26D4E8691E0120EF00D82973 /* PCCWNotificationManager.h in Headers */,
 				265429FA1E24C0AA007C9FA6 /* PCCWRepository.h in Headers */,
 				265429FE1E24C0B4007C9FA6 /* PCCWDomain.h in Headers */,
 				5B87539984B28135AFCDF115 /* PCCWLocalized.h in Headers */,
 				26DA09A01E2379E40027FAA7 /* PCCWListViewModel.h in Headers */,
 				268105DA1E31DAFA007A550E /* UIViewController+PCCWExtension.h in Headers */,
-				269C24281FFFD3D5001D30F5 /* AFNetworkActivityConsoleLogger.h in Headers */,
 				266097F71E30AC6200097E1F /* PCCWCheckBox.h in Headers */,
 				268106721E32066B007A550E /* PCCWAppearance.h in Headers */,
 				269232101E5AB5B600740C2B /* NSString+PCCWExtension.h in Headers */,
+				269C24291FFFD3D5001D30F5 /* AFNetworkActivityLogger.h in Headers */,
+				269C24281FFFD3D5001D30F5 /* AFNetworkActivityConsoleLogger.h in Headers */,
+				269C242B1FFFD3D5001D30F5 /* AFNetworkActivityLoggerProtocol.h in Headers */,
 				5B875059AA9CD283908BA0C9 /* NSInvocation+Copy.h in Headers */,
 				2692320C1E5AA22100740C2B /* NSDate+PCCWExtension.h in Headers */,
 				2662EF731E56AD26003F1E0A /* PCCWFileManager.h in Headers */,
-				269C242B1FFFD3D5001D30F5 /* AFNetworkActivityLoggerProtocol.h in Headers */,
 				26C5B3A11DFFF3270088BFF8 /* PCCWModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
