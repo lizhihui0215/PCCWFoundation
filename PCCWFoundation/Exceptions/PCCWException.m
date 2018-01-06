@@ -26,12 +26,18 @@ NSError * errorWithCode(NSInteger code, NSString *message){
     return errorWithDomain(@"", code, message);
 }
 
+static BOOL IsHiddenErrorCode = YES;
+
 @interface PCCWException ()
 
 @property (nonatomic, weak) UIViewController *handler;
 @end
 
 @implementation PCCWException
+
++ (void)setIsHiddenErrorCode:(BOOL)isHidden {
+    IsHiddenErrorCode = isHidden
+}
 
 - (instancetype)initWithHandler:(UIViewController *)handler{
     self = [super init];
@@ -62,7 +68,7 @@ NSError * errorWithCode(NSInteger code, NSString *message){
     
     NSString *code = [error.userInfo[kExceptionCode] integerValue] == 0 ? nil : [error.userInfo[kExceptionCode] stringValue];
     
-    NSString *message = error.userInfo[kExceptionMessage];
+    NSString *message = IsHiddenErrorCode ? nil : error.userInfo[kExceptionMessage];
     
     [UIAlertController showAlertInViewController:self.handler
                                        withTitle:message
