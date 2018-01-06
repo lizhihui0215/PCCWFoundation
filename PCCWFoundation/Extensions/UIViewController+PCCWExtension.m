@@ -177,10 +177,4 @@ static inline BOOL pccw_addMethod(Class theClass, SEL selector, Method method) {
                                             completeHandler(buttonIndex == 0);
                                         }];
 }
-
-- (void)dealloc
-{
-    [[NSNotificationCenter defaultCenter] removeObserver:self];
-}
-
 @end
