@@ -66,9 +66,9 @@ static BOOL IsHiddenErrorCode = YES;
     
     IsShowing = YES;
     
-    NSString *code = [error.userInfo[kExceptionCode] integerValue] == 0 ? nil : [error.userInfo[kExceptionCode] stringValue];
-    
-    NSString *message = IsHiddenErrorCode ? nil : error.userInfo[kExceptionMessage];
+    NSString *code = (IsHiddenErrorCode || [error.userInfo[kExceptionCode] integerValue] == 0) ? nil : [error.userInfo[kExceptionCode] stringValue];
+
+    NSString *message = error.userInfo[kExceptionMessage];
     
     [UIAlertController showAlertInViewController:self.handler
                                        withTitle:message
